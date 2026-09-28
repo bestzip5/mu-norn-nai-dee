@@ -45,3 +45,6 @@ docs/research/*.pdf
 
 # Temporary files
 tmp/
+
+# AI agent local instructions
+AGENTS.md
