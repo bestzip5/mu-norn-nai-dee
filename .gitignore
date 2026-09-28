@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Original research documents - keep local only
+docs/research/*.pdf
+
+# Temporary files
+tmp/
