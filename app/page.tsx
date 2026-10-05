@@ -1,45 +1,76 @@
-﻿import DormCard from "@/components/DormCard";
-import { dormitories } from "@/data/dormitories";
+import Link from "next/link";
+import DormCard from "@/components/DormCard";
+import { dormitories, dormitoryAreas, type DormitoryArea } from "@/data/dormitories";
+
+const recommendedAreas: DormitoryArea[] = [
+  "ในมหาวิทยาลัย",
+  "หน้ามหาวิทยาลัย",
+  "ซอยบ้านตั้งสิน",
+];
 
 export default function Home() {
+  // Stable sorting keeps the report's order when overall ratings are tied.
+  const recommendedDorms = recommendedAreas.flatMap((area) =>
+    dormitories
+      .filter((dorm) => dorm.area === area)
+      .sort((a, b) => b.overallRating - a.overallRating)
+      .slice(0, 1),
+  );
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-5">
-          <p className="text-xl font-bold text-blue-900">MU Norn Nai Dee</p>
-          <p className="mt-1 text-sm text-slate-600">Student living around Salaya</p>
+    <main id="main-content">
+      <section className="bg-brand-soft">
+        <div className="page-container py-12 sm:py-16">
+          <h1 className="max-w-3xl text-3xl leading-relaxed font-bold tracking-tight text-brand-dark sm:text-4xl">หาหอพักที่ใช่ ใกล้มหิดล</h1>
+          <p className="mt-2 text-sm leading-7 text-muted sm:text-base">ค้นหาหอพักในศาลายา พร้อมข้อมูลจากนักศึกษาเพื่อช่วยคุณตัดสินใจ</p>
+          <form action="/dorms" className="mt-7 flex max-w-3xl flex-col gap-3 sm:flex-row sm:rounded-xl sm:bg-white sm:p-3">
+            <label htmlFor="home-search" className="sr-only">ค้นหาชื่อหอพัก</label>
+            <input id="home-search" name="q" type="search" placeholder="ค้นหาชื่อหอพัก เช่น MU Condo" className="min-w-0 flex-1 rounded-lg border border-line bg-white px-4 py-3 text-sm sm:border-0" />
+            <button type="submit" className="primary-button self-start sm:min-w-36">ค้นหาหอพัก</button>
+          </form>
         </div>
-      </header>
-      <main className="mx-auto max-w-6xl px-6 py-12">
-        <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-blue-700">Find your place</p>
-          <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">A dorm that fits your university life.</h1>
-          <p className="mt-4 leading-7 text-slate-600">
-            Explore dormitories around Mahidol University, Salaya. Get a quick
-            look at ratings, electricity costs, and ways to get to campus.
-          </p>
-        </div>
-        <p className="mt-8 rounded-xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm leading-6 text-blue-900">
-          ข้อมูลจากแบบสอบถามนักศึกษามหาวิทยาลัยมหิดลชั้นปีที่ 1 ปีการศึกษา
-          2568 จำนวน 103 คน ตามรายงานโครงงาน MU นอนไหนดี
-        </p>
-        <section aria-labelledby="dormitories-heading" className="mt-10">
-          <div className="mb-5 flex flex-wrap items-baseline justify-between gap-2">
-            <h2 id="dormitories-heading" className="text-xl font-semibold">Explore dormitories</h2>
-            <p className="text-sm text-slate-600">
-              {dormitories.length} dormitories from the report
-            </p>
+      </section>
+      <section aria-labelledby="recommended-heading" className="bg-surface">
+        <div className="page-container py-10 sm:py-12">
+          <div className="mb-6">
+            <h2 id="recommended-heading" className="text-xl font-bold">หอพักแนะนำ</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">เลือกหอพักจากหลายบริเวณรอบมหิดล ศาลายา</p>
+            <p className="mt-1 text-xs leading-6 text-muted">เลือกจากคะแนนความพึงพอใจโดยรวมสูงสุดบริเวณละ 1 แห่ง หากคะแนนเท่ากันเลือกตามลำดับในรายงาน</p>
           </div>
-          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {dormitories.map((dormitory) => (
+          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {recommendedDorms.map((dormitory) => (
               <li key={dormitory.id}><DormCard dormitory={dormitory} /></li>
             ))}
           </ul>
-        </section>
-      </main>
-      <footer className="mx-auto w-full max-w-6xl px-6 pb-8 text-sm text-slate-500">
-        MU Norn Nai Dee · A student portfolio project
-      </footer>
-    </div>
+          <Link href="/dorms?area=all" className="mt-6 inline-block text-sm font-medium text-brand hover:underline">ดูหอพักทั้งหมด <span aria-hidden="true">→</span></Link>
+        </div>
+      </section>
+      <section aria-labelledby="areas-heading" className="border-t border-line bg-white">
+        <div className="page-container py-10">
+          <h2 id="areas-heading" className="text-xl font-bold">เลือกหอพักตามบริเวณ</h2>
+          <p className="mt-2 text-sm text-muted">ครบ {dormitories.length} หอพักตามรายงาน เริ่มจากบริเวณในมหาวิทยาลัย</p>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {dormitoryAreas.map((area) => (
+              <li key={area.value}>
+                <Link href={`/dorms?area=${encodeURIComponent(area.value)}`} className="flex h-full items-center justify-between gap-3 rounded-lg border border-line bg-surface p-4 hover:border-brand">
+                  <span className="text-sm font-medium">{area.label}</span>
+                  <span className="shrink-0 text-sm text-brand">{dormitories.filter((dorm) => dorm.area === area.value).length} หอพัก →</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+      <section id="survey-source" aria-labelledby="source-heading" className="border-t border-line bg-white">
+        <div className="page-container py-8">
+          <h2 id="source-heading" className="text-sm font-semibold">ข้อมูลจากโครงงาน MU นอนไหนดี</h2>
+          <p className="mt-2 max-w-3xl text-sm leading-7 text-muted">
+            แบบสอบถามนักศึกษามหาวิทยาลัยมหิดล ชั้นปีที่ 1 ปีการศึกษา 2568 จำนวน 103 คน
+            ข้อมูลหอพักที่แสดงคัดจากตารางหน้า 7–9 ของรายงาน คะแนนเป็นค่าเฉลี่ยเต็ม 5 คะแนน
+            จำนวน 103 คนเป็นผู้ตอบแบบสอบถามทั้งหมด โดยรายงานไม่ได้ระบุจำนวนผู้ตอบแยกแต่ละหอพัก
+          </p>
+          <p className="mt-2 text-xs leading-6 text-muted">รูปอาจเป็นภาพในอดีตหรือห้องตัวอย่าง หอพักที่ยังไม่มีรูปที่ยืนยันได้ใช้ภาพประกอบ ข้อมูลค่าไฟและคะแนนอ้างอิงรายงานปีการศึกษา 2568</p>
+        </div>
+      </section>
+    </main>
   );
 }

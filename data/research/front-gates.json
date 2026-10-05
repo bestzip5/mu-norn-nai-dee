@@ -1,0 +1,1514 @@
+{
+  "ribbin-apartment": {
+    "identityNote": "พบประกาศชื่อ Ribbin Apartment ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/en/ribbin-apartment",
+        "title": "RentHub · Ribbin Apartment",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2026-09-25"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list",
+        "title": "MUIC · Housing List",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://zmyhome.com/apartment/5758",
+        "title": "ZmyHome · Ribbin Apartment",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "สตูดิโอ · 16 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/ribbin-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-09-25; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,500–5,800 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/ribbin-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-09-25; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/ribbin-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/ribbin-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "6,900–8,000 บาท/เดือน",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ระบุวันที่ราคา; ขัดแย้งกับประกาศ RentHub/เว็บไซต์หอพัก ต้องตรวจสอบเงื่อนไขสัญญาและห้อง; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0952200428",
+          "sourceUrl": "https://www.renthub.in.th/en/ribbin-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0952200428"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "https://www.facebook.com/ribbinsalaya/",
+          "sourceUrl": "https://zmyhome.com/apartment/5758",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ลิงก์ประกาศและคู่มือ MUIC สอดคล้องกัน แต่ Facebook ไม่เปิดเผยรายละเอียดให้ตรวจ",
+          "href": "https://www.facebook.com/ribbinsalaya/"
+        }
+      ],
+      "line": [
+        {
+          "value": "@ribbinsalaya",
+          "sourceUrl": "https://www.renthub.in.th/en/ribbin-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "บัญชีที่เผยแพร่ในประกาศ; ยังไม่ได้ยืนยันผ่านบัญชีทางการ"
+        }
+      ],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://image.zmyhome.com/apartment/5758/01-07-2025-01-53-25536896192.jpg",
+        "sourceUrl": "https://zmyhome.com/apartment/5758",
+        "alt": "Front exterior of Ribbin Apartment Salaya with Ribbin sign",
+        "status": "Needs verification",
+        "note": "Visually checked actual exterior with RIBBIN sign; live public listing matches address141/23SalayaSoi1. Filename suggests2025upload but publication and capture dates not independently confirmed."
+      }
+    ]
+  },
+  "chatchanan-apartment": {
+    "identityNote": "ใช้ Chatthanan Apartment/Place ซอยศาลายา 13; ไม่รวม Chatthanan Luxury Apartment ซอย 15 ซึ่งอาจเป็นคนละอาคาร; พิกัดในประกาศไม่สอดคล้องกับข้อความหน้ามหาวิทยาลัย ต้องยืนยันอาคาร",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/chatthanan-apartment",
+        "title": "RentHub · Chatthanan Apartment",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2013-03-19"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน เตียงเดี่ยว 20 ตร.ม. (พัก 2 คน)",
+            "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "รายละเอียดประกาศ 2013; ตารางสรุปเรียกสตูดิโอและไม่มีขนาด ต้องยืนยันทั้งประเภทห้องและราคา"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "รายละเอียดประกาศ 2013; ตารางสรุปเรียกสตูดิโอและไม่มีขนาด ต้องยืนยันทั้งประเภทห้องและราคา"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "2 ห้องนอน เตียงคู่ 30 ตร.ม. (พัก 4 คน)",
+            "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "รายละเอียดประกาศ 2013; ตารางสรุปเรียกสตูดิโอและไม่มีขนาด ต้องยืนยันทั้งประเภทห้องและราคา"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "รายละเอียดประกาศ 2013; ตารางสรุปเรียกสตูดิโอและไม่มีขนาด ต้องยืนยันทั้งประเภทห้องและราคา"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "028002131",
+          "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:028002131"
+        },
+        {
+          "value": "0818043801",
+          "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ติดต่อหอพักในรายละเอียดประกาศเก่า; ต้องยืนยัน",
+          "href": "tel:0818043801"
+        },
+        {
+          "value": "0847677771",
+          "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ติดต่อหอพักในรายละเอียดประกาศเก่า; ต้องยืนยัน",
+          "href": "tel:0847677771"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "https://www.facebook.com/Chatthanan.Apartment",
+          "sourceUrl": "https://www.renthub.in.th/chatthanan-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ลิงก์ที่ระบุในรายละเอียดประกาศเก่า",
+          "href": "https://www.facebook.com/Chatthanan.Apartment"
+        }
+      ],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "latitude-longitude-condominium": {
+    "identityNote": "รายงานรวม Latitude/Longitude แต่คู่มือแยกเป็น 2 อาคาร จึงแสดงแหล่งและช่องทางรวมพร้อมสถานะต้องตรวจสอบ; เว็บไซต์ l-residence.com คืน429",
+    "sources": [
+      {
+        "url": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+        "title": "Mahidol Music · Housing Guidebook 2021",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2021"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "The Latitude Salaya",
+            "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือ2021 ไม่ใช่ราคาล่าสุด; ต้องระบุอาคารที่ตรงกับรายงานก่อนจอง"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000–8,000 บาท/เดือน",
+            "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือ2021 ไม่ใช่ราคาล่าสุด; ต้องระบุอาคารที่ตรงกับรายงานก่อนจอง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "The Longitude Salaya",
+            "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือ2021 ไม่ใช่ราคาล่าสุด; ต้องระบุอาคารที่ตรงกับรายงานก่อนจอง"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000–8,000 บาท/เดือน",
+            "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือ2021 ไม่ใช่ราคาล่าสุด; ต้องระบุอาคารที่ตรงกับรายงานก่อนจอง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "028002772",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "คู่มือ2021ระบุช่องทางรวม Latitude/Longitude; ต้องตรวจเบอร์ปัจจุบัน",
+          "href": "tel:028002772"
+        },
+        {
+          "value": "028002773",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "คู่มือ2021ระบุช่องทางรวม Latitude/Longitude; ต้องตรวจเบอร์ปัจจุบัน",
+          "href": "tel:028002773"
+        },
+        {
+          "value": "028002774",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "คู่มือ2021ระบุช่องทางรวม Latitude/Longitude; ต้องตรวจเบอร์ปัจจุบัน",
+          "href": "tel:028002774"
+        },
+        {
+          "value": "0868902922",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "คู่มือ2021ระบุช่องทางรวม Latitude/Longitude; ต้องตรวจเบอร์ปัจจุบัน",
+          "href": "tel:0868902922"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [
+        {
+          "value": "https://l-residence.com/latitude-2/",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เว็บไซต์ที่ระบุในคู่มือ2021; เปิดตรวจไม่ได้(429)",
+          "href": "https://l-residence.com/latitude-2/"
+        },
+        {
+          "value": "https://l-residence.com/longitude-2/",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เว็บไซต์ที่ระบุในคู่มือ2021; เปิดตรวจไม่ได้(429)",
+          "href": "https://l-residence.com/longitude-2/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "the-room": {
+    "identityNote": "The Room ตรงข้ามประตู 3 ซอยบ้านอาหารศรีสุวรรณ; อย่าสับสนกับ TAP The Room Project ซอยตั้งสินหรือ The Room ทวีวัฒนา",
+    "sources": [
+      {
+        "url": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+        "title": "Mahidol Engineering · Student Handout",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "เริ่มต้น 4,500 บาท/เดือน",
+            "sourceUrl": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือมหาวิทยาลัยเก่า; ไม่ใช่ราคาปัจจุบันที่ยืนยันแล้ว"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "028893112",
+          "sourceUrl": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์หอพักในคู่มือเก่า; ยังไม่มีแหล่งทางการล่าสุดยืนยัน",
+          "href": "tel:028893112"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "triple-a": {
+    "identityNote": "Triple A Residence 187–189 ซอยพูลทรัพย์/ศาลายา15 พุทธมณฑลสาย4 นครปฐม; ไม่ใช่ Triple A เชียงใหม่",
+    "sources": [
+      {
+        "url": "https://zmyhome.com/apartment/5774",
+        "title": "ZmyHome · Triple A Residence",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+        "title": "Mahidol Music · Housing Guidebook 2021",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2021"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "สตูดิโอ 28 ตร.ม.",
+            "sourceUrl": "https://zmyhome.com/apartment/5774",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศไม่ระบุวันที่ราคา; ต้องยืนยันปัจจุบัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "4,500–5,000 บาท/เดือน",
+            "sourceUrl": "https://zmyhome.com/apartment/5774",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศไม่ระบุวันที่ราคา; ต้องยืนยันปัจจุบัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0863744588",
+          "sourceUrl": "https://zmyhome.com/apartment/5774",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ช่องทางติดต่อหอพักจากประกาศ; ไม่ได้ยืนยันผ่านช่องทางหลัก",
+          "href": "tel:0863744588"
+        },
+        {
+          "value": "028893088",
+          "sourceUrl": "https://zmyhome.com/apartment/5774",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ช่องทางติดต่อหอพักจากประกาศ; ไม่ได้ยืนยันผ่านช่องทางหลัก",
+          "href": "tel:028893088"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "https://www.facebook.com/Triple-A-Residence-345303385546930/",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ลิงก์หอพักจากคู่มือ 2021; ต้องตรวจบัญชีปัจจุบัน",
+          "href": "https://www.facebook.com/Triple-A-Residence-345303385546930/"
+        }
+      ],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "the-dearly-residence": {
+    "identityNote": "พบประกาศชื่อ The Dearly Residence Salaya ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/the-dearly-residence-salaya",
+        "title": "RentHub · The Dearly Residence Salaya",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2019-06-17"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list",
+        "title": "MUIC · Housing List",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.thedearlyresidence.com/",
+        "title": "The Dearly Residence · Official website",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.thedearlyresidence.com/available-rates",
+        "title": "The Dearly Residence · Availability & Rates",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก",
+            "sourceUrl": "https://www.renthub.in.th/the-dearly-residence-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2019-06-17; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-dearly-residence-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2019-06-17; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "7,000–9,000 บาท/เดือน",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ระบุวันที่ราคา; ขัดแย้งกับประกาศ RentHub/เว็บไซต์หอพัก ต้องตรวจสอบเงื่อนไขสัญญาและห้อง; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "The Dearly 1",
+            "sourceUrl": "https://www.thedearlyresidence.com/available-rates",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์ทางการไม่ระบุวันที่ราคาและประเภทห้อง; ขัดแย้งกับ RentHub และรายการ MUIC ต้องยืนยันก่อนจอง"
+          }
+        ],
+        "rent": [
+          {
+            "value": "สัญญา 1–6 เดือน: 7,000 บาท/เดือน; 10 เดือน: 6,500 บาท/เดือน; รายปี: 72,000 บาท/ปี (6,000 บาท/เดือน)",
+            "sourceUrl": "https://www.thedearlyresidence.com/available-rates",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์ทางการไม่ระบุวันที่ราคาและประเภทห้อง; ขัดแย้งกับ RentHub และรายการ MUIC ต้องยืนยันก่อนจอง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "The Dearly 2",
+            "sourceUrl": "https://www.thedearlyresidence.com/available-rates",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์ทางการไม่ระบุวันที่ราคาและประเภทห้อง; ขัดแย้งกับ RentHub และรายการ MUIC ต้องยืนยันก่อนจอง"
+          }
+        ],
+        "rent": [
+          {
+            "value": "สัญญา 1–6 เดือน: 7,000 บาท/เดือน; 10 เดือน: 6,500 บาท/เดือน; รายปี: 72,000 บาท/ปี (6,000 บาท/เดือน)",
+            "sourceUrl": "https://www.thedearlyresidence.com/available-rates",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์ทางการไม่ระบุวันที่ราคาและประเภทห้อง; ขัดแย้งกับ RentHub และรายการ MUIC ต้องยืนยันก่อนจอง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0946654645",
+          "sourceUrl": "https://www.thedearlyresidence.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เผยแพร่ในเว็บไซต์ทางการที่ระบุที่อยู่ 135/369 หมู่ 6 ศาลายา",
+          "href": "tel:0946654645"
+        },
+        {
+          "value": "0819159561",
+          "sourceUrl": "https://www.thedearlyresidence.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เผยแพร่ในเว็บไซต์ทางการที่ระบุที่อยู่ 135/369 หมู่ 6 ศาลายา",
+          "href": "tel:0819159561"
+        },
+        {
+          "value": "028003559",
+          "sourceUrl": "https://www.renthub.in.th/the-dearly-residence-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์เพิ่มเติมจากประกาศปี 2019; ไม่อยู่ในเว็บไซต์ทางการที่ตรวจวันนี้; ต้องยืนยัน"
+        },
+        {
+          "value": "0870342350",
+          "sourceUrl": "https://www.renthub.in.th/the-dearly-residence-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "รายละเอียดประกาศเก่าระบุเบอร์นี้ต่างจากช่องทางหลัก; ต้องยืนยัน"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "https://www.facebook.com/thedearlyresidence",
+          "sourceUrl": "https://www.thedearlyresidence.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เผยแพร่โดยเว็บไซต์หอพัก",
+          "href": "https://www.facebook.com/thedearlyresidence"
+        }
+      ],
+      "line": [
+        {
+          "value": "@thedearlyresidence",
+          "sourceUrl": "https://www.thedearlyresidence.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เผยแพร่โดยเว็บไซต์หอพัก"
+        }
+      ],
+      "website": [
+        {
+          "value": "https://www.thedearlyresidence.com/",
+          "sourceUrl": "https://www.thedearlyresidence.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เผยแพร่โดยเว็บไซต์หอพัก",
+          "href": "https://www.thedearlyresidence.com/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://bcdn.renthub.in.th/listing_picture/201209/20120925/6MQFy4UzHACpagNNNYLM.jpg",
+        "sourceUrl": "https://www.renthub.in.th/the-dearly-residence-salaya",
+        "alt": "ด้านหน้าอาคาร the-dearly-residence ศาลายา",
+        "status": "Needs verification",
+        "note": "ตรวจภาพด้วยตาเป็นภาพถ่ายภายนอกจริงจากประกาศตรงชื่อ/พื้นที่; ไม่ระบุวันถ่ายหรือวันเผยแพร่ จึงยืนยันไม่ได้ว่าเป็นภาพล่าสุด"
+      }
+    ]
+  },
+  "triple-five": {
+    "identityNote": "พบประกาศชื่อ Triple Five Salaya ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/en/triple-five-salaya",
+        "title": "RentHub · Triple Five Salaya",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2020-05-07"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน",
+            "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2020-05-07; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "3,990–4,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2020-05-07; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0891259388",
+          "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0891259388"
+        },
+        {
+          "value": "0864105555",
+          "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์หอพักเผยแพร่ในรายละเอียดประกาศ; ข้อมูลเก่า ต้องยืนยัน",
+          "href": "tel:0864105555"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "@jrbkk",
+          "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "บัญชีที่เผยแพร่ในประกาศ; ยังไม่ได้ยืนยันผ่านบัญชีทางการ"
+        }
+      ],
+      "website": [],
+      "googleMaps": [
+        {
+          "value": "https://goo.gl/maps/NoPZWGmfeRy",
+          "sourceUrl": "https://www.renthub.in.th/en/triple-five-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ลิงก์แผนที่เผยแพร่ในรายละเอียดประกาศ; ยังไม่ยืนยันปลายทาง",
+          "href": "https://goo.gl/maps/NoPZWGmfeRy"
+        }
+      ]
+    },
+    "photoCandidates": []
+  },
+  "the-best-resident": {
+    "identityNote": "พบประกาศชื่อ The Best Apartment อพาร์ทเม้นท์ ใกล้ มหิดล ศาลายา ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง; ภาพที่RentHubใช้เหมือนกับThe Best Plus Residence จึงไม่ใช้ภาพนี้ยืนยันตัวอาคารและต้องตรวจชื่อก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/the-best-apartment-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+        "title": "RentHub · The Best Apartment อพาร์ทเม้นท์ ใกล้ มหิดล ศาลายา",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-07-14"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "Standard · 28 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/the-best-apartment-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "4,000–5,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-apartment-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0896993701",
+          "sourceUrl": "https://www.renthub.in.th/the-best-apartment-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0896993701"
+        },
+        {
+          "value": "0954952999",
+          "sourceUrl": "https://www.renthub.in.th/the-best-apartment-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0954952999"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "the-enter": {
+    "identityNote": "พบประกาศชื่อ The Enter Salaya ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/en/the-enter-salaya",
+        "title": "RentHub · The Enter Salaya",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-11-03"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list",
+        "title": "MUIC · Housing List",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "สตูดิโอ · 30 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-11-03; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,200–8,900 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-11-03; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "สตูดิโอ · 40 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-11-03; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "9,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-11-03; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "สตูดิโอ · 50 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-11-03; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "12,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-11-03; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "6,900–11,500 บาท/เดือน",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ระบุวันที่ราคา; ขัดแย้งกับประกาศ RentHub/เว็บไซต์หอพัก ต้องตรวจสอบเงื่อนไขสัญญาและห้อง; พบราคาแตกต่างในแหล่งอื่น ดูข้อมูลทั้งสองแหล่ง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "024446720",
+          "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:024446720"
+        },
+        {
+          "value": "0985525931",
+          "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0985525931"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "https://www.facebook.com/share/1AFMd9HXLG/",
+          "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ลิงก์เผยแพร่ในประกาศ; Facebook ไม่เปิดเผยรายละเอียดให้ตรวจ",
+          "href": "https://www.facebook.com/share/1AFMd9HXLG/"
+        }
+      ],
+      "line": [
+        {
+          "value": "@theenter.salaya",
+          "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "บัญชีที่เผยแพร่ในประกาศ; ยังไม่ได้ยืนยันผ่านบัญชีทางการ"
+        }
+      ],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "kpn": {
+    "identityNote": "พบประกาศชื่อ KPN Place (Near Mahidol University) จากประตู 6 เพียง 800 เมตร ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+        "title": "RentHub · KPN Place (Near Mahidol University) จากประตู 6 เพียง 800 เมตร",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2026-08-28"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "Duluxe King · 35 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-08-28; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,700–7,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-08-28; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "10,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 5,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Duluxe Twin · 35 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-08-28; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,700–7,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-08-28; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "10,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 5,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Corner · 35 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-08-28; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,200–7,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2026-08-28; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "10,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 5,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0890245998",
+          "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0890245998"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "0890245998",
+          "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "บัญชีที่เผยแพร่ในประกาศ; ยังไม่ได้ยืนยันผ่านบัญชีทางการ"
+        }
+      ],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://bcdn.renthub.in.th/listing_picture/201810/20181001/rK55kUMVMNDcBwKXhgw3.jpg",
+        "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+        "alt": "ด้านหน้าอาคาร kpn ศาลายา",
+        "status": "Needs verification",
+        "note": "ตรวจภาพด้วยตาเป็นภาพถ่ายภายนอกจริงจากประกาศตรงชื่อ/พื้นที่; ไม่ระบุวันถ่ายหรือวันเผยแพร่ จึงยืนยันไม่ได้ว่าเป็นภาพล่าสุด"
+      }
+    ]
+  },
+  "the-best-plus-resistance": {
+    "identityNote": "พบประกาศชื่อ The Best Plus Residence อพาร์ทเม้นท์ ใกล้ มหิดล ศาลายา ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+        "title": "RentHub · The Best Plus Residence อพาร์ทเม้นท์ ใกล้ มหิดล ศาลายา",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-07-14"
+      },
+      {
+        "url": "https://www.hongpak.in.th/rooms/39409-the-best-plus-residence",
+        "title": "Hongpak · The Best Plus Residence",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2020-04-17"
+      },
+      {
+        "url": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+        "title": "Mahidol Music · Housing Guidebook 2021",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2021"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "Type A · 30 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,800–12,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; ช่วงราคาในRentHubเหมือนกันทุกประเภทและต่างจากHongpak ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type B · 35 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,800–12,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; ช่วงราคาในRentHubเหมือนกันทุกประเภทและต่างจากHongpak ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type C · 45 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,800–12,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; ช่วงราคาในRentHubเหมือนกันทุกประเภทและต่างจากHongpak ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type D · 55 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,800–12,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-07-14; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก; ช่วงราคาในRentHubเหมือนกันทุกประเภทและต่างจากHongpak ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "6,500–12,000 บาท/เดือน",
+            "sourceUrl": "https://www.hongpak.in.th/rooms/39409-the-best-plus-residence",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศ2020ขัดแย้งกับRentHub2025(6,800–12,000); ต้องยืนยันราคาแยกประเภทห้อง; ช่วงราคาในRentHubเหมือนกันทุกประเภทและต่างจากHongpak ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0957641050",
+          "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0957641050"
+        },
+        {
+          "value": "0954952999",
+          "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0954952999"
+        },
+        {
+          "value": "0971616446",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/39409-the-best-plus-residence",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์จากประกาศเก่าต่างจากRentHubล่าสุด ต้องยืนยัน",
+          "href": "tel:0971616446"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "https://www.facebook.com/thebestsalaya/",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "คู่มือมหาวิทยาลัย2021ระบุ; ไม่ได้ตรวจรายละเอียดFBโดยตรง",
+          "href": "https://www.facebook.com/thebestsalaya/"
+        }
+      ],
+      "line": [
+        {
+          "value": "@thebestplus",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/39409-the-best-plus-residence",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "LINEจากประกาศ2020 ยังไม่ได้ยืนยันปัจจุบัน"
+        }
+      ],
+      "website": [
+        {
+          "value": "https://thebestplusresidence.com/",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เว็บไซต์ในคู่มือ2021 ปัจจุบันเปิดตรวจไม่ได้",
+          "href": "https://thebestplusresidence.com/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://bcdn.renthub.in.th/listing_picture/201503/20150315/vhQNVe6UXzcA57JKEcvK.jpg",
+        "sourceUrl": "https://www.renthub.in.th/the-best-plus-residence-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+        "alt": "ด้านหน้าอาคาร the-best-plus-resistance ศาลายา",
+        "status": "Needs verification",
+        "note": "ตรวจภาพด้วยตาเป็นภาพถ่ายภายนอกจริงจากประกาศตรงชื่อ/พื้นที่; ไม่ระบุวันถ่ายหรือวันเผยแพร่ จึงยืนยันไม่ได้ว่าเป็นภาพล่าสุด"
+      }
+    ]
+  },
+  "dormy-inc": {
+    "identityNote": "พบประกาศชื่อ Dormy Inc. ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/dormy-inc",
+        "title": "RentHub · Dormy Inc.",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-09-09"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "ห้องเตียงเดี่ยว · 25 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-09-09; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "4,000–5,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-09-09; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "6,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 4,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องเตียงคู่ · 45 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-09-09; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,000–6,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-09-09; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "6,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 4,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0881116125",
+          "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0881116125"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "ig128",
+          "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "บัญชีที่เผยแพร่ในประกาศ; ยังไม่ได้ยืนยันผ่านบัญชีทางการ"
+        }
+      ],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://bcdn.renthub.in.th/listing_picture/202502/20250204/3W32Sd8WfvbvJys5NqL1.jpg",
+        "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+        "alt": "ด้านหน้าอาคาร dormy-inc ศาลายา",
+        "status": "Needs verification",
+        "note": "ตรวจภาพด้วยตาเป็นภาพถ่ายภายนอกจริงจากประกาศตรงชื่อ/พื้นที่; ไม่ระบุวันถ่ายหรือวันเผยแพร่ จึงยืนยันไม่ได้ว่าเป็นภาพล่าสุด"
+      }
+    ]
+  },
+  "bed-station": {
+    "identityNote": "พบประกาศชื่อ PJ Bed Station ในศาลายา; ชื่อในรายงานอาจใช้ชื่อย่อ/การสะกดต่างกัน ต้องยืนยันกับหอพักก่อนจอง",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/en/pj-bed-station",
+        "title": "RentHub · PJ Bed Station",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-05-01"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน · 25 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/pj-bed-station",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-05-01; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,500 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/pj-bed-station",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปรับปรุง 2025-05-01; ราคา/เงื่อนไขยังไม่ได้ยืนยันโดยตรงกับหอพัก"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/en/pj-bed-station",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "แหล่งประกาศ; ยังไม่ได้ยืนยันกับหอพัก; ไม่ใช่ยอดแรกเข้ารวม"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0646825554",
+          "sourceUrl": "https://www.renthub.in.th/en/pj-bed-station",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ที่เผยแพร่ในประกาศสำหรับติดต่อหอพัก; ยังไม่ได้ยืนยันกับช่องทางหลัก",
+          "href": "tel:0646825554"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "pjbedstation",
+          "sourceUrl": "https://www.renthub.in.th/en/pj-bed-station",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "บัญชีที่เผยแพร่ในประกาศ; ยังไม่ได้ยืนยันผ่านบัญชีทางการ"
+        }
+      ],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  }
+}

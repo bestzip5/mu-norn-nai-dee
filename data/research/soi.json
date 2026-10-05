@@ -1,0 +1,1325 @@
+{
+  "uniloft": {
+    "identityNote": "Uniloft Salaya ซอยบ้านตั้งสิน ใกล้มหิดลศาลายา; ไม่ใช่โครงการเชียงใหม่ ข้อมูลล่าสุดจากผู้ให้บริการยังเข้าถึงไม่ได้",
+    "sources": [
+      {
+        "url": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+        "title": "Mahidol College of Music Housing Guidebook 2021",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2021"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "7,800–8,000 บาท/เดือน",
+            "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ราคาในคู่มือปี 2021; ยังไม่ใช่ราคาปัจจุบันที่ยืนยันแล้ว"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-444-6605",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์หอจากคู่มือมหาวิทยาลัยปี 2021; ยังตรวจตรงกับผู้ให้บริการล่าสุดไม่ได้",
+          "href": "tel:024446605"
+        },
+        {
+          "value": "081-801-2253",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ติดต่อหอที่มหาวิทยาลัยเผยแพร่ปี 2021",
+          "href": "tel:0818012253"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "Uniloft",
+          "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "มหาวิทยาลัยระบุเป็นเพจของที่พัก แต่ Facebook จำกัดการเข้าถึง",
+          "href": "https://www.facebook.com/uniloft/"
+        }
+      ],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "bundit-home": {
+    "identityNote": "Bundit Home ศาลายา เป็นคนละรายการกับ Bundit House/Place/Parlor เว็บไซต์ของหอระบุชื่อและพื้นที่ศาลายาตรงกัน; ไม่ใช้ประกาศ Bundit Home ดอนเมือง",
+    "sources": [
+      {
+        "url": "http://www.bundithome.com/",
+        "title": "Bundit Home official website",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "http://www.bundithome.com/ติดต่อเรา/",
+        "title": "Bundit Home official contact",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/",
+        "title": "MUIC Housing List",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "ห้อง 36 ตร.ม.",
+            "sourceUrl": "http://www.bundithome.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์หอแสดงราคาต่างจากรายชื่อ MUIC ที่ระบุ 7,400–8,500 บาท/เดือน; เว็บไซต์ไม่ระบุวันที่ปรับราคา ต้องสอบถามหอ"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,900 บาท/เดือน",
+            "sourceUrl": "http://www.bundithome.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์หอแสดงราคาต่างจากรายชื่อ MUIC ที่ระบุ 7,400–8,500 บาท/เดือน; เว็บไซต์ไม่ระบุวันที่ปรับราคา ต้องสอบถามหอ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้อง 39 ตร.ม.",
+            "sourceUrl": "http://www.bundithome.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์หอแสดงราคาต่างจากรายชื่อ MUIC ที่ระบุ 7,400–8,500 บาท/เดือน; เว็บไซต์ไม่ระบุวันที่ปรับราคา ต้องสอบถามหอ"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,900 บาท/เดือน",
+            "sourceUrl": "http://www.bundithome.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์หอแสดงราคาต่างจากรายชื่อ MUIC ที่ระบุ 7,400–8,500 บาท/เดือน; เว็บไซต์ไม่ระบุวันที่ปรับราคา ต้องสอบถามหอ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้อง 50 ตร.ม.",
+            "sourceUrl": "http://www.bundithome.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์หอแสดงราคาต่างจากรายชื่อ MUIC ที่ระบุ 7,400–8,500 บาท/เดือน; เว็บไซต์ไม่ระบุวันที่ปรับราคา ต้องสอบถามหอ"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,000 บาท/เดือน",
+            "sourceUrl": "http://www.bundithome.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บไซต์หอแสดงราคาต่างจากรายชื่อ MUIC ที่ระบุ 7,400–8,500 บาท/เดือน; เว็บไซต์ไม่ระบุวันที่ปรับราคา ต้องสอบถามหอ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "7,400–8,500 บาท/เดือน",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "MUIC ไม่แยกประเภทห้องและไม่ระบุวันที่ราคา; ต่างจากเว็บไซต์หอ ต้องตรวจสอบ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-444-6600",
+          "sourceUrl": "http://www.bundithome.com/ติดต่อเรา/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ประกาศบนหน้าติดต่อของหอโดยตรง; ไม่มีวันที่ปรับข้อมูล",
+          "href": "tel:024446600"
+        },
+        {
+          "value": "081-156-7788",
+          "sourceUrl": "http://www.bundithome.com/ติดต่อเรา/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ประกาศบนหน้าติดต่อของหอโดยตรง; ไม่มีวันที่ปรับข้อมูล",
+          "href": "tel:0811567788"
+        },
+        {
+          "value": "085-626-6451",
+          "sourceUrl": "http://www.bundithome.com/ติดต่อเรา/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ประกาศบนหน้าติดต่อของหอโดยตรง; ไม่มีวันที่ปรับข้อมูล",
+          "href": "tel:0856266451"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "Bundit HOME",
+          "sourceUrl": "http://www.bundithome.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เว็บไซต์หอลิงก์ถึงเพจนี้โดยตรง; ยังเข้าถึงโพสต์ราคาใหม่ไม่ได้",
+          "href": "https://www.facebook.com/pages/Bundit-HOME/579717405376790"
+        }
+      ],
+      "line": [
+        {
+          "value": "Bundit Home (ลิงก์ LINE)",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "MUIC ระบุลิงก์ LINE สำหรับ Bundit Home; เปิดตรวจชื่อบัญชีโดยตรงไม่ได้",
+          "href": "https://line.me/ti/p/sqvgavllwY"
+        }
+      ],
+      "website": [
+        {
+          "value": "http://www.bundithome.com/",
+          "sourceUrl": "http://www.bundithome.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "href": "http://www.bundithome.com/"
+        }
+      ],
+      "googleMaps": [
+        {
+          "value": "แผนที่ที่ฝังในเว็บไซต์ Bundit Home",
+          "sourceUrl": "http://www.bundithome.com/ติดต่อเรา/",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ชื่อใน embed ระบุ Bundit Home แต่ place ID ตรงกับแผนที่ของ Bundit House; ต้องยืนยันอาคาร",
+          "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3874.6615996420364!2d100.31167300000001!3d13.799261999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x102b892046b888af!2sBundit+Home+%40+Salaya!5e0!3m2!1sen!2sth!4v1400571891548"
+        }
+      ]
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "http://www.bundithome.com/wp-content/uploads/2014/05/4.-536x269.jpg",
+        "sourceUrl": "http://www.bundithome.com/แกลเลอรี่/",
+        "alt": "ด้านหน้าอาคาร Bundit Home ศาลายา",
+        "status": "Needs verification",
+        "note": "ไม่ใช้: ภาพด้านหน้าในแกลเลอรีมีลักษณะภาพเรนเดอร์/ภาพประกอบผสม ไม่ยืนยันว่าเป็นภาพถ่ายจริง"
+      }
+    ]
+  },
+  "i-condo-salaya": {
+    "identityNote": "รายงานระบุเพียง I condo Salaya ไม่ระบุเฟส; พบหลายเฟสและพบประกาศกรุงเทพฯที่ถูกจัดกลุ่มผิดใน PropertyHub จึงไม่ผูกค่าเช่าหรือรูปกับเฟสใดโดยเดา",
+    "sources": [
+      {
+        "url": "https://propertyhub.in.th/projects/icondo-salaya",
+        "title": "I Condo Salaya project identity",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-icondo-salaya",
+        "title": "I Condo Salaya listing index (contains misclassified Bangkok listings)",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [],
+    "contacts": {
+      "phone": [],
+      "facebook": [],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "sukontha-mansion": {
+    "identityNote": "สุคนธาแมนชั่น 94 หมู่ 4 ซอยบ้านตั้งสิน ถนนศาลายา-นครชัยศรี ต.ศาลายา อ.พุทธมณฑล จ.นครปฐม; สะกดใน Hongpak สุคนธาแมชั่น",
+    "sources": [
+      {
+        "url": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+        "title": "Sukontha Mansion published dormitory listing",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2024-06-10"
+      },
+      {
+        "url": "https://www.renthub.in.th/สุคนธา-แมนชั่น",
+        "title": "Sukontha Mansion RentHub",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "ห้องแอร์ เฟอร์นิเจอร์ครบ",
+            "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศแก้ไข 10 มิ.ย. 2024 และไม่แยกราคาตามแบบห้อง; RentHub ให้ช่วงราคาเดียวกัน ต้องยืนยันกับหอ"
+          }
+        ],
+        "rent": [
+          {
+            "value": "4,800–5,500 บาท/เดือน",
+            "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศแก้ไข 10 มิ.ย. 2024 และไม่แยกราคาตามแบบห้อง; RentHub ให้ช่วงราคาเดียวกัน ต้องยืนยันกับหอ"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "9,600–11,000 บาท",
+            "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ค่ามัดจำตามประกาศปี 2024; ยังไม่ยืนยันปัจจุบัน"
+          }
+        ],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "063-696-4466",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ระบุเป็นเบอร์ติดต่อหอในประกาศสาธารณะปี 2024; ไม่มีการตรวจยืนยันโดยตรงกับหอล่าสุด",
+          "href": "tel:0636964466"
+        },
+        {
+          "value": "096-553-9744",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ระบุเป็นเบอร์ติดต่อหอในประกาศสาธารณะปี 2024; ไม่มีการตรวจยืนยันโดยตรงกับหอล่าสุด",
+          "href": "tel:0965539744"
+        },
+        {
+          "value": "02-444-6639",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ระบุเป็นเบอร์ติดต่อหอในประกาศสาธารณะปี 2024; ไม่มีการตรวจยืนยันโดยตรงกับหอล่าสุด",
+          "href": "tel:024446639"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "sukonthamansion",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "LINE ของหอตามประกาศปี 2024",
+          "href": "https://line.me/ti/p/~sukonthamansion"
+        }
+      ],
+      "website": [],
+      "googleMaps": [
+        {
+          "value": "พิกัดหอตามประกาศ",
+          "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "พิกัดจากประกาศหอ; ยังไม่ตรวจ Google Business โดยตรง",
+          "href": "https://www.google.com/maps/search/13.79971000,100.31172100"
+        }
+      ]
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://c2.hongpak.in.th/media/rooms/photos/22/0308/sukonthamansion.jpg",
+        "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+        "alt": "ด้านหน้าอาคารสุคนธาแมนชั่น ศาลายา",
+        "status": "Needs verification",
+        "note": "รูปประกาศเดิมยังเผยแพร่ในหน้าประกาศที่ตรวจวันนี้; ไม่พบวันที่ถ่ายหรือภาพใหม่ที่ยืนยันว่าใหม่กว่า"
+      }
+    ]
+  },
+  "bundit-place": {
+    "identityNote": "บัณฑิตเพลส ศาลายา ซอยบ้านตั้งสิน; แยกจาก Bundit House/Home/Parlor เว็บไซต์หอหรือเพจทางการล่าสุดที่ยืนยันได้ยังไม่พบ",
+    "sources": [
+      {
+        "url": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+        "title": "Mahidol Engineering Student Handout (archived housing list)",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://rice.rmutr.ac.th/campus-life/accommodation",
+        "title": "RICE partner accommodation confirms Bundit Place",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "เริ่มต้น 6,900 บาท/เดือน",
+            "sourceUrl": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ราคาในคู่มือเก่าประมาณปี 2018; ยังไม่พบราคาปัจจุบันจากหอ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "086-614-8563",
+          "sourceUrl": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "มหาวิทยาลัยเผยแพร่เป็นเบอร์ติดต่อบัณฑิตเพลสในคู่มือเก่า ต้องยืนยันอีกครั้ง",
+          "href": "tel:0866148563"
+        },
+        {
+          "value": "02-444-6645",
+          "sourceUrl": "https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "มหาวิทยาลัยเผยแพร่เป็นเบอร์ติดต่อบัณฑิตเพลสในคู่มือเก่า ต้องยืนยันอีกครั้ง",
+          "href": "tel:024446645"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "crystal-place": {
+    "identityNote": "Crystal Place ศาลายา 88 ถนนศาลายา-นครชัยศรี; ไม่ใช่ Crystal Place เชียงใหม่หรือ Crystal Place Apartment ชลบุรี",
+    "sources": [
+      {
+        "url": "http://crystalplacesalaya.com/",
+        "title": "Crystal Place Salaya official website",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "http://crystalplacesalaya.com/contact.php",
+        "title": "Crystal Place official contact",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+        "title": "Mahidol College of Music Housing Guidebook 2021",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2021"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "6,000–8,000 บาท/เดือน",
+            "sourceUrl": "https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ค่าเช่าในคู่มือมหาวิทยาลัยปี 2021; เว็บไซต์หอปัจจุบันไม่แสดงราคาที่อ่านตรวจยืนยันได้ ต้องสอบถามโดยตรง"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-800-2904–8",
+          "sourceUrl": "http://crystalplacesalaya.com/contact.php",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ประกาศบนเว็บไซต์หอโดยตรง; วันที่ปรับข้อมูลไม่ได้ระบุ",
+          "href": "tel:028002904"
+        },
+        {
+          "value": "083-244-4258",
+          "sourceUrl": "http://crystalplacesalaya.com/contact.php",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ประกาศบนเว็บไซต์หอโดยตรง; วันที่ปรับข้อมูลไม่ได้ระบุ",
+          "href": "tel:0832444258"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "Crystal.Place.Salaya",
+          "sourceUrl": "http://crystalplacesalaya.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เว็บไซต์หอลิงก์เพจนี้โดยตรง",
+          "href": "https://www.facebook.com/Crystal.Place.Salaya"
+        }
+      ],
+      "line": [
+        {
+          "value": "@crystal_place",
+          "sourceUrl": "http://crystalplacesalaya.com/contact.php",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "LINE ID ประกาศในส่วนติดต่อของเว็บไซต์หอ",
+          "href": "https://line.me/R/ti/p/@crystal_place"
+        }
+      ],
+      "website": [
+        {
+          "value": "http://crystalplacesalaya.com/",
+          "sourceUrl": "http://crystalplacesalaya.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "href": "http://crystalplacesalaya.com/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "http://crystalplacesalaya.com/photo/3.jpg",
+        "sourceUrl": "http://crystalplacesalaya.com/",
+        "alt": "ภายนอกอาคาร Crystal Place ศาลายา ยามค่ำ",
+        "status": "Needs verification",
+        "note": "ไม่ใช้: ภาพอาคารกลางคืนมีลักษณะภาพเรนเดอร์ ไม่ยืนยันว่าเป็นภาพถ่ายจริง"
+      },
+      {
+        "imageUrl": "http://crystalplacesalaya.com/photo/1.jpg",
+        "sourceUrl": "http://crystalplacesalaya.com/",
+        "alt": "ป้าย Crystal Place ศาลายาและอาคารด้านหลัง",
+        "status": "Needs verification",
+        "note": "ภาพป้ายหอและต้นไม้ในเว็บไซต์ทางการ ดูเป็นภาพถ่ายจริง แต่แสดงอาคารเพียงบางส่วนและไม่ทราบวันถ่าย; ให้ตรวจภาพเต็มก่อนใช้"
+      }
+    ]
+  },
+  "salaya-one": {
+    "identityNote": "Salaya One Premium Serviced Apartment ปากซอยตั้งสิน; ไม่ใช้ราคาคอนโด Salaya One Residences ของเจ้าของห้องส่วนบุคคลหรือค่าห้องรายวันของโรงแรม",
+    "sources": [
+      {
+        "url": "https://salayaone.com/serviced-apartment/",
+        "title": "Salaya One official serviced apartment",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/",
+        "title": "MUIC Housing List",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+        "title": "Salaya One identity-registered RentHub listing",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "One Bedroom 31.5 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "rent": [
+          {
+            "value": "20,000–24,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขใน RentHub ต้องยืนยันกับหอ"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ได้เผยแพร่ยอดแรกเข้ารวมทั้งหมด; ห้ามคำนวณเป็นยอดยืนยัน"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "One Bedroom Exclusive 35 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "rent": [
+          {
+            "value": "21,000–25,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขใน RentHub ต้องยืนยันกับหอ"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ได้เผยแพร่ยอดแรกเข้ารวมทั้งหมด; ห้ามคำนวณเป็นยอดยืนยัน"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "One Bedroom Suite 44 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "rent": [
+          {
+            "value": "27,000–31,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขใน RentHub ต้องยืนยันกับหอ"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ได้เผยแพร่ยอดแรกเข้ารวมทั้งหมด; ห้ามคำนวณเป็นยอดยืนยัน"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Triple Room 49 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "rent": [
+          {
+            "value": "27,000–32,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขใน RentHub ต้องยืนยันกับหอ"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ได้เผยแพร่ยอดแรกเข้ารวมทั้งหมด; ห้ามคำนวณเป็นยอดยืนยัน"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Homey Deluxe Triple 52 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "rent": [
+          {
+            "value": "60,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขใน RentHub ต้องยืนยันกับหอ"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ได้เผยแพร่ยอดแรกเข้ารวมทั้งหมด; ห้ามคำนวณเป็นยอดยืนยัน"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "Two Bedroom Suites 61 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "rent": [
+          {
+            "value": "85,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ช่วงราคาแตกต่างจาก MUIC ที่ระบุ 12,500–33,000 บาท/เดือน; RentHub ไม่ระบุวันที่ราคาที่อ่านได้ ต้องยืนยันกับอพาร์ตเมนต์"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขใน RentHub ต้องยืนยันกับหอ"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "https://www.renthub.in.th/salaya-one-premium-serviced-apartments",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ไม่ได้เผยแพร่ยอดแรกเข้ารวมทั้งหมด; ห้ามคำนวณเป็นยอดยืนยัน"
+          }
+        ]
+      },
+      {
+        "roomType": [],
+        "rent": [
+          {
+            "value": "12,500–33,000 บาท/เดือน",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "รายชื่อ MUIC ระบุสัญญาขั้นต่ำ 1 ปี แต่ไม่แยกแบบห้อง; ขัดกับ RentHub จึงต้องตรวจสอบ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-441-4888",
+          "sourceUrl": "https://salayaone.com/serviced-apartment/",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เว็บไซต์ระบุใน Contact Us แต่หัวและท้ายหน้าแสดง 02-441-4886 โดยไม่แยกหน้าที่ชัดเจน ต้องยืนยัน",
+          "href": "tel:024414888"
+        },
+        {
+          "value": "02-441-4886",
+          "sourceUrl": "https://salayaone.com/serviced-apartment/",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ส่วนหัวและท้ายของหน้า; ต่างจาก Contact Us02-441-4888 ต้องยืนยันเบอร์สำหรับเช่ารายเดือน",
+          "href": "tel:024414886"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "@salayaonerent",
+          "sourceUrl": "https://salayaone.com/serviced-apartment/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ลิงก์ LINE สำหรับฝ่ายเช่ารายเดือนอยู่ในเว็บไซต์อพาร์ตเมนต์โดยตรง",
+          "href": "https://line.me/ti/p/%40salayaonerent"
+        }
+      ],
+      "website": [
+        {
+          "value": "https://salayaone.com/serviced-apartment/",
+          "sourceUrl": "https://salayaone.com/serviced-apartment/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "href": "https://salayaone.com/serviced-apartment/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://salayaone.com/serviced-apartment/img/banner.jpg",
+        "sourceUrl": "https://salayaone.com/serviced-apartment/",
+        "alt": "ด้านหน้าอาคาร Salaya One ซอยตั้งสิน",
+        "status": "Verified",
+        "note": "ตรวจภาพจริงจากหน้าอพาร์ตเมนต์ทางการ; ไม่ระบุวันที่ถ่ายหรืออัปโหลด ไม่อ้างว่าใหม่กว่าภาพเดิม"
+      }
+    ]
+  },
+  "v-condo": {
+    "identityNote": "V Condo Salaya ซอยบ้านตั้งสิน โครงการมีหลายอาคาร; ราคาประกาศเป็นราคาของแต่ละห้อง ไม่ใช่ราคาเดียวของทั้งโครงการ ห้ามใช้เบอร์นายหน้าเป็นเบอร์หอ",
+    "sources": [
+      {
+        "url": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-v-condo-salaya",
+        "title": "V Condo Salaya room listing index",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://propertyhub.in.th/listings/ให้เช่า​-วีคอนโด​-v​condo​-​salaya-ตึกv1​-10-500-บ-34ตรม-​​1นอน-1น้ำ​-พร้อมหิ้วกระเป๋า​เข้าอยู่---4049908",
+        "title": "V Condo V1 unit listing4049908 (internal price conflict)",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://zmyhome.com/project/V16170",
+        "title": "V Condo project channels",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน 34 ตร.ม. ตึก V1 ชั้น 2",
+            "sourceUrl": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-v-condo-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดต04/09/2026; ราคาหัวประกาศ10,500ต่างจากรายละเอียด11,000 ต้องยืนยัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "10,500 บาท/เดือน",
+            "sourceUrl": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-v-condo-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดต04/09/2026; ราคาหัวประกาศ10,500ต่างจากรายละเอียด11,000 ต้องยืนยัน"
+          },
+          {
+            "value": "11,000 บาท/เดือน",
+            "sourceUrl": "https://propertyhub.in.th/listings/ให้เช่า​-วีคอนโด​-v​condo​-​salaya-ตึกv1​-10-500-บ-34ตรม-​​1นอน-1น้ำ​-พร้อมหิ้วกระเป๋า​เข้าอยู่---4049908",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ข้อความรายละเอียดประกาศเดียวกันระบุ11,000 ต่างจากหัว10,500"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://propertyhub.in.th/listings/ให้เช่า​-วีคอนโด​-v​condo​-​salaya-ตึกv1​-10-500-บ-34ตรม-​​1นอน-1น้ำ​-พร้อมหิ้วกระเป๋า​เข้าอยู่---4049908",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ข้อมูลนายหน้าเฉพาะห้องตึกV1 ไม่ใช่เงื่อนไขทุกห้อง"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ล่วงหน้า 1 เดือน; รวมชำระ 3 เดือน",
+            "sourceUrl": "https://propertyhub.in.th/listings/ให้เช่า​-วีคอนโด​-v​condo​-​salaya-ตึกv1​-10-500-บ-34ตรม-​​1นอน-1น้ำ​-พร้อมหิ้วกระเป๋า​เข้าอยู่---4049908",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขตามข้อความประกาศ; ไม่คำนวณยอดบาทเพราะราคาขัดกัน"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [],
+      "facebook": [
+        {
+          "value": "VcondoSalaya",
+          "sourceUrl": "https://zmyhome.com/project/V16170",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "แหล่งอสังหาฯระบุเป็นเว็บไซต์โครงการ; Facebookเปิดตรวจไม่ได้ ไม่ได้ยืนยันเป็นฝ่ายเช่า",
+          "href": "https://www.facebook.com/VcondoSalaya/"
+        }
+      ],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "bundit-parlor": {
+    "identityNote": "Bundit Parlor 58/22 หมู่4 ซอยบ้านตั้งสิน ศาลายา; แยกจาก BunditHome/House/Place",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/บัณฑิตพาร์เลอร์-ศาลายา-มหิดล",
+        "title": "Bundit Parlor RentHub listing",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+        "title": "Bundit Parlor Hongpak listing",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2014-02-06"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "มาตรฐาน / สตูดิโอ 36 ตร.ม. สัญญา 1 ปี",
+            "sourceUrl": "https://www.renthub.in.th/บัณฑิตพาร์เลอร์-ศาลายา-มหิดล",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "RentHubผู้ลงประกาศยังไม่ยืนยันตัวตน และไม่พบวันที่อัปเดตราคา; ต่างจากHongpak2014 ต้องตรวจสอบ"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000–8,000 บาท/เดือน",
+            "sourceUrl": "https://www.renthub.in.th/บัณฑิตพาร์เลอร์-ศาลายา-มหิดล",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "RentHubผู้ลงประกาศยังไม่ยืนยันตัวตน และไม่พบวันที่อัปเดตราคา; ต่างจากHongpak2014 ต้องตรวจสอบ"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type A 36 ตร.ม.",
+            "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปี2014 ต่างจากช่วงราคาบนRentHub; ไม่ใช่ราคาล่าสุดยืนยัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,900 บาท/เดือน",
+            "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปี2014 ต่างจากช่วงราคาบนRentHub; ไม่ใช่ราคาล่าสุดยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type B 39 ตร.ม.",
+            "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปี2014 ต่างจากช่วงราคาบนRentHub; ไม่ใช่ราคาล่าสุดยืนยัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,900 บาท/เดือน",
+            "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปี2014 ต่างจากช่วงราคาบนRentHub; ไม่ใช่ราคาล่าสุดยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type C 50 ตร.ม.",
+            "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศเก่าปี2014 ต้องยืนยันราคาใหม่"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,000 บาท/เดือน",
+            "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศเก่าปี2014 ต้องยืนยันราคาใหม่"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-444-6655",
+          "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์สำนักงานที่พักตามประกาศปี2014; RentHubซ่อนเบอร์บางหลัก จึงยังตรวจตรงกันใหม่ไม่ได้",
+          "href": "tel:024446655"
+        },
+        {
+          "value": "087-544-3333",
+          "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์สำนักงานที่พักตามประกาศปี2014; RentHubซ่อนเบอร์บางหลัก จึงยังตรวจตรงกันใหม่ไม่ได้",
+          "href": "tel:0875443333"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "bundit.parlor.salaya",
+          "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เพจที่ประกาศหอปี2014อ้างอิง; เปิดตรวจปัจจุบันไม่ได้",
+          "href": "https://www.facebook.com/bundit.parlor.salaya"
+        }
+      ],
+      "line": [],
+      "website": [],
+      "googleMaps": [
+        {
+          "value": "พิกัดที่พักตามประกาศ",
+          "sourceUrl": "https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "พิกัดจากประกาศเก่า ต้องตรวจ Google Business ปัจจุบัน",
+          "href": "https://www.google.com/maps/search/13.79845905,100.31091309"
+        }
+      ]
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://bcdn.renthub.in.th/listing_picture/202511/20251128/F8yMjiJABEraCJZakwqs.jpg",
+        "sourceUrl": "https://www.renthub.in.th/บัณฑิตพาร์เลอร์-ศาลายา-มหิดล",
+        "alt": "อาคาร Bundit Parlor ศาลายา",
+        "status": "Needs verification",
+        "note": "ภาพตรงกับรายการหอ แต่ยังต้องตรวจภาพเต็มและไม่มีวันถ่าย; เส้นทางไฟล์บ่งชี้อัปโหลด2025/11/28 ไม่ใช่วันถ่าย"
+      }
+    ]
+  },
+  "bundit-house": {
+    "identityNote": "Bundit House บริษัทบัณฑิตเฮ้าส์58,58/4 หมู่4 ศาลายา ตามเว็บไซต์ทางการ; แยกจากชื่อBunditHome/Place/Parlor",
+    "sources": [
+      {
+        "url": "https://www.bundithouse.com/",
+        "title": "Bundit House official website",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/",
+        "title": "MUIC Housing List",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "Type A, B — 36, 39 ตร.ม.",
+            "sourceUrl": "https://www.bundithouse.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าเว็บไม่ระบุวันที่ปรับราคา จึงยังยืนยันว่าเป็นราคาปัจจุบันไม่ได้"
+          }
+        ],
+        "rent": [
+          {
+            "value": "7,400 บาท/เดือน",
+            "sourceUrl": "https://www.bundithouse.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าเว็บไม่ระบุวันที่ปรับราคา จึงยังยืนยันว่าเป็นราคาปัจจุบันไม่ได้"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "Type C — 50 ตร.ม.",
+            "sourceUrl": "https://www.bundithouse.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าเว็บไม่ระบุวันที่ปรับราคา จึงยังยืนยันว่าเป็นราคาปัจจุบันไม่ได้"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,500 บาท/เดือน",
+            "sourceUrl": "https://www.bundithouse.com/",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าเว็บไม่ระบุวันที่ปรับราคา จึงยังยืนยันว่าเป็นราคาปัจจุบันไม่ได้"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-444-6611",
+          "sourceUrl": "https://www.bundithouse.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "สำนักงานบริษัทบัณฑิตเฮ้าส์ตามเว็บไซต์ทางการ",
+          "href": "tel:024446611"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [
+        {
+          "value": "https://www.bundithouse.com/",
+          "sourceUrl": "https://www.bundithouse.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "href": "https://www.bundithouse.com/"
+        }
+      ],
+      "googleMaps": [
+        {
+          "value": "แผนที่ Bundit House จากเว็บไซต์ทางการ",
+          "sourceUrl": "https://www.bundithouse.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "แผนที่ฝังโดยเว็บไซต์หอโดยตรง",
+          "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d287.9861813856557!2d100.31178880221516!3d13.79907165755263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2938493bd9c33%3A0x102b892046b888af!2sBundit%20House!5e0!3m2!1sth!2sth!4v1703216953023!5m2!1sth!2sth"
+        }
+      ]
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://www.bundithouse.com/uploads/gallery/exterior-1_resize.jpg",
+        "sourceUrl": "https://www.bundithouse.com/",
+        "alt": "ด้านหน้าอาคาร Bundit House ศาลายา",
+        "status": "Verified",
+        "note": "ตรวจภาพจริงจากเว็บไซต์ทางการ; เว็บไซต์ยังใช้ภาพนี้และไม่มีวันเผยแพร่ที่ระบุ ไม่อ้างว่าใหม่กว่าภาพเดิม"
+      }
+    ]
+  },
+  "elite": {
+    "identityNote": "Elite Salaya คอนโดซอยตั้งสิน โดยElitePlusDevelopment; ค่าเช่าเป็นรายห้องจากผู้ให้เช่า ไม่ใช้เบอร์นายหน้าแทนช่องทางหอ",
+    "sources": [
+      {
+        "url": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-elite-salaya",
+        "title": "Elite Salaya room listings",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.home.co.th/condo/elite-salaya-6623",
+        "title": "Elite Salaya developer channels",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2026-09-01"
+      },
+      {
+        "url": "http://www.elite-salaya.com/",
+        "title": "Elite Salaya developer official website",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน 30 ตร.ม. ชั้น8",
+            "sourceUrl": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-elite-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดต21/06/2026; เป็นราคาเฉพาะห้องผ่านนายหน้า ต้องยืนยัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "9,500 บาท/เดือน",
+            "sourceUrl": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-elite-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดต21/06/2026; เป็นราคาเฉพาะห้องผ่านนายหน้า ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน 25 ตร.ม. ชั้น8 ตึกA",
+            "sourceUrl": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-elite-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดต21/06/2026; เป็นราคาเฉพาะห้องผ่านนายหน้า ต้องยืนยัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "7,500 บาท/เดือน",
+            "sourceUrl": "https://propertyhub.in.th/เช่าคอนโด/โครงการ-elite-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดต21/06/2026; เป็นราคาเฉพาะห้องผ่านนายหน้า ต้องยืนยัน"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "086-829-8888",
+          "sourceUrl": "https://www.home.co.th/condo/elite-salaya-6623",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ช่องทางเจ้าของโครงการจากHome.co.thอัปเดต01/09/2026; ยังไม่ยืนยันว่าเป็นสำนักงานนิติบุคคลหรือฝ่ายเช่าปัจจุบัน",
+          "href": "tel:0868298888"
+        },
+        {
+          "value": "02-444-6666",
+          "sourceUrl": "https://www.home.co.th/condo/elite-salaya-6623",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ช่องทางเจ้าของโครงการจากHome.co.thอัปเดต01/09/2026; ยังไม่ยืนยันว่าเป็นสำนักงานนิติบุคคลหรือฝ่ายเช่าปัจจุบัน",
+          "href": "tel:024446666"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "elitesalaya",
+          "sourceUrl": "https://www.home.co.th/condo/elite-salaya-6623",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "ช่องทางเจ้าของโครงการที่Home.co.thระบุ; Facebookเปิดตรวจไม่ได้",
+          "href": "https://www.facebook.com/elitesalaya/"
+        }
+      ],
+      "line": [],
+      "website": [
+        {
+          "value": "http://www.elite-salaya.com/",
+          "sourceUrl": "http://www.elite-salaya.com/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เว็บไซต์โครงการจริงแต่เนื้อหาเป็นข้อมูลเปิดตัว; ราคาเช่าไม่เผยแพร่",
+          "href": "http://www.elite-salaya.com/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  }
+}

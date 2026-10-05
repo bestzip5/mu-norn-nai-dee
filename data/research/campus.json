@@ -1,0 +1,692 @@
+{
+  "dorm-11": {
+    "identityNote": "บ้านศรีตรัง (หอ 11) ในมหาวิทยาลัยมหิดล ศาลายา ตามประกาศหอพักบ้านมหิดล ปีการศึกษา 2568",
+    "sources": [
+      {
+        "url": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+        "title": "ประกาศค่าธรรมเนียมหอพักบ้านมหิดล กรกฎาคม 2568",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-07-03"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+        "title": "MUIC Dormitory & Housing",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "บ้านศรีตรัง (หอ 11)",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,000 บาท / คน / ภาคการศึกษา",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปีการศึกษา 2568 ยังไม่พบอัตราปี 2569; คิดเป็นภาคการศึกษา ไม่ใช่รายเดือน"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "1,250 บาท (ค่าประกันความเสียหายและมัดจำลูกกุญแจ)",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปีการศึกษา 2568 ต้องยืนยันอัตราปัจจุบัน"
+          }
+        ],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-441-9116",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "สำนักงานหอพักบ้านมหิดล ตั้งอยู่หอ 11",
+          "href": "tel:024419116"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "Mahidol Dorm",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ลิงก์จากมหาวิทยาลัย",
+          "href": "https://www.facebook.com/mahidoldorm"
+        }
+      ],
+      "line": [],
+      "website": [
+        {
+          "value": "หอพักนักศึกษา (บ้านมหิดล)",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เว็บไซต์งานหอพักที่ MUIC อ้างอิง",
+          "href": "https://op.mahidol.ac.th/sa/dormitory/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/05/2025_muhomef-scaled.jpg",
+        "sourceUrl": "https://op.mahidol.ac.th/sa/dormitory/",
+        "alt": "โปสเตอร์หอพักหญิงมหิดลที่มีภาพอาคารหอ 11",
+        "status": "Needs verification",
+        "note": "ผลค้นหารูปจากเว็บไซต์งานหอพัก; ไม่ใช่ภาพเดี่ยว วันที่ถ่ายไม่ทราบ ควรตรวจภาพก่อนใช้"
+      },
+      {
+        "imageUrl": "https://mahidol.ac.th/temp/2018/01/IMG_0937.jpg",
+        "sourceUrl": "https://mahidol.ac.th/new-current-student/student-dormitory/",
+        "alt": "ทางเข้าบ้านศรีตรัง มหิดล พร้อมป้ายชื่อ",
+        "status": "Needs verification",
+        "note": "ภาพทางการเก่าใน path2018 ไม่ยืนยันสภาพปัจจุบัน; ไม่ควรอ้างว่าล่าสุด"
+      }
+    ]
+  },
+  "dorm-6-7": {
+    "identityNote": "บ้านชัยพฤกษ์ (หอ 6–7) ในมหาวิทยาลัยมหิดล ศาลายา ตามประกาศหอพักบ้านมหิดล ปีการศึกษา 2568",
+    "sources": [
+      {
+        "url": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+        "title": "ประกาศค่าธรรมเนียมหอพักบ้านมหิดล กรกฎาคม 2568",
+        "kind": "University website",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-07-03"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+        "title": "MUIC Dormitory & Housing",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250606_dorm.pdf",
+        "title": "ประกาศหอพักนักศึกษาใหม่ ภาคต้น 2568 รอบ 1",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "บ้านชัยพฤกษ์ (หอ 6–7)",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000 บาท / คน / ภาคการศึกษา",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศปีการศึกษา 2568 ยังไม่พบอัตราปี 2569; คิดเป็นภาคการศึกษา ไม่ใช่รายเดือน"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "1,900 บาท (ค่าประกันความเสียหายและมัดจำลูกกุญแจ)",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250709_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศกรกฎาคม 2568 ระบุ 1,900 บาท ต่างจากประกาศมิถุนายน 2568 ที่ระบุ 1,100 บาท ต้องสอบถามสำนักงาน"
+          },
+          {
+            "value": "1,100 บาท (ค่าประกันความเสียหายและมัดจำลูกกุญแจ)",
+            "sourceUrl": "https://op.mahidol.ac.th/sa/wp-content/uploads/2025/Documents/Dorm/20250606_dorm.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศมิถุนายน 2568 ระบุ 1,100 บาท ต่างจากกรกฎาคม 2568 ที่ระบุ 1,900 บาท; เก็บทั้งสองข้อมูลเพื่อทบทวน"
+          }
+        ],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-441-9116",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "สำนักงานหอพักบ้านมหิดล ตั้งอยู่หอ 11",
+          "href": "tel:024419116"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "Mahidol Dorm",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ลิงก์จากมหาวิทยาลัย",
+          "href": "https://www.facebook.com/mahidoldorm"
+        }
+      ],
+      "line": [],
+      "website": [
+        {
+          "value": "หอพักนักศึกษา (บ้านมหิดล)",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เว็บไซต์งานหอพักที่ MUIC อ้างอิง",
+          "href": "https://op.mahidol.ac.th/sa/dormitory/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "mu-condo": {
+    "identityNote": "อาคารชุดพักอาศัยมหาวิทยาลัยมหิดล ณ ศาลายา เลขที่25/25 หมู่5 ถนนพุทธมณฑลสาย4; รวมหลายอาคาร ไม่ใช่คอนโดชื่อคล้ายในเชียงใหม่",
+    "sources": [
+      {
+        "url": "https://sites.google.com/mahidol.edu/mucondo/home",
+        "title": "อาคารชุดพักอาศัย มหาวิทยาลัยมหิดล",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://sites.google.com/mahidol.edu/mucondo/home/%E0%B8%95%E0%B8%94%E0%B8%95%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%B2-contract-us",
+        "title": "MU Condo ติดต่อเรา",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+        "title": "MUIC Dormitory & Housing",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1uN1V5wG2QcNopy_l47viFmCaUKtSSlFQ/view?usp=sharing",
+        "title": "MU Condo อาคาร A A King / Type A+ ",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1K_23MB6wRQUUbni46dtrRRByP54zs7li/view?usp=sharing",
+        "title": "MU Condo อาคาร A Type A ",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1xj4pd0gkJ-HuO6wck6ffQlntmphFdaD7/view?usp=sharing",
+        "title": "MU Condo อาคาร A Type B ",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/18nbEFVcJpGzokJicA3XskBgR5yIJWkCa/view?usp=sharing",
+        "title": "MU Condo อาคาร A Type C ",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1igEOJ1z2OGJ1wlW2TEBjc6ixGG74PyjK/view?usp=sharing",
+        "title": "MU Condo อาคาร A Type D ",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://sites.google.com/mahidol.edu/mucondo/home/%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2-mu-student/condo-b-%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+        "title": "Condo B นักศึกษาชาย",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "อาคารอัญชัน A — A King / Type A+ — Delight One Bed Corner Room, 52.80 ตร.ม., 1–2 คน",
+            "sourceUrl": "https://drive.google.com/file/d/1uN1V5wG2QcNopy_l47viFmCaUKtSSlFQ/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "12,000 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://drive.google.com/file/d/1uN1V5wG2QcNopy_l47viFmCaUKtSSlFQ/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เอกสารทางการไม่มีวันที่เผยแพร่; ยืนยันราคาปัจจุบันกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "24,000 บาท",
+            "sourceUrl": "https://drive.google.com/file/d/1uN1V5wG2QcNopy_l47viFmCaUKtSSlFQ/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "โบรชัวร์ทางการไม่มีวันที่เผยแพร่"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าเดือนแรก + เงินประกัน 2 เท่าของค่าบำรุงห้องพัก",
+            "sourceUrl": "https://drive.google.com/file/d/1uN1V5wG2QcNopy_l47viFmCaUKtSSlFQ/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขที่โบรชัวร์ระบุ ไม่ได้คำนวณยอดรวมเอง; อาจมีค่าใช้จ่ายเพิ่มเติม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "อาคารอัญชัน A — Type A — Delight One Bed Room, 45.90 ตร.ม., 1–2 คน",
+            "sourceUrl": "https://drive.google.com/file/d/1K_23MB6wRQUUbni46dtrRRByP54zs7li/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "10,500 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://drive.google.com/file/d/1K_23MB6wRQUUbni46dtrRRByP54zs7li/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เอกสารทางการไม่มีวันที่เผยแพร่; ยืนยันราคาปัจจุบันกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "21,000 บาท",
+            "sourceUrl": "https://drive.google.com/file/d/1K_23MB6wRQUUbni46dtrRRByP54zs7li/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "โบรชัวร์ทางการไม่มีวันที่เผยแพร่"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าเดือนแรก + เงินประกัน 2 เท่าของค่าบำรุงห้องพัก",
+            "sourceUrl": "https://drive.google.com/file/d/1K_23MB6wRQUUbni46dtrRRByP54zs7li/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขที่โบรชัวร์ระบุ ไม่ได้คำนวณยอดรวมเอง; อาจมีค่าใช้จ่ายเพิ่มเติม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "อาคารอัญชัน A — Type B — Studio Single Bed, 26 ตร.ม., 1 คน",
+            "sourceUrl": "https://drive.google.com/file/d/1xj4pd0gkJ-HuO6wck6ffQlntmphFdaD7/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://drive.google.com/file/d/1xj4pd0gkJ-HuO6wck6ffQlntmphFdaD7/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เอกสารทางการไม่มีวันที่เผยแพร่; ยืนยันราคาปัจจุบันกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "12,000 บาท",
+            "sourceUrl": "https://drive.google.com/file/d/1xj4pd0gkJ-HuO6wck6ffQlntmphFdaD7/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "โบรชัวร์ทางการไม่มีวันที่เผยแพร่"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าเดือนแรก + เงินประกัน 2 เท่าของค่าบำรุงห้องพัก",
+            "sourceUrl": "https://drive.google.com/file/d/1xj4pd0gkJ-HuO6wck6ffQlntmphFdaD7/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขที่โบรชัวร์ระบุ ไม่ได้คำนวณยอดรวมเอง; อาจมีค่าใช้จ่ายเพิ่มเติม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "อาคารอัญชัน A — Type C — Superior Twin Bed, 33.45 ตร.ม., 1–2 คน",
+            "sourceUrl": "https://drive.google.com/file/d/18nbEFVcJpGzokJicA3XskBgR5yIJWkCa/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "7,600 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://drive.google.com/file/d/18nbEFVcJpGzokJicA3XskBgR5yIJWkCa/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เอกสารทางการไม่มีวันที่เผยแพร่; ยืนยันราคาปัจจุบันกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "15,200 บาท",
+            "sourceUrl": "https://drive.google.com/file/d/18nbEFVcJpGzokJicA3XskBgR5yIJWkCa/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "โบรชัวร์ทางการไม่มีวันที่เผยแพร่"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าเดือนแรก + เงินประกัน 2 เท่าของค่าบำรุงห้องพัก",
+            "sourceUrl": "https://drive.google.com/file/d/18nbEFVcJpGzokJicA3XskBgR5yIJWkCa/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขที่โบรชัวร์ระบุ ไม่ได้คำนวณยอดรวมเอง; อาจมีค่าใช้จ่ายเพิ่มเติม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "อาคารอัญชัน A — Type D — Studio Twin Bed, 28.61 ตร.ม., 1–2 คน",
+            "sourceUrl": "https://drive.google.com/file/d/1igEOJ1z2OGJ1wlW2TEBjc6ixGG74PyjK/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,400 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://drive.google.com/file/d/1igEOJ1z2OGJ1wlW2TEBjc6ixGG74PyjK/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เอกสารทางการไม่มีวันที่เผยแพร่; ยืนยันราคาปัจจุบันกับหอพัก"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "12,800 บาท",
+            "sourceUrl": "https://drive.google.com/file/d/1igEOJ1z2OGJ1wlW2TEBjc6ixGG74PyjK/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "โบรชัวร์ทางการไม่มีวันที่เผยแพร่"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าเดือนแรก + เงินประกัน 2 เท่าของค่าบำรุงห้องพัก",
+            "sourceUrl": "https://drive.google.com/file/d/1igEOJ1z2OGJ1wlW2TEBjc6ixGG74PyjK/view?usp=sharing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เงื่อนไขที่โบรชัวร์ระบุ ไม่ได้คำนวณยอดรวมเอง; อาจมีค่าใช้จ่ายเพิ่มเติม"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "อาคารดุสิตา D — ห้อง 2 เตียง",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [
+          {
+            "value": "5,500 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าข้อมูลมหาวิทยาลัยไม่มีวันที่อัตราราคา"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "อาคาร B นักศึกษาชาย — 98 ตร.ม. 2 ห้องนอน 2 ห้องน้ำ พัก 3–4 คน",
+            "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home/%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2-mu-student/condo-b-%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "เว็บ MUIC อีกหน้าเรียกอาคาร B ว่าสงวนสำหรับบุคลากร จึงควรยืนยันผู้มีสิทธิ์พักปัจจุบัน"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,000 บาท / ห้อง / เดือน",
+            "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home/%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2-mu-student/condo-b-%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าทางการไม่มีวันที่เผยแพร่"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "24,150 บาท",
+            "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home/%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2-mu-student/condo-b-%E0%B8%99%E0%B8%81%E0%B8%A8%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%8A%E0%B8%B2%E0%B8%A2",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "หน้าทางการระบุชำระเงินแรกเข้าเมื่อจองทำสัญญา ไม่มีวันที่เผยแพร่"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-441-9205",
+          "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home/%E0%B8%95%E0%B8%94%E0%B8%95%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%B2-contract-us",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ฝ่ายประชาสัมพันธ์ สอบถามราคาห้องพัก",
+          "href": "tel:024419205"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "Mahidol Salaya Condo",
+          "sourceUrl": "https://muic.mahidol.ac.th/en/student-life/dormitory-housing",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "มหาวิทยาลัยและโบรชัวร์ทางการอ้างอิงเพจนี้",
+          "href": "https://www.facebook.com/mucondosalaya"
+        }
+      ],
+      "line": [],
+      "website": [
+        {
+          "value": "MU Condo",
+          "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "href": "https://sites.google.com/mahidol.edu/mucondo/home"
+        }
+      ],
+      "googleMaps": [
+        {
+          "value": "ตำแหน่งจากแผนที่ฝังในเว็บไซต์ MU Condo",
+          "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ลิงก์แผนที่เดิมที่เว็บไซต์เผยแพร่",
+          "href": "https://maps-api-ssl.google.com/maps?hl=en-US&ll=13.800179%2C100.321389&output=embed&q=13.79967%2C100.32248+%28Untitled+Location%29&z=18"
+        }
+      ]
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vg0-rKpA0dGHkiv74ccp_6hPdBbX21y1RTw-EH8o0gLE1evhJUtDG4v82brV1ceAuRDeZu1TueGbNgm3dm2jMWot9djfo0NNAz6_inVFI1VzDd8klKTW9Ae6pegVq2YGP5xSd7vTA-MNAs4R4mZ_txjbjNzcJSWikQDzMZJErJVL7VMSJXu7JYI7ogU_UGKQy6qMPROKpZ3SU2Dp0FDOateJSsLp0WvB5RlS03iyU=w1280",
+        "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home",
+        "alt": "อาคารชุดพักอาศัยมหาวิทยาลัยมหิดล ศาลายา",
+        "status": "Needs verification",
+        "note": "ภาพหน้าเว็บทางการไม่มีวันที่ถ่าย/เผยแพร่; อาจเป็นภาพเดิมที่มีในชุดข้อมูล ยังไม่อ้างว่าใหม่กว่า"
+      }
+    ]
+  },
+  "ramathibodi-nursing-dormitory": {
+    "identityNote": "หอพักนักศึกษาพยาบาลรามาธิบดี (ศาลายา) ตามหน้าเว็บไซต์หน่วยกิจการนักศึกษา; ไม่ใช้ข้อมูลหอพญาไท จักรีนฤบดินทร์ หรือสถาบันราชสุดา",
+    "sources": [
+      {
+        "url": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
+        "title": "หอพักนักศึกษา โรงเรียนพยาบาลรามาธิบดี",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://www.rama.mahidol.ac.th/nursing/rans/sites/default/files/public/img/student/dormitory/dormitory_rule_salaya.jpg",
+        "title": "กฎระเบียบและช่องทางติดต่อหอพักพยาบาลรามาธิบดี ศาลายา",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "ห้องพักนักศึกษาพยาบาลรามาธิบดี ศาลายา",
+            "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
+            "checkedOn": "2026-10-05",
+            "status": "Verified"
+          }
+        ],
+        "rent": [],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-441-4234 ต่อ 666",
+          "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/sites/default/files/public/img/student/dormitory/dormitory_rule_salaya.jpg",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "สำนักงานหอพักนักศึกษาพยาบาลรามาธิบดี ศาลายา เปิดทุกวัน08:00–23:00 ตามโปสเตอร์ทางการไม่มีวันที่",
+          "href": "tel:024414234"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [
+        {
+          "value": "หอพักนักศึกษา โรงเรียนพยาบาลรามาธิบดี",
+          "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "href": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": [
+      {
+        "imageUrl": "https://www.rama.mahidol.ac.th/nursing/rans/sites/default/files/public/img/student/dormitory/dormitory_salaya.jpg",
+        "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
+        "alt": "ภาพหน้าอาคารและภายในหอพักนักศึกษาพยาบาลรามาธิบดี ศาลายา",
+        "status": "Verified",
+        "note": "ดาวน์โหลดและตรวจภาพแล้ว ป้ายอาคารตรง; ภาพหน้าอาคารอยู่ซ้ายของภาพชุด ไม่มีวันที่เผยแพร่/ถ่าย จึงไม่รับรองว่าใหม่ที่สุด"
+      }
+    ]
+  },
+  "namthong-sikkhalai": {
+    "identityNote": "น้ำทองสิกขาลัย ของวิทยาลัยศาสนศึกษา มหาวิทยาลัยมหิดล อาคาร5หญิง/6ชาย ที่บางกระทึกตามคู่มือ; อยู่บริเวณนอกตัววิทยาเขต แม้รายงานจัดกลุ่มในมหาวิทยาลัย จึงคงหมวดรายงานเดิม",
+    "sources": [
+      {
+        "url": "https://crs.mahidol.ac.th/contact/",
+        "title": "CRS ช่องทางติดต่อ",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://crs.mahidol.ac.th/assets/docs/ita/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AB%E0%B8%AD%E0%B8%9E%E0%B8%B1%E0%B8%81%281%29.pdf",
+        "title": "คู่มือหอพักน้ำทองสิกขาลัย",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://crs.mahidol.ac.th/internal/students/",
+        "title": "CRS นักศึกษาปัจจุบัน",
+        "kind": "University website",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "ห้องพักอาคาร5 (หญิง) / อาคาร6 (ชาย), 12 ตร.ม., ห้องปรับอากาศ ห้องน้ำรวม",
+            "sourceUrl": "https://crs.mahidol.ac.th/assets/docs/ita/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AB%E0%B8%AD%E0%B8%9E%E0%B8%B1%E0%B8%81%281%29.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือไม่ระบุวันที่ และขัดกันเรื่องจำนวนผู้พัก: หน้า4ระบุ2คน หน้า6และ8ระบุ1คน ต้องยืนยันปัจจุบัน"
+          }
+        ],
+        "rent": [],
+        "deposit": [
+          {
+            "value": "1,500 บาท (เงินประกันการเข้าพักที่คืนเมื่อย้ายออกตามเงื่อนไข)",
+            "sourceUrl": "https://crs.mahidol.ac.th/assets/docs/ita/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AB%E0%B8%AD%E0%B8%9E%E0%B8%B1%E0%B8%81%281%29.pdf",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "คู่มือหน้า9ไม่มีวันที่เผยแพร่; ค่ามัดจำกุญแจกล่าวถึงแต่ไม่ระบุจำนวน จึงไม่รวมเอง"
+          }
+        ],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [],
+      "facebook": [
+        {
+          "value": "หอพักน้ำทองสิกขาลัย",
+          "sourceUrl": "https://crs.mahidol.ac.th/internal/students/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "เพจที่เว็บไซต์วิทยาลัยอ้างอิง",
+          "href": "https://www.facebook.com/CRSNamthong"
+        }
+      ],
+      "line": [
+        {
+          "value": "@501wndek",
+          "sourceUrl": "https://crs.mahidol.ac.th/contact/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "LINE งานหอพักน้ำทองสิกขาลัยโดยตรง"
+        }
+      ],
+      "website": [
+        {
+          "value": "วิทยาลัยศาสนศึกษา — ติดต่อหอพักน้ำทองสิกขาลัย",
+          "sourceUrl": "https://crs.mahidol.ac.th/contact/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "หน้าติดต่อของหน่วยงานผู้ดูแลหอพัก",
+          "href": "https://crs.mahidol.ac.th/contact/"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  }
+}

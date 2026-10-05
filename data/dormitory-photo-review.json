@@ -1,0 +1,216 @@
+{
+  "dorm-11": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://archive.li.mahidol.ac.th/handle/0280026809/10275",
+    "note": "ภาพจากคลังมหาวิทยาลัยปี 2566; รอผู้ใช้ตรวจหมายเลขหอ แสดงภาพเต็มพร้อมข้อความสิทธิ์และเครดิตเดิม ห้ามแก้ไขหรือใช้เชิงพาณิชย์ตามข้อความในภาพ"
+  },
+  "dorm-6-7": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://www.blockdit.com/posts/5ff1d2696454fb0cdfe25d91",
+    "note": "จากรีวิวหอ 6–7 ปี 2563; รอยืนยันหมายเลขอาคารและสภาพปัจจุบัน"
+  },
+  "mu-condo": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://sites.google.com/mahidol.edu/mucondo/home",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "ramathibodi-nursing-dormitory": {
+    "checkedOn": "2026-10-05",
+    "status": "Verified",
+    "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
+    "note": "ดาวน์โหลดและตรวจภาพแล้ว ป้ายอาคารตรง; ภาพหน้าอาคารอยู่ซ้ายของภาพชุด ไม่มีวันที่เผยแพร่/ถ่าย จึงไม่รับรองว่าใหม่ที่สุด"
+  },
+  "namthong-sikkhalai": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://www.youtube.com/watch?v=x6cL-DHCHTs",
+    "note": "ภาพปกวิดีโอรีวิววันที่ 19 ธันวาคม 2020 มีผู้รีวิวและอาคารอยู่ด้านหลัง ไม่ใช่ภาพหน้าอาคารเดี่ยว; รอผู้ใช้ตรวจสอบ"
+  },
+  "ribbin-apartment": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://zmyhome.com/apartment/5758",
+    "note": "Visually checked actual exterior with RIBBIN sign; live public listing matches address141/23SalayaSoi1. Filename suggests2025upload but publication and capture dates not independently confirmed."
+  },
+  "chatchanan-apartment": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://zmyhome.com/apartment/5785",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "latitude-longitude-condominium": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://iduarchitects.wordpress.com/portfolio/latitude-longitude-apartment-salaya-nakornpathom/",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "the-room": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": null,
+    "note": "Not available: ยังไม่พบภาพถ่ายที่ยืนยันว่าเป็นหอพักและอาคารที่ถูกต้องได้"
+  },
+  "triple-a": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://www.traveloka.com/en-en/hotel/thailand/triple-a-residence-3000010043792",
+    "note": "รูปด้านหน้าพร้อมป้าย Triple A Residence จากรายการที่พักพุทธมณฑล; รอผู้ใช้ยืนยันว่าตรงกับรายการในรายงาน"
+  },
+  "the-dearly-residence": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/the-dearly-residence-salaya",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "triple-five": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://zmyhome.com/apartment/5793",
+    "note": "รูปอาคารจากรายการ Triple Five Salaya; รอผู้ใช้ยืนยันตัวอาคาร"
+  },
+  "the-best-resident": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://www.renthub.in.th/the-best-apartment-อพาร์ทเม้นท์-ใกล้-มหิดล-ศาลายา",
+    "note": "ชื่อในแหล่งคือ The Best Apartment และภาพคล้ายที่ใช้ใน The Best Plus; ยังยืนยันไม่ได้ว่าเป็น The Best resident ในรายงาน ต้องตรวจเป็นพิเศษ"
+  },
+  "the-enter": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "kpn": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/kpn-place-near-mahidol-university-จากประตู-6-เพียง-800-เมตร",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "the-best-plus-resistance": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.hongpak.in.th/rooms/39409-the-best-plus-residence",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "dormy-inc": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/dormy-inc",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "bed-station": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/en/pj-bed-station",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "v-a-apartment": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+    "note": "ตรวจภาพภายนอกจากแกลเลอรีประกาศที่ตรงชื่อและพื้นที่ ไม่ระบุวันถ่าย/เผยแพร่ จึงยืนยันไม่ได้ว่าใหม่ที่สุด"
+  },
+  "4-sundorm": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
+    "note": "ตรวจภาพภายนอกจากแกลเลอรีประกาศที่ตรงชื่อและพื้นที่ ไม่ระบุวันถ่าย/เผยแพร่ จึงยืนยันไม่ได้ว่าใหม่ที่สุด"
+  },
+  "kave-mutant-salaya": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.scancondo.com/เช่าคอนโด/เคฟ-มิวแทนท์-ศาลายา",
+    "note": "ตรวจภาพถ่ายทางเข้าจริงพร้อมป้ายชื่อ ไม่ใช่ภาพจำลอง; วันที่ถ่าย/เผยแพร่ Not available ไม่รับรองว่าใหม่ที่สุด"
+  },
+  "zelle-salaya": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.prinsiri.com/en/project/zelle-salaya",
+    "note": "ภาพห้องตัวอย่างจากผู้พัฒนา; รายงานไม่ระบุอาคาร จึงยังไม่เปลี่ยนเป็นภาพเฟสใหม่ วันที่ภาพ Not available"
+  },
+  "sala-residence": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": null,
+    "note": "Not available: ยังไม่พบภาพถ่ายที่ยืนยันว่าเป็นหอพักและอาคารที่ถูกต้องได้"
+  },
+  "uniloft": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://mahatpakdotnet.wordpress.com/2016/03/23/uniloft-ศาลายา-หอพัก-ม-มหิดล-ศาล/",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "bundit-home": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "http://www.bundithome.com/แกลเลอรี่/",
+    "note": "ภาพพื้นที่ส่วนกลางจากเว็บไซต์ Bundit Home ไม่ใช่ภาพหน้าอาคาร; อาจเป็นพื้นที่ใช้ร่วมกับหออื่นในกลุ่ม รอตรวจสอบ"
+  },
+  "i-condo-salaya": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://www.pf.co.th/th/project/condominium/icondo/salaya",
+    "note": "รูปจากหน้าโครงการ iCondo Salaya ของ Property Perfect; รายงานไม่ระบุเฟสหรืออาคาร จึงรอเจ้าของโครงการตรวจว่าตรงกับรายการ"
+  },
+  "sukontha-mansion": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.hongpak.in.th/rooms/3962-sukonthamansion",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "bundit-place": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.hoteldirect.in.th/โรงแรม/นครปฐม/บัณฑิตเพลส.html",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "crystal-place": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "http://crystalplacesalaya.com/",
+    "note": "ภาพป้ายหอและต้นไม้ในเว็บไซต์ทางการ ดูเป็นภาพถ่ายจริง แต่แสดงอาคารเพียงบางส่วนและไม่ทราบวันถ่าย; ให้ตรวจภาพเต็มก่อนใช้"
+  },
+  "salaya-one": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://salayaone.com/serviced-apartment/",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "v-condo": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://propertyhub.in.th/listings/%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%B2-%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-v-condo-%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B2-%E0%B8%95%E0%B9%88%E0%B8%B3%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2-2-%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%8A%E0%B9%88%E0%B8%B2-yield-%E0%B8%AA%E0%B8%B9%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B9%8A%E0%B8%94-6-363-%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%9B%E0%B8%B5-70---5731623",
+    "note": "รูปอาคารจากประกาศ V Condo Salaya; ยังไม่ได้ยืนยันว่าเป็นอาคารที่ผู้ตอบแบบสอบถามพัก"
+  },
+  "bundit-parlor": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.renthub.in.th/บัณฑิตพาร์เลอร์-ศาลายา-มหิดล",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "bundit-house": {
+    "checkedOn": "2026-10-05",
+    "status": "Needs verification",
+    "sourceUrl": "https://www.bundithouse.com/",
+    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+  },
+  "elite": {
+    "checkedOn": "2026-10-06",
+    "status": "Needs verification",
+    "pendingReview": true,
+    "sourceUrl": "https://www.livinginsider.com/livingdetail_en/2762437/Elit-Salaya-Condo.html",
+    "note": "รูปทางเข้าพร้อมป้าย Elite Salaya จากประกาศ; รอตรวจสอบตัวอาคารและสภาพปัจจุบัน"
+  }
+}

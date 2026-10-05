@@ -1,0 +1,31 @@
+# Soi Ban Tang Sin research
+
+Checked on **2026-10-05**. Machine-readable evidence: `data/research/soi.json`.
+
+Only rental information, public business contacts and exterior photographs were collected. The original electricity and water fields were not changed. A page being available today does not establish that its prices or photographs were published today.
+
+## Results
+
+- **Uniloft:** [Mahidol College of Music's 2021 housing guide](https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf) identifies the Salaya property, rent range and official office contacts. The guide was downloaded and its table visually checked. Facebook blocks direct access. All historical information remains Needs verification; no latest photo was established.
+- **Bundit Home:** [Official website](http://www.bundithome.com/) and [contact page](http://www.bundithome.com/ติดต่อเรา/) are accessible over HTTP. The HTTPS hostname certificate does not match; TLS verification was not disabled. Official room prices conflict with [MUIC's housing list](https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list/). Preserve both and verify directly. The official Facebook link and public office numbers were checked. The map embed uses a place ID also used by Bundit House, so its map remains Needs verification.
+- **I Condo Salaya:** [Project record](https://propertyhub.in.th/projects/icondo-salaya) confirms a Salaya condominium, but the survey does not identify its phase. The rental index also contains Bangkok listings incorrectly grouped under Salaya. No guessed phase, generic rental range, agent phone or unmatched image was added.
+- **Sukontha Mansion:** [Hongpak listing](https://www.hongpak.in.th/rooms/3962-sukonthamansion), updated 2024-06-10, states rent, deposit and public office contacts; [RentHub](https://www.renthub.in.th/สุคนธา-แมนชั่น) agrees on the rent range. Direct latest confirmation from the operator was unavailable. Listing evidence remains Needs verification.
+- **Bundit Place:** [Archived Mahidol Engineering handout](https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf) gives historical rent and office numbers. [RICE](https://rice.rmutr.ac.th/campus-life/accommodation) confirms the distinct partner property. No current official pricing or newer identifiable exterior was found. Do not transfer details from other Bundit branches.
+- **Crystal Place:** [Official site](http://crystalplacesalaya.com/) and [contact page](http://crystalplacesalaya.com/contact.php) verify office phones, LINE and Facebook. Historical rental evidence comes from the 2021 university guide and remains Needs verification. RentHub results named Crystal Place in Chiang Mai and Chonburi were excluded.
+- **Salaya One:** [Official serviced-apartment site](https://salayaone.com/serviced-apartment/) verifies its rental LINE account. It shows two different telephone numbers without a clear role distinction, so both remain Needs verification. [RentHub room offers](https://www.renthub.in.th/salaya-one-premium-serviced-apartments) conflict with MUIC's rental range; retain both. Private condo unit listings and hotel nightly rates were excluded.
+- **V Condo:** [Rental index](https://propertyhub.in.th/เช่าคอนโด/โครงการ-v-condo-salaya) provides dated unit offers. Listing 4049908's heading and description disagree about the same unit's rent; both amounts are preserved, along with its published deposit/advance terms. Agent phone/LINE are not dormitory contacts and were excluded.
+- **Bundit Parlor:** [RentHub](https://www.renthub.in.th/บัณฑิตพาร์เลอร์-ศาลายา-มหิดล) and [2014 Hongpak listing](https://www.hongpak.in.th/en/rooms/6946-bundit-parlor-salaya) show different rental descriptions. Both remain Needs verification. The historical public business contacts and map remain marked for verification. The source lists no deposit amount.
+- **Bundit House:** [Official website](https://www.bundithouse.com/) verifies its office, room types and embedded map. Its rates agree with MUIC's range, but the official page provides no rate update date, so latest prices remain Needs verification.
+- **Elite:** [Home.co.th project page](https://www.home.co.th/condo/elite-salaya-6623), updated 2026-09-01, identifies developer contact channels, and the official HTTP project site is accessible. The contacts are not yet verified as the current rental/juristic office. [PropertyHub offers](https://propertyhub.in.th/เช่าคอนโด/โครงการ-elite-salaya) are specific units through agents, not a project-wide rent. No agent contacts were added.
+
+## Photographs visually checked
+
+| Dormitory | Local review file | Official image | Finding |
+| --- | --- | --- | --- |
+| Bundit Home | `tmp/pdfs/home-gal4.jpg` | [Front exterior candidate](http://www.bundithome.com/wp-content/uploads/2014/05/4.-536x269.jpg) | Excluded after review: rendering/composite appearance; not verified as a real photograph. |
+| Crystal Place | `tmp/pdfs/crystal3.jpg` | [Night exterior candidate](http://crystalplacesalaya.com/photo/3.jpg) | Excluded after review: architectural-rendering appearance; not verified as a real photograph. |
+| Crystal Place | `tmp/pdfs/crystal1.jpg` | [Entrance sign candidate](http://crystalplacesalaya.com/photo/1.jpg) | Appears to be a photograph of the entrance sign, trees and partial building; needs full-image review and has no known date. |
+| Salaya One | `tmp/pdfs/salaya-banner.jpg` | [Wide front exterior](https://salayaone.com/serviced-apartment/img/banner.jpg) | Actual exterior currently used on official apartment site; date unknown. |
+| Bundit House | `tmp/pdfs/bundit-house-front.jpg` | [Street front exterior](https://www.bundithouse.com/uploads/gallery/exterior-1_resize.jpg) | Actual exterior in official gallery; date unknown. |
+
+The other candidates are retained for review only. None should be presented as newly photographed in 2026. Missing evidence is represented by empty arrays for the UI to display **Not available**.

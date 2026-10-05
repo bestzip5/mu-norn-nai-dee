@@ -1,0 +1,360 @@
+{
+  "v-a-apartment": {
+    "identityNote": "V.A. Apartment ศาลายา พุทธมณฑล นครปฐม ตรงกับชื่อและพื้นที่ในรายงาน ช่องทางติดต่อเผยแพร่ในประกาศของหอพัก ยังไม่ได้ยืนยันผ่านแหล่งทางการอื่น",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/en/v-a-apartment",
+        "title": "V.A. Apartment · RentHub (วันที่อัปเดตประกาศ ไม่ใช่วันมีผลราคา)",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2026-05-15"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "Studio 24 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "3,600–4,600 บาท / เดือน · สัญญา 1 ปี",
+            "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดตปี 2026 แต่ไม่ระบุวันมีผลราคา ต้องสอบถามหอพักก่อนจอง"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "6,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0853260210",
+          "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ติดต่อหอพักที่ประกาศเผยแพร่สาธารณะ; ต้องยืนยันการใช้งานปัจจุบัน",
+          "href": "tel:0853260210"
+        },
+        {
+          "value": "0817517173",
+          "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ติดต่อหอพักที่ประกาศเผยแพร่สาธารณะ; ต้องยืนยันการใช้งานปัจจุบัน",
+          "href": "tel:0817517173"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "0853260210",
+          "sourceUrl": "https://www.renthub.in.th/en/v-a-apartment",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "LINE ID ที่ประกาศเผยแพร่"
+        }
+      ],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "4-sundorm": {
+    "identityNote": "4SunDorm ศาลายา พุทธมณฑล นครปฐม ตรงกับชื่อและพื้นที่ในรายงาน ช่องทางติดต่อเผยแพร่ในประกาศของหอพัก ยังไม่ได้ยืนยันผ่านแหล่งทางการอื่น",
+    "sources": [
+      {
+        "url": "https://www.renthub.in.th/en/4sundorm",
+        "title": "4SunDorm · RentHub (วันที่อัปเดตประกาศ ไม่ใช่วันมีผลราคา)",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2026-07-30"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "Studio 28 ตร.ม.",
+            "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "4,200–4,500 บาท / เดือน · สัญญา 1 ปี",
+            "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศอัปเดตปี 2026 แต่ไม่ระบุวันมีผลราคา ต้องสอบถามหอพักก่อนจอง"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "5,000 บาท",
+            "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน; ยอดชำระแรกเข้าทั้งหมด Not available",
+            "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ]
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "0818229155",
+          "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
+          "checkedOn": "2026-10-05",
+          "status": "Needs verification",
+          "note": "เบอร์ติดต่อหอพักที่ประกาศเผยแพร่สาธารณะ; ต้องยืนยันการใช้งานปัจจุบัน",
+          "href": "tel:0818229155"
+        }
+      ],
+      "facebook": [],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "kave-mutant-salaya": {
+    "identityNote": "Kave Mutant Salaya / KAVE Salaya บนถนนศาลายา–นครชัยศรี ข้อมูลเช่าเป็นรายห้อง ส่วนช่องทางทางการด้านล่างเป็นของผู้พัฒนา/ฝ่ายขาย ไม่ยืนยันว่าเป็นนิติบุคคลหรือฝ่ายเช่า",
+    "sources": [
+      {
+        "url": "https://assetwise.co.th/condominium/kave-salaya/",
+        "title": "Kave Mutant Salaya · AssetWise",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://assets3.propertyhub.in.th/en/condo-for-rent/mahidol-university-salaya",
+        "title": "Kave Mutant Salaya · รายการเช่า PropertyHub",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2026-09-15"
+      },
+      {
+        "url": "https://connex.in.th/en/detail/forrentcondo-kavemutantsalaya-salaya-phutthamonthon-nakhonpathom-cx-113793",
+        "title": "Kave Mutant Salaya · CX-113793",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05",
+        "publishedOn": "2025-01-04"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน 25 ตร.ม. ชั้น 6",
+            "sourceUrl": "https://assets3.propertyhub.in.th/en/condo-for-rent/mahidol-university-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "10,000 บาท / เดือน",
+            "sourceUrl": "https://assets3.propertyhub.in.th/en/condo-for-rent/mahidol-university-salaya",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ราคาห้องเฉพาะประกาศ ไม่ใช่ราคาทั้งโครงการ; ประกาศต่างห้องราคาไม่เท่ากัน ต้องยืนยันความพร้อมและเงื่อนไข"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน 24 ตร.ม. ชั้น 2 · CX-113793",
+            "sourceUrl": "https://connex.in.th/en/detail/forrentcondo-kavemutantsalaya-salaya-phutthamonthon-nakhonpathom-cx-113793",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "10,500 บาท / เดือน",
+            "sourceUrl": "https://connex.in.th/en/detail/forrentcondo-kavemutantsalaya-salaya-phutthamonthon-nakhonpathom-cx-113793",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ราคาห้องเฉพาะประกาศ ไม่ใช่ราคาทั้งโครงการ; ประกาศต่างห้องราคาไม่เท่ากัน ต้องยืนยันความพร้อมและเงื่อนไข"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "02-168-0000",
+          "sourceUrl": "https://assetwise.co.th/condominium/kave-salaya/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เว็บไซต์โครงการเผยแพร่ ไม่ใช่เบอร์ฝ่ายเช่าที่ได้รับการยืนยัน",
+          "href": "tel:021680000"
+        }
+      ],
+      "facebook": [
+        {
+          "value": "KAVE Salaya",
+          "sourceUrl": "https://assetwise.co.th/condominium/kave-salaya/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เว็บไซต์โครงการเผยแพร่ ไม่ใช่เบอร์ฝ่ายเช่าที่ได้รับการยืนยัน",
+          "href": "https://www.facebook.com/kavesalaya"
+        }
+      ],
+      "line": [
+        {
+          "value": "LINE โครงการ",
+          "sourceUrl": "https://assetwise.co.th/condominium/kave-salaya/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เว็บไซต์โครงการเผยแพร่ ไม่ใช่เบอร์ฝ่ายเช่าที่ได้รับการยืนยัน",
+          "href": "https://lin.ee/PM8OPBs"
+        }
+      ],
+      "website": [
+        {
+          "value": "AssetWise · Kave Mutant Salaya",
+          "sourceUrl": "https://assetwise.co.th/condominium/kave-salaya/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เว็บไซต์โครงการเผยแพร่ ไม่ใช่เบอร์ฝ่ายเช่าที่ได้รับการยืนยัน",
+          "href": "https://assetwise.co.th/condominium/kave-salaya/"
+        }
+      ],
+      "googleMaps": [
+        {
+          "value": "แผนที่ Sales Gallery ที่เว็บไซต์โครงการเผยแพร่",
+          "sourceUrl": "https://assetwise.co.th/condominium/kave-salaya/",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เว็บไซต์โครงการเผยแพร่ ไม่ใช่เบอร์ฝ่ายเช่าที่ได้รับการยืนยัน",
+          "href": "https://goo.gl/maps/GVX89iZhaEvqGa5v7"
+        }
+      ]
+    },
+    "photoCandidates": []
+  },
+  "zelle-salaya": {
+    "identityNote": "Zelle Salaya มีหลายอาคาร รายงานไม่ได้ระบุเฟส หน้าเว็บไซต์ปัจจุบันระบุโครงการ Zelle Salaya 10 จึงไม่ใช้รูปเฟสใหม่แทนหอในรายงานโดยไม่มีการยืนยัน เบอร์และ LINE เป็นของบริษัทผู้พัฒนา ไม่ใช่ผู้ให้เช่ารายห้อง",
+    "sources": [
+      {
+        "url": "https://www.prinsiri.com/project/zelle-salaya",
+        "title": "Zelle Salaya · Prinsiri",
+        "kind": "Official website",
+        "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "https://propertyhub.in.th/en/listings/2-bedroom-at-the-zelle-salaya-with-great-views-direct-post-from-owner---5196734",
+        "title": "Zelle Salaya · ประกาศเช่า 2 ห้องนอน",
+        "kind": "Property listing",
+        "checkedOn": "2026-10-05"
+      }
+    ],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "2 ห้องนอน 44 ตร.ม. อาคาร 6 ชั้น 6 · สัญญาขั้นต่ำ 1 ปี",
+            "sourceUrl": "https://propertyhub.in.th/en/listings/2-bedroom-at-the-zelle-salaya-with-great-views-direct-post-from-owner---5196734",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "15,000 บาท / เดือน",
+            "sourceUrl": "https://propertyhub.in.th/en/listings/2-bedroom-at-the-zelle-salaya-with-great-views-direct-post-from-owner---5196734",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification",
+            "note": "ประกาศระบุพร้อมเช่า 30 มิถุนายน 2025 แต่ไม่ระบุวันอัปเดต; ต้องยืนยันราคา/ห้องว่างปัจจุบัน ราคานี้เป็นรายห้องไม่ใช่ทั้งโครงการ"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "2 เดือน",
+            "sourceUrl": "https://propertyhub.in.th/en/listings/2-bedroom-at-the-zelle-salaya-with-great-views-direct-post-from-owner---5196734",
+            "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          }
+        ],
+        "moveInCost": []
+      }
+    ],
+    "contacts": {
+      "phone": [
+        {
+          "value": "1753 · Prinsiri Call Center",
+          "sourceUrl": "https://www.prinsiri.com/project/zelle-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available",
+          "href": "tel:1753"
+        }
+      ],
+      "facebook": [],
+      "line": [
+        {
+          "value": "@prinsiripcl",
+          "sourceUrl": "https://www.prinsiri.com/project/zelle-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available",
+          "href": "https://line.me/R/oaMessage/@prinsiripcl/"
+        }
+      ],
+      "website": [
+        {
+          "value": "Prinsiri · Zelle Salaya",
+          "sourceUrl": "https://www.prinsiri.com/project/zelle-salaya",
+          "checkedOn": "2026-10-05",
+          "status": "Verified",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available",
+          "href": "https://www.prinsiri.com/project/zelle-salaya"
+        }
+      ],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  },
+  "sala-residence": {
+    "identityNote": "ยังไม่พบแหล่งทางการที่ยืนยันตัวตนและที่ตั้งของศาลาเรสซิเดนซ์ ศาลายาได้ชัดเจน ไม่ใช้ข้อมูลของที่พักชื่อคล้ายกันในกรุงเทพฯ หรือนครศรีธรรมราช",
+    "sources": [],
+    "roomOffers": [],
+    "contacts": {
+      "phone": [],
+      "facebook": [],
+      "line": [],
+      "website": [],
+      "googleMaps": []
+    },
+    "photoCandidates": []
+  }
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import SiteHeader from "@/components/SiteHeader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,16 +16,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "MU Norn Nai Dee | Dormitories around Salaya",
   description:
-    "Explore sample dormitory listings around Mahidol University, Salaya, with ratings, electricity costs, and transportation options.",
+    "ค้นหาหอพักมหาวิทยาลัยมหิดล ศาลายา พร้อมคะแนน ค่าไฟ และการเดินทางจากรายงานโครงงาน MU นอนไหนดี ปีการศึกษา 2568",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="th"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:bg-white focus:p-4 focus:text-brand">ข้ามไปเนื้อหาหลัก</a>
+        <SiteHeader />
+        {children}
+        <footer className="border-t border-line bg-white">
+          <div className="page-container flex flex-wrap justify-between gap-2 py-5 text-xs leading-6 text-muted">
+            <span>MU นอนไหนดี · โครงงานนักศึกษา</span>
+            <span>คะแนนและค่าสาธารณูปโภค: รายงาน 68-330 · ราคาเช่าและติดต่อ: แหล่งข้อมูลในหน้ารายละเอียด</span>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }

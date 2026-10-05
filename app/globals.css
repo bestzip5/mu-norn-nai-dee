@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #28354b;
 }
 
 @theme inline {
@@ -10,10 +10,40 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-brand: #1c59ba;
+  --color-brand-dark: #193f7d;
+  --color-brand-soft: #eaf3ff;
+  --color-surface: #f6f9fd;
+  --color-line: #e1e9f3;
+  --color-muted: #64748b;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .page-container {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+  .primary-button {
+    @apply inline-flex min-h-11 items-center justify-center rounded-lg bg-brand px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-dark;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid #1c59ba;
+  outline-offset: 3px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

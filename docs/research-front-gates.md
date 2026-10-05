@@ -1,0 +1,31 @@
+# Front university and Gate 5/6 research
+
+Checked: **2026-10-05**. Machine readable findings: `data/research/front-gates.json`.
+
+## Verification approach
+
+All 13 records were researched. Existing survey electricity and water fields were not changed. Rental prices found in old, undated, third party or conflicting sources remain **Needs verification**. The checked date records our visit, not a promise the price is current. Advance rent is labelled as an advance payment and is never presented as a complete move-in total.
+
+## Findings and limitations
+
+- [Ribbin RentHub](https://www.renthub.in.th/en/ribbin-apartment), refreshed September 25, 2026, publishes studio 16 sq.m., 5,500–5,800 baht/month, two months deposit and one month advance. [MUIC housing list](https://muic.mahidol.ac.th/en/study-abroad/inbound-exchange/housing-list) lists 6,900–8,000 without a price date. Both are retained and marked for confirmation.
+- [Chatthanan Apartment](https://www.renthub.in.th/chatthanan-apartment) listing was refreshed in 2013. Description says one bedroom 20 sq.m. / 6,000 and two bedrooms 30 sq.m. / 8,000; summary calls them studio. Location coordinates differ from the front-university description. Do not substitute Chatthanan Luxury Apartment on Soi15 for Apartment/Place on Soi13. Contact and room information needs verification.
+- [Latitude / Longitude university guide](https://www.music.mahidol.ac.th/wp-content/uploads/2022/04/04-Housing-Guidebook-2021.pdf) distinguishes two buildings, whereas the survey combines their names. Published website links failed with HTTP429. Retain building-specific historical offers as unverified and confirm the intended building.
+- [The Room Mahidol Engineering handout](https://www.eg.mahidol.ac.th/dept/egie/phd/content/attach/44/1_Student-Handout01-Th.pdf) identifies a dorm opposite Gate3 and public dorm contact 02-889-3112, historic starting rent4,500. No latest source found. TAP The Room Project (SoiTangsin) and The Room ThawiWatthana are different properties and were excluded.
+- [Triple A Residence](https://zmyhome.com/apartment/5774) is at187–189 Salaya/PhutthamonthonSai4; undated studio28sq.m.4,500–5,000 and public business contacts are retained as Needsverification. The ChiangMai TripleA is excluded.
+- [Dearly official rates](https://www.thedearlyresidence.com/available-rates) publish both Dearly1/2: 1–6month contracts7,000/month, ten months6,500/month, year72,000 (6,000/month). Undated and conflicts with [RentHub](https://www.renthub.in.th/the-dearly-residence-salaya)5,000 and MUIC7,000–9,000. All retained. [Official contact website](https://www.thedearlyresidence.com/) directly publishes0946654645,0819159561, LINE@thedearlyresidence,Facebook and address135/369Moo6Salaya; these channels are Verified as published official contacts, without calling them.
+- [Triple Five Salaya](https://www.renthub.in.th/en/triple-five-salaya) refreshed2020, one bedroom3,990–4,500 and one month advance. Public dormphone0864105555 and head-office0891259388,LINE@jrbkk and a published Mapslink. Old values all require confirmation.
+- The Best Apartment source (fullURL in JSON) refreshed2025 publishes4,000–5,000 for Standardstudio28sq.m. The report's “The Best resident” alias still needs confirmation. The gallery repeats a photograph used by The Best Plus, so the photo is deliberately excluded for this record.
+- [The Enter](https://www.renthub.in.th/en/the-enter-salaya) refreshed2025, studio30sq.m.6,200–8,900;40sq.m.9,500;50sq.m.12,500. MUIC summary6,900–11,500 differs; both retained. Deposit unavailable. Public adminphone/LINE/FB are sourced from the listing.
+- KPN Place listing (fullURL in JSON), refreshed2026-08-28, publishes DuluxeKing/Twin35sq.m.5,700–7,500 and Corner35sq.m.6,200–7,500;10,000deposit,5,000advance. No complete first payment inferred. MatchesSahapornSoi8nearGate6; listing contacts are not promoted to official verification.
+- [Best Plus Hongpak](https://www.hongpak.in.th/rooms/39409-the-best-plus-residence)2020 says6,500–12,000 and phone0971616446/LINE@thebestplus. RentHub2025 says6,800–12,000 and differentphones. Both preserved. RentHub repeats the same fullrange for allTypesA–D; do not pretend this establishes the precise type-specific rent. Its deposit field says call despite containing a residual month number, so deposit stays unavailable. Linked historicalofficialwebsite could not be opened.
+- [Dormy](https://www.renthub.in.th/dormy-inc), refreshed2025-09-09:single25sq.m.4,000–5,000;twin45sq.m.5,000–6,000;6,000deposit;4,000advance. Listing publiccontact0881116125/LINEig128 requires confirmation from an official channel.
+- [PJ Bed Station](https://www.renthub.in.th/en/pj-bed-station), refreshed2025-05-01:onebedroom25sq.m.5,500;one month advance. Deposit says call, so residual numeric fields are ignored. Business phone0646825554 and LINEpjbedstation are public listing contacts. Report uses the shorter Bedstation name; identity remains flagged for confirmation.
+
+## Photos
+
+Live galleries were refreshed and a contact sheet inspected at `tmp/pdfs/front-photo/sheet.jpg`. Exterior candidates for Dormy,KPN,Dearly andBestPlus are inJSON. Candidates are actual exterior photographs, not renders or posters. Upload path dates are not treated as capture dates. With no authoritative dated image publication history, none is claimed to be the latest photograph. Existing verified architecture/company photo may be retained until a demonstrably newer matched exterior becomes available.
+
+Additional image search found a matched Ribbin front exterior on [ZmyHome](https://zmyhome.com/apartment/5758); downloaded and visually checked building/signage in `tmp/pdfs/front-photo/ribbin-apartment-extra.jpg`. This can replace the current room interior. The filename suggests a2025upload but does not establish publication/capture dates. Bed Station result was an advertising poster with text and was excluded. ThinkOfLiving Enter image returnedHTTP400 and could not be visually verified from downloaded bytes.
+
+Facebook pages commonly returned login-only content. A linkedFacebook page is not considered proof of its current telephone, prices, room availability or administration. No private student/agent phone is collected.
