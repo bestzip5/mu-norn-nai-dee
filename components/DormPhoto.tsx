@@ -29,7 +29,7 @@ export default function DormPhoto({ dormitoryId, large = false }: { dormitoryId:
           fill
           sizes={large ? "(max-width: 1200px) 100vw, 1200px" : "(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"}
           quality={85}
-          className={large || photo.fit === "contain" ? "object-contain" : "object-cover"}
+          className="object-contain object-center"
           onError={() => setFailedSrc(photo.src)}
         />
       </a>

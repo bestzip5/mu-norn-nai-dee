@@ -1,5 +1,6 @@
 import { dormitoryAreas, type Dormitory } from "@/data/dormitories";
 import DormPhoto from "@/components/DormPhoto";
+import StartingRent from "@/components/StartingRent";
 import Link from "next/link";
 
 type DormCardProps = {
@@ -11,7 +12,10 @@ export default function DormCard({ dormitory }: DormCardProps) {
     <article className="h-full overflow-hidden rounded-xl border border-line bg-white">
       <DormPhoto dormitoryId={dormitory.id} />
       <div className="p-4 sm:p-5">
-        <h3 className="text-base font-bold leading-7">{dormitory.name}</h3>
+        <div className="space-y-1">
+          <h3 className="break-words text-base font-bold leading-7">{dormitory.name}</h3>
+          <StartingRent dormitoryId={dormitory.id} compact />
+        </div>
         <p className="mt-1 text-sm font-medium text-brand-dark">ค่าไฟ {dormitory.electricityPrice} บาท / หน่วย</p>
         <p className="mt-2 text-sm text-muted">{dormitoryAreas.find((area) => area.value === dormitory.area)?.label}</p>
         <p className="mt-2 text-sm text-muted">ค่าน้ำตามตาราง: {dormitory.waterPrice ?? "ไม่มีข้อมูลในรายงาน"}</p>

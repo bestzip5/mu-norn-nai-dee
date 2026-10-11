@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DormPhoto from "@/components/DormPhoto";
+import StartingRent from "@/components/StartingRent";
 import ResearchValues from "@/components/ResearchValues";
 import { dormitories, dormitoryAreas } from "@/data/dormitories";
 import { dormitoryResearch } from "@/data/dormitory-research";
@@ -10,6 +11,7 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
   const dorm = dormitories.find((item) => item.id === id);
   if (!dorm) notFound();
   const research = dormitoryResearch[id];
+  const lastChecked = research.sources.map((source) => source.checkedOn).sort().at(-1);
   const offers = research.roomOffers.length ? research.roomOffers : [{ roomType: [], rent: [], deposit: [], moveInCost: [] }];
   return (
     <main id="main-content" className="bg-surface pb-12">
@@ -23,6 +25,7 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
         <div className="mt-8 grid items-start gap-6 lg:grid-cols-[1.5fr_1fr]">
           <section className="rounded-xl border border-line bg-white p-5 sm:p-6" aria-labelledby="rental-heading">
             <h2 id="rental-heading" className="text-xl font-bold">ข้อมูลค่าเช่า · Rental Information</h2>
+            <StartingRent dormitoryId={id} />
             <p className="mt-2 text-sm leading-6 text-muted">ราคาแยกตามประเภทห้องและเงื่อนไขของแต่ละแหล่ง ค่ารายเทอมคงรอบชำระตามประกาศ ไม่มีการแปลงเป็นรายเดือน</p>
             {offers.map((offer, index) => <dl key={index} className="mt-5 space-y-4 rounded-lg border border-line p-4">
               {[
@@ -49,7 +52,7 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
         </div>
         <section className="mt-6 rounded-xl border border-line bg-white p-5 sm:p-6" aria-labelledby="source-heading">
           <h2 id="source-heading" className="text-xl font-bold">แหล่งข้อมูล · Source Information</h2>
-          <p className="mt-2 text-sm text-muted">ตรวจข้อมูลล่าสุด · Last checked: 2026-10-05</p>
+          <p className="mt-2 text-sm text-muted">วันที่ตรวจหรือรับข้อมูลล่าสุด · Last checked: {lastChecked ?? "Not available"}</p>
           <p className="mt-2 text-sm leading-6 text-muted">สถานะการยืนยันแสดงกำกับแต่ละค่าไว้ด้านบน ข้อมูลที่หาไม่พบแสดง Not available</p>
           {research.sources.length ? <ul className="mt-4 space-y-4 text-sm">{research.sources.map((source) => <li key={source.url} className="break-words">
             <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-brand underline underline-offset-2">{source.title}</a>

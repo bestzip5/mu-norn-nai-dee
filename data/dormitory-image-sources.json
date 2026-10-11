@@ -392,5 +392,33 @@
     "width": 480,
     "height": 360,
     "note": "ภาพปกวิดีโอรีวิววันที่ 19 ธันวาคม 2020 มีผู้รีวิวและอาคารอยู่ด้านหลัง ไม่ใช่ภาพหน้าอาคารเดี่ยว; รอผู้ใช้ตรวจสอบ"
+  },
+  {
+    "dormitoryId": "namthong-sikkhalai",
+    "file": "/images/dormitories/namthong-sikkhalai-user.jpg",
+    "sourcePage": "/images/dormitories/namthong-sikkhalai-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "476353905_1010499021098951_2038494757186554228_n.jpg",
+    "retrievedOn": "2026-10-11",
+    "checkedOn": "2026-10-11",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 3358,
+    "height": 1248,
+    "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักน้ำทองสิกขาลัยเมื่อ 2026-10-11; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
+  },
+  {
+    "dormitoryId": "ramathibodi-nursing-dormitory",
+    "file": "/images/dormitories/ramathibodi-nursing-dormitory-user.jpg",
+    "sourcePage": "/images/dormitories/ramathibodi-nursing-dormitory-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "Gemini_Generated_Image_gmv0cvgmv0cvgmv0.jpg",
+    "retrievedOn": "2026-10-11",
+    "checkedOn": "2026-10-11",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 2048,
+    "height": 2048,
+    "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักพยาบาลรามาเมื่อ 2026-10-11; ชื่อไฟล์ต้นฉบับระบุ Gemini_Generated_Image จึงยังไม่ยืนยันว่าเป็นภาพถ่ายที่ไม่มีการปรับแต่งหรือเป็นสภาพปัจจุบัน ไม่มี URL ต้นฉบับที่ยืนยันได้"
   }
 ]

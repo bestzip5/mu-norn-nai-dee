@@ -185,13 +185,14 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "note": "ตรวจภาพภายนอกจากแกลเลอรีประกาศที่ตรงชื่อและพื้นที่ ไม่ระบุวันถ่าย/เผยแพร่ จึงยืนยันไม่ได้ว่าใหม่ที่สุด"
   },
   "ramathibodi-nursing-dormitory": {
-    "src": "/images/dormitories/ramathibodi-nursing-dormitory.jpg",
-    "alt": "ภาพหน้าอาคารและภายในหอพักนักศึกษาพยาบาลรามาธิบดี ศาลายา",
-    "sourceName": "www.rama.mahidol.ac.th",
-    "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
-    "checkedOn": "2026-10-05",
-    "status": "Verified",
-    "note": "ดาวน์โหลดและตรวจภาพแล้ว ป้ายอาคารตรง; ภาพหน้าอาคารอยู่ซ้ายของภาพชุด ไม่มีวันที่เผยแพร่/ถ่าย จึงไม่รับรองว่าใหม่ที่สุด"
+    "src": "/images/dormitories/ramathibodi-nursing-dormitory-user.jpg",
+    "alt": "ภาพด้านหน้าอาคารหอพักพยาบาลรามาที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/ramathibodi-nursing-dormitory-user.jpg",
+    "checkedOn": "2026-10-11",
+    "status": "Needs verification",
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักพยาบาลรามาเมื่อ 2026-10-11; ชื่อไฟล์ต้นฉบับระบุ Gemini_Generated_Image จึงยังไม่ยืนยันว่าเป็นภาพถ่ายที่ไม่มีการปรับแต่งหรือเป็นสภาพปัจจุบัน ไม่มี URL ต้นฉบับที่ยืนยันได้"
   },
   "crystal-place": {
     "src": "/images/dormitories/crystal-place.jpg",
@@ -303,14 +304,13 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "note": "ภาพพื้นที่ส่วนกลางจากเว็บไซต์ Bundit Home ไม่ใช่ภาพหน้าอาคาร; อาจเป็นพื้นที่ใช้ร่วมกับหออื่นในกลุ่ม รอตรวจสอบ"
   },
   "namthong-sikkhalai": {
-    "src": "/images/dormitories/namthong-sikkhalai-pending.jpg",
-    "alt": "ภาพปกวิดีโอรีวิวหอพักน้ำทองสิกขาลัยพร้อมอาคารด้านหลัง",
-    "sourceName": "www.youtube.com",
-    "sourceUrl": "https://www.youtube.com/watch?v=x6cL-DHCHTs",
-    "checkedOn": "2026-10-06",
+    "src": "/images/dormitories/namthong-sikkhalai-user.jpg",
+    "alt": "ภาพด้านหน้าอาคารหอพักน้ำทองสิกขาลัยที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/namthong-sikkhalai-user.jpg",
+    "checkedOn": "2026-10-11",
     "status": "Needs verification",
-    "pendingReview": true,
-    "note": "ภาพปกวิดีโอรีวิววันที่ 19 ธันวาคม 2020 มีผู้รีวิวและอาคารอยู่ด้านหลัง ไม่ใช่ภาพหน้าอาคารเดี่ยว; รอผู้ใช้ตรวจสอบ",
-    "fit": "contain"
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักน้ำทองสิกขาลัยเมื่อ 2026-10-11; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   }
 };

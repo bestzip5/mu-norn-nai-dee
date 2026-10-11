@@ -20,16 +20,21 @@ test("all 34 dormitories have separate research records with field-level provena
   for (const record of Object.values(research)) {
     assert.ok(record.identityNote);
     for (const source of record.sources) {
-      assert.match(source.url, /^https?:\/\//);
-      assert.equal(source.checkedOn, "2026-10-05");
+      if (source.kind === "User-provided information") {
+        assert.match(source.url, /^\/data-notes\/[\w-]+\.txt$/);
+        assert.ok(existsSync(new URL(`../public${source.url}`, import.meta.url)));
+      } else {
+        assert.match(source.url, /^https?:\/\//);
+      }
+      assert.match(source.checkedOn, /^\d{4}-\d{2}-\d{2}$/);
     }
     for (const values of evidenceGroups(record)) {
       assert.ok(Array.isArray(values));
       for (const value of values) {
         assert.ok(value.value);
         assert.ok(["Verified", "Needs verification"].includes(value.status));
-        assert.equal(value.checkedOn, "2026-10-05");
-        assert.ok(record.sources.some((source) => source.url === value.sourceUrl), value.sourceUrl);
+        assert.match(value.checkedOn, /^\d{4}-\d{2}-\d{2}$/);
+        assert.ok(record.sources.some((source) => source.url === value.sourceUrl && source.checkedOn === value.checkedOn), value.sourceUrl);
         if (value.href) assert.match(value.href, /^(https?:\/\/|tel:)/);
       }
     }

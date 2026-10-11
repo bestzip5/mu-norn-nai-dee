@@ -20,17 +20,18 @@
     "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
   },
   "ramathibodi-nursing-dormitory": {
-    "checkedOn": "2026-10-05",
-    "status": "Verified",
-    "sourceUrl": "https://www.rama.mahidol.ac.th/nursing/rans/th/student/dormitory",
-    "note": "ดาวน์โหลดและตรวจภาพแล้ว ป้ายอาคารตรง; ภาพหน้าอาคารอยู่ซ้ายของภาพชุด ไม่มีวันที่เผยแพร่/ถ่าย จึงไม่รับรองว่าใหม่ที่สุด"
+    "checkedOn": "2026-10-11",
+    "status": "Needs verification",
+    "pendingReview": false,
+    "sourceUrl": "/images/dormitories/ramathibodi-nursing-dormitory-user.jpg",
+    "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักพยาบาลรามาเมื่อ 2026-10-11; ชื่อไฟล์ต้นฉบับระบุ Gemini_Generated_Image จึงยังไม่ยืนยันว่าเป็นภาพถ่ายที่ไม่มีการปรับแต่งหรือเป็นสภาพปัจจุบัน ไม่มี URL ต้นฉบับที่ยืนยันได้"
   },
   "namthong-sikkhalai": {
-    "checkedOn": "2026-10-06",
+    "checkedOn": "2026-10-11",
     "status": "Needs verification",
-    "pendingReview": true,
-    "sourceUrl": "https://www.youtube.com/watch?v=x6cL-DHCHTs",
-    "note": "ภาพปกวิดีโอรีวิววันที่ 19 ธันวาคม 2020 มีผู้รีวิวและอาคารอยู่ด้านหลัง ไม่ใช่ภาพหน้าอาคารเดี่ยว; รอผู้ใช้ตรวจสอบ"
+    "pendingReview": false,
+    "sourceUrl": "/images/dormitories/namthong-sikkhalai-user.jpg",
+    "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักน้ำทองสิกขาลัยเมื่อ 2026-10-11; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   },
   "ribbin-apartment": {
     "checkedOn": "2026-10-05",

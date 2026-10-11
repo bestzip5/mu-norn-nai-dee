@@ -557,6 +557,12 @@
         "title": "กฎระเบียบและช่องทางติดต่อหอพักพยาบาลรามาธิบดี ศาลายา",
         "kind": "Official website",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-10-12.txt",
+        "title": "ข้อมูลราคาเช่าที่ผู้ดูแลแจ้งเมื่อ 12 ตุลาคม 2569",
+        "kind": "User-provided information",
+        "checkedOn": "2026-10-12"
       }
     ],
     "roomOffers": [
@@ -569,7 +575,15 @@
             "status": "Verified"
           }
         ],
-        "rent": [],
+        "rent": [
+          {
+            "value": "1,500 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-10-12.txt",
+            "checkedOn": "2026-10-12",
+            "status": "Needs verification",
+            "note": "ข้อมูลจากผู้ดูแลเว็บไซต์ ยังไม่ได้ตรวจสอบกับหอพัก ไม่ระบุวันที่มีผลหรือเงื่อนไขสัญญา"
+          }
+        ],
         "deposit": [],
         "moveInCost": []
       }
@@ -628,6 +642,12 @@
         "title": "CRS นักศึกษาปัจจุบัน",
         "kind": "University website",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-10-12.txt",
+        "title": "ข้อมูลราคาเช่าที่ผู้ดูแลแจ้งเมื่อ 12 ตุลาคม 2569",
+        "kind": "User-provided information",
+        "checkedOn": "2026-10-12"
       }
     ],
     "roomOffers": [
@@ -639,9 +659,24 @@
             "checkedOn": "2026-10-05",
             "status": "Needs verification",
             "note": "คู่มือไม่ระบุวันที่ และขัดกันเรื่องจำนวนผู้พัก: หน้า4ระบุ2คน หน้า6และ8ระบุ1คน ต้องยืนยันปัจจุบัน"
+          },
+          {
+            "value": "พักเป็นคู่",
+            "sourceUrl": "/data-notes/rental-update-2026-10-12.txt",
+            "checkedOn": "2026-10-12",
+            "status": "Needs verification",
+            "note": "ข้อมูลจากผู้ดูแลเว็บไซต์ ยังไม่ได้ตรวจสอบกับหอพัก ไม่ระบุวันที่มีผลหรือเงื่อนไขสัญญา"
           }
         ],
-        "rent": [],
+        "rent": [
+          {
+            "value": "เริ่มต้น 1,250 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-10-12.txt",
+            "checkedOn": "2026-10-12",
+            "status": "Needs verification",
+            "note": "ข้อมูลจากผู้ดูแลเว็บไซต์ ยังไม่ได้ตรวจสอบกับหอพัก ไม่ระบุวันที่มีผลหรือเงื่อนไขสัญญา; พักเป็นคู่ ยังไม่ระบุว่าคิดต่อคนหรือต่อห้อง"
+          }
+        ],
         "deposit": [
           {
             "value": "1,500 บาท (เงินประกันการเข้าพักที่คืนเมื่อย้ายออกตามเงื่อนไข)",
@@ -651,6 +686,28 @@
             "note": "คู่มือหน้า9ไม่มีวันที่เผยแพร่; ค่ามัดจำกุญแจกล่าวถึงแต่ไม่ระบุจำนวน จึงไม่รวมเอง"
           }
         ],
+        "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "พักเดี่ยว",
+            "sourceUrl": "/data-notes/rental-update-2026-10-12.txt",
+            "checkedOn": "2026-10-12",
+            "status": "Needs verification",
+            "note": "ข้อมูลจากผู้ดูแลเว็บไซต์ ยังไม่ได้ตรวจสอบกับหอพัก ไม่ระบุวันที่มีผลหรือเงื่อนไขสัญญา"
+          }
+        ],
+        "rent": [
+          {
+            "value": "2,500 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-10-12.txt",
+            "checkedOn": "2026-10-12",
+            "status": "Needs verification",
+            "note": "ข้อมูลจากผู้ดูแลเว็บไซต์ ยังไม่ได้ตรวจสอบกับหอพัก ไม่ระบุวันที่มีผลหรือเงื่อนไขสัญญา; สำหรับพักเดี่ยว"
+          }
+        ],
+        "deposit": [],
         "moveInCost": []
       }
     ],
