@@ -37,8 +37,8 @@ export default function Home() {
             <p className="mt-1 text-xs leading-6 text-muted">เลือกจากคะแนนความพึงพอใจโดยรวมสูงสุดบริเวณละ 1 แห่ง หากคะแนนเท่ากันเลือกตามลำดับในรายงาน</p>
           </div>
           <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {recommendedDorms.map((dormitory) => (
-              <li key={dormitory.id}><DormCard dormitory={dormitory} /></li>
+            {recommendedDorms.map((dormitory, index) => (
+              <li key={dormitory.id}><DormCard dormitory={dormitory} eager={index < 3} /></li>
             ))}
           </ul>
           <Link href="/dorms?area=all" className="mt-6 inline-block text-sm font-medium text-brand hover:underline">ดูหอพักทั้งหมด <span aria-hidden="true">→</span></Link>

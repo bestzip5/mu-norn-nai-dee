@@ -108,8 +108,8 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
                 {" · "}{sort === "rating" ? "ความพึงพอใจสูงสุด" : "ค่าไฟต่ำสุดไปสูงสุด"}
               </p>
               <ul className="grid gap-5 sm:grid-cols-2">
-                {filteredDorms.map((dormitory) => (
-                  <li key={dormitory.id}><DormCard dormitory={dormitory} /></li>
+                {filteredDorms.map((dormitory, index) => (
+                  <li key={dormitory.id}><DormCard dormitory={dormitory} eager={index < 2} /></li>
                 ))}
               </ul>
             </div>

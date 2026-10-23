@@ -16,6 +16,10 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Supabase saved dormitories
+
+The site remains browseable without an account. Supabase is used for email magic-link sign-in and each user's saved dormitories. Follow [the Supabase setup guide](docs/supabase-setup.md) to configure a project and database.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

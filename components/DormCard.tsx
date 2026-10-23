@@ -1,16 +1,18 @@
 import { dormitoryAreas, type Dormitory } from "@/data/dormitories";
 import DormPhoto from "@/components/DormPhoto";
 import StartingRent from "@/components/StartingRent";
+import FavoriteButton from "@/components/FavoriteButton";
 import Link from "next/link";
 
 type DormCardProps = {
   dormitory: Dormitory;
+  eager?: boolean;
 };
 
-export default function DormCard({ dormitory }: DormCardProps) {
+export default function DormCard({ dormitory, eager = false }: DormCardProps) {
   return (
     <article className="h-full overflow-hidden rounded-xl border border-line bg-white">
-      <DormPhoto dormitoryId={dormitory.id} />
+      <DormPhoto dormitoryId={dormitory.id} eager={eager} />
       <div className="p-4 sm:p-5">
         <div className="space-y-1">
           <h3 className="break-words text-base font-bold leading-7">{dormitory.name}</h3>
@@ -50,6 +52,7 @@ export default function DormCard({ dormitory }: DormCardProps) {
         <div className="mt-4 flex flex-wrap gap-2">
           <Link href={`/dorms/${dormitory.id}`} className="inline-flex min-h-11 items-center rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-dark">ดูรายละเอียด</Link>
           <Link href={`/compare?first=${dormitory.id}`} className="inline-flex min-h-11 items-center rounded-lg border border-line px-4 py-2 text-sm font-medium text-brand hover:border-brand hover:bg-brand-soft">เปรียบเทียบ</Link>
+          <FavoriteButton dormitoryId={dormitory.id} />
         </div>
       </div>
     </article>

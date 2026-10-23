@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import DormPhoto from "@/components/DormPhoto";
 import StartingRent from "@/components/StartingRent";
 import ResearchValues from "@/components/ResearchValues";
+import FavoriteButton from "@/components/FavoriteButton";
 import { dormitories, dormitoryAreas } from "@/data/dormitories";
 import { dormitoryResearch } from "@/data/dormitory-research";
 
@@ -18,7 +19,10 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
       <div className="page-container py-8">
         <Link href="/dorms" className="text-sm text-brand hover:underline">← กลับไปค้นหาหอพัก</Link>
         <h1 className="mt-4 text-2xl font-bold sm:text-3xl">{dorm.name}</h1>
-        <p className="mt-2 text-sm text-muted">{dormitoryAreas.find((item) => item.value === dorm.area)?.label} · ความพึงพอใจ {dorm.overallRating.toFixed(1)} / 5</p>
+        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-sm text-muted">{dormitoryAreas.find((item) => item.value === dorm.area)?.label} · ความพึงพอใจ {dorm.overallRating.toFixed(1)} / 5</p>
+          <FavoriteButton dormitoryId={dorm.id} />
+        </div>
         <div className="mt-6 overflow-hidden rounded-xl border border-line bg-white"><DormPhoto dormitoryId={id} large /></div>
         <p className="mt-4 text-sm leading-7 text-muted">{research.identityNote}</p>
         <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">Verified หมายถึงตรวจพบจากแหล่งข้อมูลทางการของหอพักหรือมหาวิทยาลัย ส่วน Needs verification ยังต้องยืนยันกับหอพัก โดยเฉพาะราคาที่ไม่ระบุวันมีผลหรือข้อมูลที่ขัดแย้งกัน วันที่ตรวจข้อมูลไม่ใช่วันที่ประกาศราคา</p>
