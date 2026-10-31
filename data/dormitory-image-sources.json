@@ -420,5 +420,19 @@
     "width": 2048,
     "height": 2048,
     "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักพยาบาลรามาเมื่อ 2026-10-11; ชื่อไฟล์ต้นฉบับระบุ Gemini_Generated_Image จึงยังไม่ยืนยันว่าเป็นภาพถ่ายที่ไม่มีการปรับแต่งหรือเป็นสภาพปัจจุบัน ไม่มี URL ต้นฉบับที่ยืนยันได้"
+  },
+  {
+    "dormitoryId": "the-room",
+    "file": "/images/dormitories/the-room-user.jpg",
+    "sourcePage": "/images/dormitories/the-room-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "media_1793336129440_af3e2c5a.jpg",
+    "retrievedOn": "2026-10-30",
+    "checkedOn": "2026-10-30",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 387,
+    "height": 516,
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารและระบุให้ใช้กับหอพัก The Room เมื่อ 2026-10-30; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   }
 ]

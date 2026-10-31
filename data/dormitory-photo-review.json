@@ -52,10 +52,11 @@
     "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
   },
   "the-room": {
-    "checkedOn": "2026-10-05",
+    "checkedOn": "2026-10-30",
     "status": "Needs verification",
-    "sourceUrl": null,
-    "note": "Not available: ยังไม่พบภาพถ่ายที่ยืนยันว่าเป็นหอพักและอาคารที่ถูกต้องได้"
+    "pendingReview": false,
+    "sourceUrl": "/images/dormitories/the-room-user.jpg",
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารและระบุให้ใช้กับหอพัก The Room เมื่อ 2026-10-30; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   },
   "triple-a": {
     "checkedOn": "2026-10-06",

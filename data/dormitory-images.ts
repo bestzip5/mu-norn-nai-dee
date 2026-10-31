@@ -313,4 +313,15 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "pendingReview": false,
     "note": "ผู้ใช้ส่งภาพและระบุให้ใช้กับหอพักน้ำทองสิกขาลัยเมื่อ 2026-10-11; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   }
+,
+  "the-room": {
+    "src": "/images/dormitories/the-room-user.jpg",
+    "alt": "ภาพด้านหน้าอาคารหอพัก The Room ที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/the-room-user.jpg",
+    "checkedOn": "2026-10-30",
+    "status": "Needs verification",
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารและระบุให้ใช้กับหอพัก The Room เมื่อ 2026-10-30; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
+  }
 };

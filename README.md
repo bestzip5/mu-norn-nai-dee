@@ -1,40 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MU นอนไหนดี
 
-## Getting Started
+เว็บช่วยนักศึกษามหาวิทยาลัยมหิดล ศาลายา ค้นหาและเปรียบเทียบหอพักจากข้อมูลที่มีแหล่งอ้างอิง ผู้เข้าชมดูข้อมูลได้โดยไม่ต้องมีบัญชี ผู้ใช้ที่เข้าสู่ระบบสามารถบันทึกหอพักที่สนใจได้
 
-First, run the development server:
+## ปัญหาและขอบเขต
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+ข้อมูลหอพักกระจายอยู่หลายแหล่ง ราคาและเงื่อนไขบางรายการไม่ระบุวันที่มีผลหรือใช้รอบชำระต่างกัน เว็บนี้จึงแสดงคะแนน ค่าสาธารณูปโภค ค่าเช่า และข้อมูลติดต่อพร้อมแหล่งที่มา โดยแยกข้อมูลที่ตรวจสอบแล้วออกจากข้อมูลที่ยังต้องยืนยัน
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ค้นหาหอพัก 34 แห่งตามชื่อและบริเวณ กรองตามค่าไฟและคะแนนความปลอดภัย
+- เปรียบเทียบหอพักสองแห่งโดยคงหน่วยและรอบชำระเดิมของข้อมูล
+- เปิดรายละเอียดแต่ละหอพักพร้อมสถานะการตรวจสอบและลิงก์แหล่งข้อมูล
+- บันทึกหอพักที่สนใจด้วยบัญชี Supabase Auth เมื่อเข้าสู่ระบบ
 
-## Supabase saved dormitories
+ข้อมูลคะแนนและค่าสาธารณูปโภคอ้างอิงรายงานโครงงาน MU นอนไหนดี ปีการศึกษา 2568 หน้า 7–9 ผู้ตอบแบบสอบถามรวม 103 คน รายงานไม่ได้ระบุจำนวนผู้ตอบแยกแต่ละหอพัก ราคาเช่าและข้อมูลติดต่ออ้างอิงแหล่งที่ระบุในหน้ารายละเอียด วันที่ตรวจข้อมูลไม่ใช่วันที่ราคามีผล
 
-The site remains browseable without an account. Supabase is used for email magic-link sign-in and each user's saved dormitories. Follow [the Supabase setup guide](docs/supabase-setup.md) to configure a project and database.
+## เทคโนโลยีและข้อมูล
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js 16, React 19, TypeScript และ Tailwind CSS 4 ใช้ Supabase Auth สำหรับบัญชี และ Postgres พร้อม Row Level Security สำหรับรายการโปรด ข้อมูลหอพักและหลักฐานแหล่งที่มาอยู่ในโปรเจกต์ ส่วน `public.favorites` เก็บความสัมพันธ์ระหว่างผู้ใช้กับรหัสหอพัก
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## เปิดโปรเจกต์ในเครื่อง
 
-## Learn More
+1. ติดตั้งแพ็กเกจด้วย `npm install`
+2. คัดลอก `.env.example` เป็น `.env.local` แล้วใส่ Supabase Project URL และ publishable key
+3. ตั้งค่า Supabase ตาม [คู่มือระบบสมาชิก](docs/supabase-setup.md)
+4. เปิดเว็บด้วย `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` เฉพาะเมื่อกำหนดระบบส่งอีเมลยืนยันและทดสอบการสมัครแล้ว ค่าเริ่มต้น `false` ช่วยให้เว็บเปิดให้ค้นหาและเปรียบเทียบก่อนโดยไม่ชวนผู้เข้าชมสมัครบัญชีที่ยังรับอีเมลไม่ได้
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ตรวจสอบก่อนเผยแพร่
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+รัน `npm run build`, `npm run lint` และ `node --test tests/*.test.mjs` แล้วทำตาม [รายการตรวจสำหรับ Vercel](docs/deploy-vercel.md)
 
-## Deploy on Vercel
+## ข้อจำกัด
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ราคาหรือข้อมูลติดต่ออาจเปลี่ยนหลังวันที่ตรวจสอบ ควรยืนยันกับหอพักก่อนตัดสินใจ เว็บไซต์นี้แสดงหลักฐานและความไม่แน่นอนของแต่ละรายการเพื่อช่วยประเมินข้อมูล ไม่ได้ยืนยันว่าห้องยังว่างหรือรับจองผ่านเว็บ
