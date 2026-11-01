@@ -79,7 +79,7 @@ export default function FavoriteButton({ dormitoryId }: { dormitoryId: string })
         disabled={loading || isSaving}
         aria-pressed={isSaved}
         aria-label={`${isSaved ? "นำออกจากรายการที่บันทึก" : "บันทึกหอพัก"}: ${dormitoryId}`}
-        className={`inline-flex min-h-11 items-center justify-center rounded-lg border px-3 py-2 text-sm font-medium transition-colors disabled:cursor-wait disabled:opacity-60 ${isSaved ? "border-brand bg-brand-soft text-brand-dark" : "border-line bg-white text-brand hover:border-brand hover:bg-brand-soft"}`}
+        className={`inline-flex min-h-11 w-full sm:w-auto items-center justify-center rounded-lg border px-3 py-2 text-sm font-medium transition-colors disabled:cursor-wait disabled:opacity-60 ${isSaved ? "border-brand bg-brand-soft text-brand-dark" : "border-line bg-white text-brand hover:border-brand hover:bg-brand-soft"}`}
       >
         <span aria-hidden="true" className="mr-1">{isSaved ? "★" : "☆"}</span>
         {label}

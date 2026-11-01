@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { getStartingRents } from "../lib/starting-rent.ts";
+import { getMonthlyStartingRent, getStartingRents } from "../lib/starting-rent.ts";
 
 const evidence = (value, status = "Needs verification") => ({ value, status, sourceUrl: "https://example.com/rent", checkedOn: "2026-10-05" });
 const research = (...values) => ({ roomOffers: values.map((rent) => ({ rent })) });
@@ -46,4 +46,15 @@ test("an unverified alternative keeps a verified minimum marked for verification
   const [price] = getStartingRents(research([evidence("4,000 บาท/เดือน", "Verified"), evidence("5,000 บาท/เดือน")]));
   assert.equal(price.amount, 4000);
   assert.equal(price.needsVerification, true);
+});
+
+test("monthly sorting price excludes semester and per-person prices", () => {
+  assert.equal(getMonthlyStartingRent(research([
+    evidence("2,000 บาท/คน/เดือน"),
+    evidence("3,000 บาท/เทอม"),
+    evidence("6,000 บาท/ห้อง/เดือน"),
+    evidence("5,500 บาท/เดือน"),
+  ])), 5500);
+  assert.equal(getMonthlyStartingRent(research([evidence("3,000 บาท/เทอม")])), undefined);
+  assert.equal(getMonthlyStartingRent(undefined), undefined);
 });

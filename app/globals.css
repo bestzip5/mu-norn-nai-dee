@@ -26,11 +26,19 @@ body {
 
 @layer components {
   .page-container {
-    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-8;
   }
   .primary-button {
     @apply inline-flex min-h-11 items-center justify-center rounded-lg bg-brand px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-brand-dark;
   }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 :focus-visible {

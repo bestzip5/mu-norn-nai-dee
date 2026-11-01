@@ -1,8 +1,14 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { dormitories, dormitoryAreas, type DormitoryArea } from "@/data/dormitories";
+import { dormitoryResearch } from "@/data/dormitory-research";
 import DormCard from "@/components/DormCard";
+import { getMonthlyStartingRent } from "@/lib/starting-rent";
+
+const monthlyRentByDormId = new Map(
+  dormitories.map((dorm) => [dorm.id, getMonthlyStartingRent(dormitoryResearch[dorm.id])]),
+);
 
 type DormListingProps = {
   initialQuery: string;
@@ -15,6 +21,19 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
   const [maxElectricity, setMaxElectricity] = useState("all");
   const [minSafety, setMinSafety] = useState("all");
   const [sort, setSort] = useState("electricity");
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
+  useEffect(() => {
+    const desktopScreen = window.matchMedia("(min-width: 1024px)");
+    const syncFiltersWithScreen = () => setFiltersOpen(desktopScreen.matches);
+    desktopScreen.addEventListener("change", syncFiltersWithScreen);
+    const frame = window.requestAnimationFrame(syncFiltersWithScreen);
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      desktopScreen.removeEventListener("change", syncFiltersWithScreen);
+    };
+  }, []);
 
   const filteredDorms = dormitories
     .filter((dorm) => dorm.name.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase()))
@@ -22,6 +41,13 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
     .filter((dorm) => maxElectricity === "all" || dorm.electricityPrice <= Number(maxElectricity))
     .filter((dorm) => minSafety === "all" || dorm.safetyRating >= Number(minSafety))
     .sort((a, b) => {
+      if (sort === "rent-asc" || sort === "rent-desc") {
+        const aRent = monthlyRentByDormId.get(a.id);
+        const bRent = monthlyRentByDormId.get(b.id);
+        if (aRent === undefined) return bRent === undefined ? 0 : 1;
+        if (bRent === undefined) return -1;
+        return sort === "rent-asc" ? aRent - bRent : bRent - aRent;
+      }
       if (sort === "rating") return b.overallRating - a.overallRating;
       return a.electricityPrice - b.electricityPrice;
     });
@@ -37,33 +63,49 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
   return (
     <main id="main-content" className="flex-1 bg-surface">
       <section className="bg-white">
-        <div className="page-container py-8 sm:py-10">
+        <div className="page-container py-6 sm:py-10">
           <h1 className="text-2xl font-bold sm:text-3xl">ค้นหาหอพักใกล้มหิดล</h1>
           <p className="mt-2 text-sm leading-6 text-muted">ข้อมูล {dormitories.length} หอพักจากรายงาน แบ่งตาม 5 บริเวณ เริ่มจากหอพักในมหาวิทยาลัย</p>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">
             <label htmlFor="dorm-search" className="sr-only">ค้นหาชื่อหอพัก</label>
             <input id="dorm-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="ค้นหาชื่อหอพัก" className="w-full rounded-lg border border-line bg-surface px-4 py-3 text-sm sm:max-w-3xl" />
             <label htmlFor="dorm-sort" className="sr-only">เรียงลำดับ</label>
-            <select id="dorm-sort" aria-describedby="rent-sort-note" value={sort} onChange={(event) => setSort(event.target.value)} className="rounded-lg border border-line bg-white px-4 py-3 text-sm">
-              <option value="rent" disabled>ราคาหอพักต่ำสุดไปสูงสุด (ข้อมูลยังไม่ครบ)</option>
+            <select id="dorm-sort" aria-describedby="rent-sort-note" value={sort} onChange={(event) => setSort(event.target.value)} className="w-full rounded-lg border border-line bg-white px-4 py-3 text-sm sm:w-auto">
+              <option value="rent-asc">ค่าเช่ารายเดือนต่ำสุดไปสูงสุด</option>
+              <option value="rent-desc">ค่าเช่ารายเดือนสูงสุดไปต่ำสุด</option>
               <option value="electricity">ค่าไฟต่ำสุดไปสูงสุด</option>
               <option value="rating">ความพึงพอใจสูงสุด</option>
             </select>
           </div>
-          <p id="rent-sort-note" className="mt-2 text-xs leading-6 text-muted">ดูราคาเช่าและแหล่งข้อมูลในหน้ารายละเอียด ข้อมูลยังไม่ครบและมีทั้งรายเดือน/รายเทอม จึงยังเรียงราคาข้ามหอพักไม่ได้</p>
+          <p id="rent-sort-note" className="mt-2 text-xs leading-6 text-muted">การเรียงราคาใช้ราคาเริ่มต้นรายเดือนที่มีข้อมูล หอพักที่ไม่มีราคารายเดือนอยู่ท้ายรายการ ไม่แปลงราคาต่อเทอมเป็นรายเดือน ดูราคาและแหล่งข้อมูลในหน้ารายละเอียด</p>
         </div>
-          <div className="page-container flex flex-wrap gap-2 pb-6" aria-label="เลือกบริเวณหอพัก">
+        <div className="page-container pb-4 sm:pb-6" aria-label="เลือกบริเวณหอพัก">
+          <div className="flex overflow-x-auto gap-2 pb-2 no-scrollbar sm:flex-wrap sm:pb-0">
             {[{ value: "all" as const, label: "ทุกบริเวณ" }, ...dormitoryAreas].map((option) => (
-              <button key={option.value} type="button" aria-pressed={area === option.value} onClick={() => setArea(option.value)} className={`rounded-lg border px-3 py-2 text-sm ${area === option.value ? "border-brand bg-brand text-white" : "border-line bg-white text-muted hover:border-brand hover:text-brand"}`}>
+              <button
+                key={option.value}
+                type="button"
+                aria-pressed={area === option.value}
+                onClick={() => setArea(option.value)}
+                className={`shrink-0 rounded-lg border px-3 py-2 text-sm transition-colors ${
+                  area === option.value
+                    ? "border-brand bg-brand text-white"
+                    : "border-line bg-white text-muted hover:border-brand hover:text-brand"
+                }`}
+              >
                 {option.label} ({option.value === "all" ? dormitories.length : dormitories.filter((dorm) => dorm.area === option.value).length})
               </button>
             ))}
           </div>
+        </div>
       </section>
-      <div className="page-container grid items-start gap-6 py-8 lg:grid-cols-[240px_1fr]">
-        <aside className="rounded-xl border border-line bg-white p-5" aria-label="ตัวกรองหอพัก">
-          <details open>
-            <summary className="cursor-pointer text-base font-bold">ตัวกรองหอพัก</summary>
+      <div className="page-container grid items-start gap-6 py-6 sm:py-8 lg:grid-cols-[240px_1fr]">
+        <aside className="rounded-xl border border-line bg-white p-4 sm:p-5" aria-label="ตัวกรองหอพัก">
+          <details open={filtersOpen} onToggle={(event) => setFiltersOpen(event.currentTarget.open)}>
+            <summary className="flex cursor-pointer items-center justify-between text-base font-bold">
+              <span>ตัวกรองหอพัก</span>
+              <span className="text-xs font-normal text-muted lg:hidden">{filtersOpen ? "ย่อ ▲" : "ตัวเลือกเพิ่มเติม ▼"}</span>
+            </summary>
             <div className="mt-5 grid gap-5 sm:grid-cols-3 lg:grid-cols-1">
               <div>
                 <label htmlFor="area" className="mb-2 block text-sm font-medium">บริเวณที่ตั้ง</label>
@@ -105,7 +147,7 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
             <div>
               <p className="mb-4 rounded-lg bg-brand-soft px-4 py-3 text-base font-semibold text-brand-dark">
                 {area === "all" ? "ทุกบริเวณ" : dormitoryAreas.find((option) => option.value === area)?.label}
-                {" · "}{sort === "rating" ? "ความพึงพอใจสูงสุด" : "ค่าไฟต่ำสุดไปสูงสุด"}
+                {" · "}{sort === "rent-asc" ? "ค่าเช่ารายเดือนต่ำสุดไปสูงสุด" : sort === "rent-desc" ? "ค่าเช่ารายเดือนสูงสุดไปต่ำสุด" : sort === "rating" ? "ความพึงพอใจสูงสุด" : "ค่าไฟต่ำสุดไปสูงสุด"}
               </p>
               <ul className="grid gap-5 sm:grid-cols-2">
                 {filteredDorms.map((dormitory, index) => (

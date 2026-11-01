@@ -14,7 +14,7 @@
 
 1. ตั้ง Custom SMTP ด้วยบริการส่งอีเมลที่ใช้งานได้และอีเมลผู้ส่งที่ผ่านการยืนยัน
 2. เปิด **Allow new users to sign up** ใน Supabase แล้วทดลองสมัครด้วยอีเมลใหม่ รับลิงก์ยืนยัน เข้าสู่ระบบ และขอลิงก์ตั้งรหัสผ่านใหม่บนโดเมนจริง
-3. ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` ใน Vercel แล้ว Redeploy
+3. ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` ใน Vercel แล้ว Redeploy หากเคยตั้งค่าเป็น `false` ไว้ในรอบแรก
 
 ## ข้อมูลที่ต้องตรวจหลังเผยแพร่
 

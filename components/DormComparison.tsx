@@ -110,7 +110,7 @@ export default function DormComparison({ initialFirstId, initialSecondId, initia
 
         <div className="mt-6 rounded-lg bg-white p-5 text-xs leading-6 text-muted">
           <p>คะแนนเป็นค่าเฉลี่ยเต็ม 5 จากแบบสอบถามปีการศึกษา 2568 รายงานไม่ได้ระบุจำนวนผู้ตอบแยกแต่ละหอพัก</p>
-          <p>ค่าน้ำแสดงตามข้อความในตาราง โดย /เดือน และ /เทอมมีรอบคิดต่างกัน ตัวเลขอย่างเดียวไม่ได้ระบุรอบคิด ส่วนช่องว่างไม่ได้หมายถึงฟรี</p>
+          <p>ค่าน้ำแสดงตามข้อความในตาราง โดย /เดือน และ /เทอมมีรอบคิดต่างกัน ตัวเลขอย่างเดียวไม่ได้ระบุรอบคิด</p>
           <p>ที่มา: รายงานโครงงาน MU นอนไหนดี หน้า 7–9</p>
         </div>
         <Link href="/dorms?area=all" className="mt-6 inline-block text-sm font-medium text-brand hover:underline">กลับไปค้นหาหอพัก →</Link>

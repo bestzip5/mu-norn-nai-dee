@@ -9,13 +9,13 @@ const readJSON = (file) => JSON.parse(readFileSync(new URL(file, import.meta.url
 const research = Object.assign({}, ...["campus", "front-gates", "soi", "other"].map((name) => readJSON(`../data/research/${name}.json`)));
 const evidenceGroups = (record) => [...record.roomOffers.flatMap((offer) => Object.values(offer)), ...Object.values(record.contacts)];
 
-test("all original survey fields, including electricity and water, remain unchanged", () => {
+test("retained survey fields, including electricity and water, remain unchanged", () => {
   const hash = createHash("sha256").update(readFileSync(new URL("../data/dormitories.ts", import.meta.url))).digest("hex").toUpperCase();
-  assert.equal(hash, "5B09ADD8DFB7DA17F491A069CF99CE0B4C6862CE2BCA34AD1489716ACC702876");
+  assert.equal(hash, "DF8EBD83294F90821606B286B15FE94081DFA2B5DED7B268FB3648E023612E7E");
 });
 
-test("all 34 dormitories have separate research records with field-level provenance", () => {
-  assert.equal(dormitories.length, 34);
+test("all 33 published dormitories have separate research records with field-level provenance", () => {
+  assert.equal(dormitories.length, 33);
   assert.deepEqual(Object.keys(research).sort(), dormitories.map((dorm) => dorm.id).sort());
   for (const record of Object.values(research)) {
     assert.ok(record.identityNote);
@@ -55,11 +55,12 @@ test("conflicting published deposits and rents are preserved as unverified", () 
   assert.ok(rents.every((item) => item.status === "Needs verification"));
 });
 
-test("missing identity information stays empty and every displayed photo exists with an audit", () => {
-  assert.deepEqual(research["sala-residence"].roomOffers, []);
-  assert.ok(Object.values(research["sala-residence"].contacts).every((values) => values.length === 0));
+test("unverified Sala Residence is excluded and every displayed photo exists with an audit", () => {
+  assert.ok(!dormitories.some((dorm) => dorm.id === "sala-residence"));
+  assert.ok(!("sala-residence" in research));
   const reviews = readJSON("../data/dormitory-photo-review.json");
-  assert.equal(Object.keys(reviews).length, 34);
+  assert.equal(Object.keys(reviews).length, 33);
+  assert.ok(!("sala-residence" in reviews));
   const audit = readJSON("../data/dormitory-image-sources.json");
   for (const [id, photo] of Object.entries(dormitoryImages)) {
     assert.ok(existsSync(new URL(`../public${photo.src}`, import.meta.url)));

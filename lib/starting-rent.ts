@@ -34,3 +34,10 @@ export function getStartingRents(research?: DormitoryResearch): StartingRent[] {
   }
   return [...groups.values()];
 }
+
+export function getMonthlyStartingRent(research?: DormitoryResearch): number | undefined {
+  const monthlyPrices = getStartingRents(research)
+    .filter((price) => price.unit === "เดือน" || price.unit === "ห้อง / เดือน")
+    .map((price) => price.amount);
+  return monthlyPrices.length ? Math.min(...monthlyPrices) : undefined;
+}

@@ -1,4 +1,4 @@
-export function safeNextPath(value: string | null, fallback = "/saved") {
+export function safeNextPath(value: string | null, fallback = "/") {
   if (!value) return fallback;
   try {
     const url = new URL(value, "http://localhost:3000");

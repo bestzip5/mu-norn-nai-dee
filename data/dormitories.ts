@@ -267,12 +267,6 @@ export const dormitories: Dormitory[] = [
     transportationOptions: ["รถจักรยานยนต์รับจ้าง", "แอปพลิเคชัน"], sourcePage: 9,
   },
   {
-    id: "sala-residence", name: "ศาลาเรสซิเดนซ์", area: "อื่น ๆ",
-    waterPrice: "30", electricityPrice: 7,
-    safetyRating: 4, cleanlinessRating: 4, privacyRating: 5, facilitiesRating: 3, overallRating: 3,
-    transportationOptions: ["รถจักรยานยนต์รับจ้าง"], sourcePage: 9,
-  },
-  {
     id: "namthong-sikkhalai", name: "น้ำทองสิกขาลัย", area: "ในมหาวิทยาลัย",
     waterPrice: "50/เดือน", electricityPrice: 6,
     safetyRating: 3, cleanlinessRating: 4, privacyRating: 2, facilitiesRating: 4, overallRating: 4,

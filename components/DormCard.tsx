@@ -49,10 +49,14 @@ export default function DormCard({ dormitory, eager = false }: DormCardProps) {
             {dormitory.sourceNote && <p className="mt-2 text-brand-dark">หมายเหตุ: {dormitory.sourceNote}</p>}
           </div>
         </details>
-        <div className="mt-4 flex flex-wrap gap-2">
-          <Link href={`/dorms/${dormitory.id}`} className="inline-flex min-h-11 items-center rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-dark">ดูรายละเอียด</Link>
-          <Link href={`/compare?first=${dormitory.id}`} className="inline-flex min-h-11 items-center rounded-lg border border-line px-4 py-2 text-sm font-medium text-brand hover:border-brand hover:bg-brand-soft">เปรียบเทียบ</Link>
-          <FavoriteButton dormitoryId={dormitory.id} />
+        <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+          <Link href={`/dorms/${dormitory.id}`} className="inline-flex min-h-11 items-center justify-center rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white hover:bg-brand-dark sm:w-auto">ดูรายละเอียด</Link>
+          <div className="flex gap-2 sm:contents">
+            <Link href={`/compare?first=${dormitory.id}`} className="flex-1 inline-flex min-h-11 items-center justify-center rounded-lg border border-line px-4 py-2 text-sm font-medium text-brand hover:border-brand hover:bg-brand-soft sm:flex-none">เปรียบเทียบ</Link>
+            <div className="flex-1 sm:flex-none">
+              <FavoriteButton dormitoryId={dormitory.id} />
+            </div>
+          </div>
         </div>
       </div>
     </article>

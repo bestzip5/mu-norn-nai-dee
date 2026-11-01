@@ -21,13 +21,20 @@ export default function UpdatePasswordForm() {
     }
     setPending(true);
     setError("");
-    const { error: updateError } = await client.auth.updateUser({ password });
-    setPending(false);
-    if (updateError) {
-      setError("เปลี่ยนรหัสผ่านไม่สำเร็จ กรุณาลองอีกครั้ง");
-      return;
+    try {
+      const { error: updateError } = await client.auth.updateUser({ password });
+      if (updateError) {
+        setError(updateError.code === "weak_password" ? "รหัสผ่านใหม่ไม่ผ่านเงื่อนไขความปลอดภัย กรุณาตั้งรหัสที่ยาวและเดายากขึ้น" : "เปลี่ยนรหัสผ่านไม่สำเร็จ กรุณาลองอีกครั้ง");
+        return;
+      }
+      setPassword("");
+      setConfirmation("");
+      setUpdated(true);
+    } catch {
+      setError("ติดต่อ Supabase ไม่สำเร็จ กรุณาตรวจสอบอินเทอร์เน็ตแล้วลองอีกครั้ง");
+    } finally {
+      setPending(false);
     }
-    setUpdated(true);
   }
 
   if (!configured) {
@@ -38,7 +45,7 @@ export default function UpdatePasswordForm() {
     return <p className="text-sm leading-6 text-muted">ลิงก์เปลี่ยนรหัสผ่านใช้ไม่ได้หรือหมดอายุแล้ว <Link href="/forgot-password" className="font-medium text-brand hover:underline">ขอลิงก์ใหม่</Link></p>;
   }
   if (updated) {
-    return <p role="status" className="rounded-lg bg-green-50 p-4 text-sm leading-6 text-green-800">เปลี่ยนรหัสผ่านแล้ว <Link href="/saved" className="font-medium underline">ไปยังรายการที่บันทึก</Link></p>;
+    return <p role="status" className="rounded-lg bg-green-50 p-4 text-sm leading-6 text-green-800">ตั้งรหัสผ่านใหม่เรียบร้อยแล้ว <Link href="/" className="font-medium underline">กลับไปหน้าแรก</Link></p>;
   }
 
   return (

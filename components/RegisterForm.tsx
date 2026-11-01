@@ -29,7 +29,7 @@ export default function RegisterForm({ nextPath }: { nextPath: string }) {
   const [password, setPassword] = useState("");
   const [confirmation, setConfirmation] = useState("");
   const [pending, setPending] = useState(false);
-  const [sent, setSent] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
   async function register(event: FormEvent<HTMLFormElement>) {
@@ -60,6 +60,10 @@ export default function RegisterForm({ nextPath }: { nextPath: string }) {
 
     const { data, error: signUpError } = result;
     if (signUpError) {
+      if (["user_already_exists", "email_exists", "identity_already_exists"].includes(signUpError.code ?? "")) {
+        setSubmitted(true);
+        return;
+      }
       setError(registrationErrorMessage(signUpError.code));
       return;
     }
@@ -68,20 +72,23 @@ export default function RegisterForm({ nextPath }: { nextPath: string }) {
       setError("โปรเจกต์ Supabase ยังไม่ได้เปิดการยืนยันอีเมล กรุณาเปิด Confirm email ในการตั้งค่า Authentication");
       return;
     }
-    setSent(true);
+    setSubmitted(true);
   }
 
   if (!configured) {
     return <p className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">ระบบสมาชิกยังไม่ได้เชื่อมต่อ Supabase ตั้งค่า .env.local ก่อนใช้งาน</p>;
   }
 
-  if (sent) {
+  if (submitted) {
     return (
       <div className="grid gap-4">
-        <p role="status" className="rounded-lg bg-green-50 p-4 text-sm leading-6 text-green-800">
-          ส่งอีเมลยืนยันแล้ว กรุณาเปิดอีเมลและกดลิงก์ยืนยันก่อนใช้งานบัญชี หากไม่พบอีเมลให้ตรวจโฟลเดอร์จดหมายขยะ
+        <p role="status" className="rounded-lg bg-brand-soft p-4 text-sm leading-6 text-brand-dark">
+          หากอีเมลนี้ยังไม่เคยใช้สมัคร ระบบจะส่งลิงก์ยืนยันให้ กรุณาตรวจกล่องจดหมายและโฟลเดอร์จดหมายขยะ หากมีบัญชีอยู่แล้ว ระบบจะไม่สร้างบัญชีซ้ำ ให้เข้าสู่ระบบหรือขอตั้งรหัสผ่านใหม่
         </p>
-        <Link href={"/login?next=" + encodeURIComponent(nextPath)} className="text-sm font-medium text-brand hover:underline">กลับไปหน้าเข้าสู่ระบบ</Link>
+        <div className="flex flex-wrap gap-4 text-sm">
+          <Link href={"/login?next=" + encodeURIComponent(nextPath)} className="font-medium text-brand hover:underline">เข้าสู่ระบบ</Link>
+          <Link href="/forgot-password" className="font-medium text-brand hover:underline">ลืมรหัสผ่าน?</Link>
+        </div>
       </div>
     );
   }
@@ -111,7 +118,7 @@ export default function RegisterForm({ nextPath }: { nextPath: string }) {
       <button type="submit" disabled={pending} className="primary-button w-full disabled:cursor-wait disabled:opacity-60">
         {pending ? "กำลังสร้างบัญชี…" : "สร้างบัญชี"}
       </button>
-      <p className="text-xs leading-5 text-muted">ระบบจะส่งลิงก์ยืนยันไปยังอีเมลก่อนเปิดใช้งานบัญชี</p>
+      <p className="text-xs leading-5 text-muted">ใช้อีเมลที่ยังไม่เคยลงทะเบียน และต้องกดลิงก์ยืนยันก่อนเข้าสู่ระบบ</p>
     </form>
   );
 }

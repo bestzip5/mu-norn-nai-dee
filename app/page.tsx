@@ -25,7 +25,7 @@ export default function Home() {
           <form action="/dorms" className="mt-7 flex max-w-3xl flex-col gap-3 sm:flex-row sm:rounded-xl sm:bg-white sm:p-3">
             <label htmlFor="home-search" className="sr-only">ค้นหาชื่อหอพัก</label>
             <input id="home-search" name="q" type="search" placeholder="ค้นหาชื่อหอพัก เช่น MU Condo" className="min-w-0 flex-1 rounded-lg border border-line bg-white px-4 py-3 text-sm sm:border-0" />
-            <button type="submit" className="primary-button self-start sm:min-w-36">ค้นหาหอพัก</button>
+            <button type="submit" className="primary-button w-full sm:w-auto sm:min-w-36">ค้นหาหอพัก</button>
           </form>
         </div>
       </section>

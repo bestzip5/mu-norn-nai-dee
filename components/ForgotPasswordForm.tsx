@@ -1,7 +1,20 @@
 "use client";
 
+import Link from "next/link";
 import { useState, type FormEvent } from "react";
 import { useSupabaseAuth } from "@/components/SupabaseAuthProvider";
+
+function resetErrorMessage(code: string | undefined) {
+  switch (code) {
+    case "email_address_not_authorized":
+      return "Supabase ยังไม่สามารถส่งอีเมลไปยังที่อยู่นี้ได้ หากต้องการให้ผู้ใช้ทั่วไปขอเปลี่ยนรหัสผ่าน ต้องตั้งค่าบริการส่งอีเมลก่อน";
+    case "over_email_send_rate_limit":
+    case "over_request_rate_limit":
+      return "ส่งคำขอบ่อยเกินไป กรุณารอสักครู่แล้วลองอีกครั้ง";
+    default:
+      return "ส่งลิงก์เปลี่ยนรหัสผ่านไม่สำเร็จ กรุณาลองอีกครั้ง";
+  }
+}
 
 export default function ForgotPasswordForm() {
   const { client, configured } = useSupabaseAuth();
@@ -17,22 +30,32 @@ export default function ForgotPasswordForm() {
     setError("");
     const redirectTo = new URL("/auth/callback", window.location.origin);
     redirectTo.searchParams.set("next", "/update-password");
-    const { error: resetError } = await client.auth.resetPasswordForEmail(email.trim(), {
-      redirectTo: redirectTo.toString(),
-    });
-    setPending(false);
-    if (resetError) {
-      setError("ส่งอีเมลไม่สำเร็จ กรุณาลองอีกครั้ง");
-      return;
+    try {
+      const { error: resetError } = await client.auth.resetPasswordForEmail(email.trim(), {
+        redirectTo: redirectTo.toString(),
+      });
+      if (resetError) {
+        setError(resetErrorMessage(resetError.code));
+        return;
+      }
+      setSent(true);
+    } catch {
+      setError("ติดต่อ Supabase ไม่สำเร็จ กรุณาตรวจสอบอินเทอร์เน็ตแล้วลองอีกครั้ง");
+    } finally {
+      setPending(false);
     }
-    setSent(true);
   }
 
   if (!configured) {
     return <p className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">ระบบสมาชิกยังไม่ได้เชื่อมต่อ Supabase ตั้งค่า .env.local ก่อนใช้งาน</p>;
   }
   if (sent) {
-    return <p role="status" className="rounded-lg bg-green-50 p-4 text-sm leading-6 text-green-800">หากอีเมลนี้มีบัญชีอยู่ ระบบจะส่งลิงก์เปลี่ยนรหัสผ่านให้ กรุณาตรวจอีเมลและโฟลเดอร์จดหมายขยะ</p>;
+    return (
+      <div className="grid gap-4">
+        <p role="status" className="rounded-lg bg-brand-soft p-4 text-sm leading-6 text-brand-dark">หากอีเมลนี้มีบัญชีอยู่ ระบบจะส่งลิงก์ตั้งรหัสผ่านใหม่ให้ กรุณาตรวจกล่องจดหมายและโฟลเดอร์จดหมายขยะ จากนั้นกดลิงก์ในอีเมลเพื่อสร้างรหัสผ่านใหม่</p>
+        <Link href="/login" className="text-sm font-medium text-brand hover:underline">กลับไปหน้าเข้าสู่ระบบ</Link>
+      </div>
+    );
   }
 
   return (

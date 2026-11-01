@@ -17,7 +17,7 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
   return (
     <main id="main-content" className="bg-surface pb-12">
       <div className="page-container py-8">
-        <Link href="/dorms" className="text-sm text-brand hover:underline">← กลับไปค้นหาหอพัก</Link>
+        <Link href={`/dorms?area=${encodeURIComponent(dorm.area)}`} className="text-sm text-brand hover:underline">← กลับไปค้นหาหอพัก</Link>
         <h1 className="mt-4 text-2xl font-bold sm:text-3xl">{dorm.name}</h1>
         <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
           <p className="text-sm text-muted">{dormitoryAreas.find((item) => item.value === dorm.area)?.label} · ความพึงพอใจ {dorm.overallRating.toFixed(1)} / 5</p>
@@ -25,7 +25,7 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
         </div>
         <div className="mt-6 overflow-hidden rounded-xl border border-line bg-white"><DormPhoto dormitoryId={id} large /></div>
         <p className="mt-4 text-sm leading-7 text-muted">{research.identityNote}</p>
-        <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">Verified หมายถึงตรวจพบจากแหล่งข้อมูลทางการของหอพักหรือมหาวิทยาลัย ส่วน Needs verification ยังต้องยืนยันกับหอพัก โดยเฉพาะราคาที่ไม่ระบุวันมีผลหรือข้อมูลที่ขัดแย้งกัน วันที่ตรวจข้อมูลไม่ใช่วันที่ประกาศราคา</p>
+        <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-900">Verified หมายถึงตรวจพบจากแหล่งข้อมูลทางการของหอพักหรือมหาวิทยาลัย ราคาที่ไม่ระบุวันมีผลหรือข้อมูลที่ขัดแย้งกันควรสอบถามหอพักโดยตรง วันที่ตรวจข้อมูลไม่ใช่วันที่ประกาศราคา</p>
         <div className="mt-8 grid items-start gap-6 lg:grid-cols-[1.5fr_1fr]">
           <section className="rounded-xl border border-line bg-white p-5 sm:p-6" aria-labelledby="rental-heading">
             <h2 id="rental-heading" className="text-xl font-bold">ข้อมูลค่าเช่า · Rental Information</h2>
@@ -57,7 +57,7 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
         <section className="mt-6 rounded-xl border border-line bg-white p-5 sm:p-6" aria-labelledby="source-heading">
           <h2 id="source-heading" className="text-xl font-bold">แหล่งข้อมูล · Source Information</h2>
           <p className="mt-2 text-sm text-muted">วันที่ตรวจหรือรับข้อมูลล่าสุด · Last checked: {lastChecked ?? "Not available"}</p>
-          <p className="mt-2 text-sm leading-6 text-muted">สถานะการยืนยันแสดงกำกับแต่ละค่าไว้ด้านบน ข้อมูลที่หาไม่พบแสดง Not available</p>
+          <p className="mt-2 text-sm leading-6 text-muted">ข้อมูลที่หาไม่พบแสดง Not available</p>
           {research.sources.length ? <ul className="mt-4 space-y-4 text-sm">{research.sources.map((source) => <li key={source.url} className="break-words">
             <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-brand underline underline-offset-2">{source.title}</a>
             <p className="mt-1 text-xs text-muted">{source.kind} · ตรวจเมื่อ {source.checkedOn}{source.publishedOn ? ` · วันที่ระบุในแหล่งข้อมูล ${source.publishedOn}` : " · ไม่ระบุวันที่เผยแพร่"}</p>
