@@ -44,7 +44,6 @@ export default function RegisterForm({ nextPath }: { nextPath: string }) {
     setPending(true);
     setError("");
     const redirectTo = new URL("/auth/callback", authRedirectOrigin);
-    redirectTo.searchParams.set("next", nextPath);
     let result;
     try {
       result = await client.auth.signUp({
