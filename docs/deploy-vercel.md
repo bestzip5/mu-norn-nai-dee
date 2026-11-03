@@ -13,8 +13,10 @@
 ## รอบถัดไป: เปิดสมัครสมาชิก
 
 1. ตั้ง Custom SMTP ด้วยบริการส่งอีเมลที่ใช้งานได้และอีเมลผู้ส่งที่ผ่านการยืนยัน
-2. เปิด **Allow new users to sign up** ใน Supabase แล้วทดลองสมัครด้วยอีเมลใหม่ รับลิงก์ยืนยัน เข้าสู่ระบบ และขอลิงก์ตั้งรหัสผ่านใหม่บนโดเมนจริง
-3. ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` ใน Vercel แล้ว Redeploy หากเคยตั้งค่าเป็น `false` ไว้ในรอบแรก
+2. ใน Supabase Authentication > URL Configuration ตั้ง Site URL เป็น `https://mu-norn-nai-dee.vercel.app` และใน Authentication > Email Templates > Confirm signup เปลี่ยนลิงก์จาก `{{ .ConfirmationURL }}` เป็น `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email` แล้วบันทึก เพื่อให้ยืนยันจากโทรศัพท์ได้แม้สมัครจากคอมพิวเตอร์
+   โค้ดตั้งปลายทางอีเมลเป็นโดเมนนี้ด้วยค่าเริ่มต้น หากเปลี่ยนโดเมนในอนาคต ให้ตั้ง `NEXT_PUBLIC_AUTH_REDIRECT_ORIGIN` ใน Vercel และ Redeploy
+3. เปิด **Allow new users to sign up** ใน Supabase แล้วทดลองสมัครด้วยอีเมลใหม่ รับลิงก์ยืนยัน เข้าสู่ระบบ และขอลิงก์ตั้งรหัสผ่านใหม่บนโดเมนจริง
+4. ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` ใน Vercel แล้ว Redeploy หากเคยตั้งค่าเป็น `false` ไว้ในรอบแรก
 
 ## ข้อมูลที่ต้องตรวจหลังเผยแพร่
 

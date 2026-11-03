@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, type FormEvent } from "react";
 import { useSupabaseAuth } from "@/components/SupabaseAuthProvider";
+import { authRedirectOrigin } from "@/lib/supabase/config";
 
 function registrationErrorMessage(code: string | undefined) {
   switch (code) {
@@ -42,7 +43,7 @@ export default function RegisterForm({ nextPath }: { nextPath: string }) {
 
     setPending(true);
     setError("");
-    const redirectTo = new URL("/auth/callback", window.location.origin);
+    const redirectTo = new URL("/auth/callback", authRedirectOrigin);
     redirectTo.searchParams.set("next", nextPath);
     let result;
     try {

@@ -21,5 +21,5 @@ export async function GET(request: NextRequest) {
     return NextResponse.redirect(new URL(errorPath, request.url));
   }
 
-  return NextResponse.redirect(new URL(nextPath, request.url));
+  return NextResponse.redirect(new URL(nextPath === "/" ? "/login?confirmed=1" : nextPath, request.url));
 }
