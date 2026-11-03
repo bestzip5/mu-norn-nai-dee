@@ -13,8 +13,8 @@
 ## รอบถัดไป: เปิดสมัครสมาชิก
 
 1. ตั้ง Custom SMTP ด้วยบริการส่งอีเมลที่ใช้งานได้และอีเมลผู้ส่งที่ผ่านการยืนยัน
-2. ใน Supabase Authentication > URL Configuration ตั้ง Site URL เป็น `https://mu-norn-nai-dee.vercel.app` และใน Authentication > Email Templates > Confirm signup เปลี่ยนลิงก์จาก `{{ .ConfirmationURL }}` เป็น `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email` แล้วบันทึก เพื่อให้ยืนยันจากโทรศัพท์ได้แม้สมัครจากคอมพิวเตอร์
-   โค้ดตั้งปลายทางอีเมลเป็นโดเมนนี้ด้วยค่าเริ่มต้น หากเปลี่ยนโดเมนในอนาคต ให้ตั้ง `NEXT_PUBLIC_AUTH_REDIRECT_ORIGIN` ใน Vercel และ Redeploy
+2. ใน Supabase Authentication > URL Configuration ตั้ง Site URL เป็น `https://mu-norn-nai-dee.vercel.app` และเพิ่ม `https://mu-norn-nai-dee.vercel.app/auth/callback` ใน Redirect URLs โค้ดตั้งปลายทางอีเมลเป็นโดเมนนี้ด้วยค่าเริ่มต้น หากเปลี่ยนโดเมนในอนาคต ให้ตั้ง `NEXT_PUBLIC_AUTH_REDIRECT_ORIGIN` ใน Vercel และ Redeploy
+   หากใช้ Custom SMTP หรือแผนที่แก้เทมเพลตอีเมลได้ ให้เปลี่ยนลิงก์ใน Authentication > Email Templates > Confirm signup จาก `{{ .ConfirmationURL }}` เป็น `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email` เพื่อให้เปิดลิงก์ข้ามอุปกรณ์แล้วสร้างเซสชันบนอุปกรณ์นั้นได้ทันที โปรเจกต์ Free ที่สร้างหลัง 3 มิถุนายน 2026 และยังใช้ระบบส่งเมลเริ่มต้นแก้เทมเพลตไม่ได้ แต่ลิงก์เริ่มต้นจะยืนยันอีเมลและพากลับโดเมนจริงได้
 3. เปิด **Allow new users to sign up** ใน Supabase แล้วทดลองสมัครด้วยอีเมลใหม่ รับลิงก์ยืนยัน เข้าสู่ระบบ และขอลิงก์ตั้งรหัสผ่านใหม่บนโดเมนจริง
 4. ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` ใน Vercel แล้ว Redeploy หากเคยตั้งค่าเป็น `false` ไว้ในรอบแรก
 

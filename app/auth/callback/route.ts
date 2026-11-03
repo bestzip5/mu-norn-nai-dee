@@ -18,7 +18,7 @@ export async function GET(request: NextRequest) {
 
   const { error } = await supabase.auth.exchangeCodeForSession(code);
   if (error) {
-    return NextResponse.redirect(new URL(errorPath, request.url));
+    return NextResponse.redirect(new URL(nextPath === "/update-password" ? errorPath : "/login?confirmed=other-device", request.url));
   }
 
   return NextResponse.redirect(new URL(nextPath === "/" ? "/login?confirmed=1" : nextPath, request.url));
