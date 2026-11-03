@@ -1,36 +1,38 @@
-# MU นอนไหนดี
+# MU Norn Nai Dee
 
-เว็บช่วยนักศึกษามหาวิทยาลัยมหิดล ศาลายา ค้นหาและเปรียบเทียบหอพักจากข้อมูลที่มีแหล่งอ้างอิง ผู้เข้าชมดูข้อมูลได้โดยไม่ต้องมีบัญชี ผู้ใช้ที่เข้าสู่ระบบสามารถบันทึกหอพักที่สนใจได้
+**English** | [ภาษาไทย](README.th.md)
 
-## ปัญหาและขอบเขต
+A website that helps students at Mahidol University's Salaya campus find and compare dormitories using information with cited sources. Visitors can browse without an account. Signed-in users can save dormitories they are interested in.
 
-ข้อมูลหอพักกระจายอยู่หลายแหล่ง ราคาและเงื่อนไขบางรายการไม่ระบุวันที่มีผลหรือใช้รอบชำระต่างกัน เว็บนี้จึงแสดงคะแนน ค่าสาธารณูปโภค ค่าเช่า และข้อมูลติดต่อพร้อมแหล่งที่มา โดยแยกข้อมูลที่ตรวจสอบแล้วออกจากข้อมูลที่ยังต้องยืนยัน
+## Problem and scope
 
-- ค้นหาหอพัก 33 แห่งตามชื่อและบริเวณ กรองตามค่าไฟและคะแนนความปลอดภัย
-- เปรียบเทียบหอพักสองแห่งโดยคงหน่วยและรอบชำระเดิมของข้อมูล
-- เปิดรายละเอียดแต่ละหอพักพร้อมสถานะการตรวจสอบและลิงก์แหล่งข้อมูล
-- สมัครด้วยอีเมลและรหัสผ่าน โดยต้องยืนยันอีเมลก่อนเข้าสู่ระบบ
-- บันทึกหอพักที่สนใจด้วยบัญชี Supabase Auth เมื่อเข้าสู่ระบบ
+Dormitory information is spread across multiple sources. Some prices and terms have no effective date or use different billing periods. This website presents ratings, utility charges, rent, and contact information alongside their sources, while distinguishing verified information from details that still need confirmation.
 
-ข้อมูลคะแนนและค่าสาธารณูปโภคอ้างอิงรายงานโครงงาน MU นอนไหนดี ปีการศึกษา 2568 หน้า 7–9 ผู้ตอบแบบสอบถามรวม 103 คน รายงานไม่ได้ระบุจำนวนผู้ตอบแยกแต่ละหอพัก ราคาเช่าและข้อมูลติดต่ออ้างอิงแหล่งที่ระบุในหน้ารายละเอียด วันที่ตรวจข้อมูลไม่ใช่วันที่ราคามีผล
+- Search 33 dormitories by name and area, and filter by electricity rate and safety rating.
+- Compare two dormitories while preserving the units and billing periods used by each source.
+- View each dormitory's details, verification status, and source links.
+- Sign up with an email address and password, and confirm the email address before signing in.
+- Save dormitories to an account using Supabase Auth after signing in.
 
-## เทคโนโลยีและข้อมูล
+Ratings and utility charges are based on pages 7–9 of the *MU Norn Nai Dee* academic year 2025 project report, which surveyed 103 respondents in total. The report does not give a respondent count for each dormitory. Rent and contact details come from the sources linked on each dormitory's detail page. A source check date is not necessarily the date a price took effect.
 
-Next.js 16, React 19, TypeScript และ Tailwind CSS 4 ใช้ Supabase Auth สำหรับบัญชี และ Postgres พร้อม Row Level Security สำหรับรายการโปรด ข้อมูลหอพักและหลักฐานแหล่งที่มาอยู่ในโปรเจกต์ ส่วน `public.favorites` เก็บความสัมพันธ์ระหว่างผู้ใช้กับรหัสหอพัก
+## Technology and data
 
-## เปิดโปรเจกต์ในเครื่อง
+The project uses Next.js 16, React 19, TypeScript, and Tailwind CSS 4. Supabase Auth manages accounts, while Postgres with Row Level Security stores favorites. Dormitory information and its source evidence are kept in the project. The `public.favorites` table links users to dormitory IDs.
 
-1. ติดตั้งแพ็กเกจด้วย `npm install`
-2. คัดลอก `.env.example` เป็น `.env.local` แล้วใส่ Supabase Project URL และ publishable key
-3. ตั้งค่า Supabase ตาม [คู่มือระบบสมาชิก](docs/supabase-setup.md)
-4. เปิดเว็บด้วย `npm run dev`
+## Run locally
 
-ตั้ง `NEXT_PUBLIC_ENABLE_REGISTRATION=true` ใน `.env.local` เพื่อทดลองปุ่มและฟอร์มสมัครสมาชิกในเครื่อง ค่าเริ่มต้น `false` จนกว่าจะตั้ง Custom SMTP ใน Supabase เพื่อส่งอีเมลยืนยันไปยังผู้สมัครทั่วไป; บริการส่งอีเมลเริ่มต้นใช้ทดสอบกับสมาชิกใน Organization เท่านั้น
+1. Install dependencies with `npm install`.
+2. Copy `.env.example` to `.env.local`, then add your Supabase Project URL and publishable key.
+3. Configure Supabase using the [authentication setup guide](docs/supabase-setup.md).
+4. Start the website with `npm run dev`.
 
-## ตรวจสอบก่อนเผยแพร่
+Set `NEXT_PUBLIC_ENABLE_REGISTRATION=true` in `.env.local` to try the registration button and form locally. It defaults to `false` until Custom SMTP is configured in Supabase to send confirmation emails to the public. Supabase's default email service is only suitable for testing with members of the Organization.
 
-รัน `npm run build`, `npm run lint` และ `node --test tests/*.test.mjs` แล้วทำตาม [รายการตรวจสำหรับ Vercel](docs/deploy-vercel.md)
+## Checks before deployment
 
-## ข้อจำกัด
+Run `npm run build`, `npm run lint`, and `node --test tests/*.test.mjs`, then follow the [Vercel deployment checklist](docs/deploy-vercel.md).
 
-ราคาหรือข้อมูลติดต่ออาจเปลี่ยนหลังวันที่ตรวจสอบ ควรยืนยันกับหอพักก่อนตัดสินใจ เว็บไซต์นี้แสดงหลักฐานและความไม่แน่นอนของแต่ละรายการเพื่อช่วยประเมินข้อมูล ไม่ได้ยืนยันว่าห้องยังว่างหรือรับจองผ่านเว็บ
+## Limitations
+
+Prices and contact details may change after they are checked. Confirm the latest details with the dormitory before making a decision. The website shows the evidence and uncertainty behind each item to help readers assess the information. It does not confirm room availability or accept bookings.
