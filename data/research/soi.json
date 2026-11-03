@@ -8,6 +8,12 @@
         "kind": "University website",
         "checkedOn": "2026-10-05",
         "publishedOn": "2021"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -24,6 +30,36 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [],
+        "deposit": [
+          {
+            "value": "เงินประกัน 15,000 บาท",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าแรกเข้า: เงินประกันหอพัก 15,000 บาท",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -81,6 +117,12 @@
         "title": "MUIC Housing List",
         "kind": "University website",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -163,6 +205,36 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [],
+        "deposit": [
+          {
+            "value": "เงินประกัน: ค่าเช่า 2 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าแรกเข้า: ค่าเช่าล่วงหน้า 1 เดือน + เงินประกัน 2 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -228,7 +300,7 @@
           "checkedOn": "2026-10-05",
           "status": "Needs verification",
           "note": "ชื่อใน embed ระบุ Bundit Home แต่ place ID ตรงกับแผนที่ของ Bundit House; ต้องยืนยันอาคาร",
-          "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3874.6615996420364!2d100.31167300000001!3d13.799261999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x102b892046b888af!2sBundit+Home+%40+Salaya!5e0!3m2!1sen!2sth!4v1400571891548"
+          "href": "https://www.google.com/maps/search/?api=1&query=Bundit+Home+Salaya"
         }
       ]
     },
@@ -256,9 +328,92 @@
         "title": "I Condo Salaya listing index (contains misclassified Bangkok listings)",
         "kind": "Property listing",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
-    "roomOffers": [],
+    "roomOffers": [
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน · ประมาณ 27–30 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลประเภทห้องเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "7,000–8,500 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งค่าเช่าเริ่มต้นประมาณ 7,000–8,500 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน: ค่าเช่าล่วงหน้า 2 เดือน (ได้รับคืนตอนย้ายออก)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน 2 เดือน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "2 ห้องนอน · ประมาณ 45 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลประเภทห้องเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "11,000–13,000 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งราคาประมาณ 11,000–13,000 บาท/เดือน (ขึ้นอยู่กับเฟอร์นิเจอร์และเครื่องใช้ไฟฟ้า) เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน: ค่าเช่าล่วงหน้า 2 เดือน (ได้รับคืนตอนย้ายออก)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน 2 เดือน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
+      }
+    ],
     "contacts": {
       "phone": [],
       "facebook": [],
@@ -283,6 +438,12 @@
         "title": "Sukontha Mansion RentHub",
         "kind": "Property listing",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -315,6 +476,36 @@
           }
         ],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [],
+        "deposit": [
+          {
+            "value": "เงินประกัน / มัดจำ: 9,600–11,000 บาท (ประมาณ 2 เท่าของค่าเช่า)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้าเริ่มต้น 4,800 บาท + เงินประกัน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -375,6 +566,15 @@
         "status": "Needs verification",
         "note": "รูปประกาศเดิมยังเผยแพร่ในหน้าประกาศที่ตรวจวันนี้; ไม่พบวันที่ถ่ายหรือภาพใหม่ที่ยืนยันว่าใหม่กว่า"
       }
+    ],
+    "utilityNotes": [
+      {
+        "value": "ค่าส่วนกลาง: 300 บาท/เดือน",
+        "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+        "checkedOn": "2026-11-03",
+        "status": "Needs verification",
+        "note": "ผู้ใช้แจ้งข้อมูลค่าส่วนกลางเมื่อ 2026-11-03"
+      }
     ]
   },
   "bundit-place": {
@@ -391,6 +591,12 @@
         "title": "RICE partner accommodation confirms Bundit Place",
         "kind": "University website",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -407,6 +613,44 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "เริ่มต้น 6,500 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งราคาเริ่มต้น 6,500 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน: ค่าเช่า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่า 1 เดือน + เงินประกัน (รวมประมาณ 13,000 บาท)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -456,6 +700,12 @@
         "kind": "University website",
         "checkedOn": "2026-10-05",
         "publishedOn": "2021"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -472,6 +722,44 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,800–7,500 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งค่าเช่า 6,800–7,500 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกันห้อง: ค่าเช่า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าแรกเข้า: ค่าเช่าล่วงหน้า 2 เดือน + เงินประกัน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -509,8 +797,7 @@
           "sourceUrl": "http://crystalplacesalaya.com/contact.php",
           "checkedOn": "2026-10-05",
           "status": "Verified",
-          "note": "LINE ID ประกาศในส่วนติดต่อของเว็บไซต์หอ",
-          "href": "https://line.me/R/ti/p/@crystal_place"
+          "note": "LINE ID ประกาศในส่วนติดต่อของเว็บไซต์หอ"
         }
       ],
       "website": [
@@ -561,6 +848,12 @@
         "title": "Salaya One identity-registered RentHub listing",
         "kind": "Property listing",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -805,6 +1098,44 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "1 Bedroom · 31.5–35 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลประเภทห้องเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "12,500–16,000 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งราคาเฉลี่ยสัญญา 1 ปีของตลาดจริง 12,500–16,000 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน 2 เดือนของค่าเช่า (ราคาตามประเภทห้อง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -878,6 +1209,12 @@
         "title": "V Condo project channels",
         "kind": "Property listing",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -925,6 +1262,44 @@
             "note": "เงื่อนไขตามข้อความประกาศ; ไม่คำนวณยอดบาทเพราะราคาขัดกัน"
           }
         ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพักทั่วไป (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "8,000–18,000 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งช่วงราคา 8,000–18,000 บาท/เดือน (ราคาเฉลี่ยทั้งโครงการประมาณ 11,810 บาท/เดือน) เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน 2 เดือนของค่าเช่า (ได้คืนเมื่อครบกำหนดสัญญาและห้องไม่เสียหาย)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือนตามราคาห้อง + เงินประกัน 2 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -960,6 +1335,12 @@
         "kind": "Property listing",
         "checkedOn": "2026-10-05",
         "publishedOn": "2014-02-06"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -1050,6 +1431,44 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "6,000–8,000 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งช่วงราคา 6,000–8,000 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกันตามราคาค่าเช่า 1 เดือน (ประมาณ 6,000–8,000 บาท)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน (ประมาณ 12,000 บาท)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -1118,6 +1537,12 @@
         "title": "MUIC Housing List",
         "kind": "University website",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -1164,6 +1589,36 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ห้องพัก (ข้อมูลผู้ใช้แจ้ง)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [],
+        "deposit": [
+          {
+            "value": "เงินประกัน 1 เดือนของค่าเช่า",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน + เงินประกัน (รวมประมาณ 2 เดือนของราคาค่าเช่าห้องตามประเภท)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -1195,7 +1650,7 @@
           "checkedOn": "2026-10-05",
           "status": "Verified",
           "note": "แผนที่ฝังโดยเว็บไซต์หอโดยตรง",
-          "href": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d287.9861813856557!2d100.31178880221516!3d13.79907165755263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2938493bd9c33%3A0x102b892046b888af!2sBundit%20House!5e0!3m2!1sth!2sth!4v1703216953023!5m2!1sth!2sth"
+          "href": "https://www.google.com/maps/search/?api=1&query=Bundit+House+Salaya"
         }
       ]
     },
@@ -1230,6 +1685,12 @@
         "title": "Elite Salaya developer official website",
         "kind": "Official website",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลราคาและค่าแรกเข้าที่ผู้ใช้ส่งให้ (2026-11-03)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -1276,6 +1737,82 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน · ประมาณ 23–35 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลประเภทห้องเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "7,600–8,500 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งค่าเช่าประมาณ 7,600–8,500 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน: ค่าเช่า 2 เดือน (ได้คืนเต็มจำนวนหลังจากหมดสัญญาเช่า)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน + เงินประกัน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "2 ห้องนอน · ประมาณ 36–50 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลประเภทห้องเมื่อ 2026-11-03"
+          }
+        ],
+        "rent": [
+          {
+            "value": "9,000–16,000 บาท/เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งค่าเช่าประมาณ 9,000–16,000 บาท/เดือน เมื่อ 2026-11-03"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "เงินประกัน: ค่าเช่า 2 เดือน (ได้คืนเต็มจำนวนหลังจากหมดสัญญาเช่า)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลเงินประกันเมื่อ 2026-11-03"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน + เงินประกัน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ผู้ใช้แจ้งข้อมูลค่าแรกเข้าเมื่อ 2026-11-03"
+          }
+        ]
       }
     ],
     "contacts": {

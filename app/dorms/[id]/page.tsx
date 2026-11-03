@@ -5,7 +5,9 @@ import StartingRent from "@/components/StartingRent";
 import ResearchValues from "@/components/ResearchValues";
 import FavoriteButton from "@/components/FavoriteButton";
 import { dormitories, dormitoryAreas } from "@/data/dormitories";
-import { dormitoryResearch } from "@/data/dormitory-research";
+import { dormitoryResearch, type Evidence } from "@/data/dormitory-research";
+import { getResearchSourceKey } from "@/lib/research-source-key";
+import { isBrokenSource, isNoteSource } from "@/lib/broken-sources";
 
 export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]">) {
   const { id } = await params;
@@ -13,7 +15,27 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
   if (!dorm) notFound();
   const research = dormitoryResearch[id];
   const lastChecked = research.sources.map((source) => source.checkedOn).sort().at(-1);
-  const offers = research.roomOffers.length ? research.roomOffers : [{ roomType: [], rent: [], deposit: [], moveInCost: [] }];
+
+  const dedupeEvidence = (items: Evidence[]) => {
+    const seen = new Set<string>();
+    return items.filter((item) => {
+      const key = `${item.value}|${item.sourceUrl}|${item.checkedOn}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  };
+
+  const dormDeposits = dedupeEvidence(research.roomOffers.flatMap((o) => o.deposit));
+  const dormMoveInCosts = dedupeEvidence(research.roomOffers.flatMap((o) => o.moveInCost));
+
+  const offers = research.roomOffers.length
+    ? research.roomOffers.map((offer) => ({
+        ...offer,
+        deposit: offer.deposit.length ? offer.deposit : dormDeposits,
+        moveInCost: offer.moveInCost.length ? offer.moveInCost : dormMoveInCosts,
+      }))
+    : [{ roomType: [], rent: [], deposit: [], moveInCost: [] }];
   return (
     <main id="main-content" className="bg-surface pb-12">
       <div className="page-container py-8">
@@ -42,8 +64,9 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
             </dl>)}
             <dl className="mt-5 space-y-3 rounded-lg bg-brand-soft p-4 text-sm leading-6">
               <div><dt className="font-semibold">ค่าไฟ · Electricity rate</dt><dd>{dorm.electricityPrice} บาท / หน่วย</dd></div>
-              <div><dt className="font-semibold">ค่าน้ำตามตาราง · Water rate</dt><dd>{dorm.waterPrice ?? "Not available"}</dd></div>
+              <div><dt className="font-semibold">ค่าน้ำตามตาราง · Water rate</dt><dd>{dorm.waterPrice ?? "Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)"}</dd></div>
             </dl>
+            {research.utilityNotes?.length ? <div className="mt-3 rounded-lg border border-line p-4"><h3 className="mb-2 text-sm font-semibold">ข้อมูลค่าสาธารณูปโภคจากแหล่งอื่น</h3><ResearchValues values={research.utilityNotes} /></div> : null}
             <p className="mt-2 text-xs leading-6 text-muted">ค่าไฟและค่าน้ำจากรายงานเดิม หน้า {dorm.sourcePage} คงข้อความและตัวเลขตามตาราง ตัวเลขค่าน้ำที่ไม่ระบุรอบชำระยังไม่ทราบหน่วยคิด</p>
           </section>
           <section className="rounded-xl border border-line bg-white p-5 sm:p-6" aria-labelledby="contact-heading">
@@ -56,12 +79,18 @@ export default async function DormDetailPage({ params }: PageProps<"/dorms/[id]"
         </div>
         <section className="mt-6 rounded-xl border border-line bg-white p-5 sm:p-6" aria-labelledby="source-heading">
           <h2 id="source-heading" className="text-xl font-bold">แหล่งข้อมูล · Source Information</h2>
-          <p className="mt-2 text-sm text-muted">วันที่ตรวจหรือรับข้อมูลล่าสุด · Last checked: {lastChecked ?? "Not available"}</p>
-          <p className="mt-2 text-sm leading-6 text-muted">ข้อมูลที่หาไม่พบแสดง Not available</p>
-          {research.sources.length ? <ul className="mt-4 space-y-4 text-sm">{research.sources.map((source) => <li key={source.url} className="break-words">
-            <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-brand underline underline-offset-2">{source.title}</a>
+          <p className="mt-2 text-sm text-muted">วันที่ตรวจหรือรับข้อมูลล่าสุด · Last checked: {lastChecked ?? "Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)"}</p>
+          <p className="mt-2 text-sm leading-6 text-muted">ข้อมูลที่หาไม่พบแสดง Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)</p>
+          {research.sources.length ? <ul className="mt-4 space-y-4 text-sm">{research.sources.map((source) => <li key={getResearchSourceKey(source)} className="break-words">
+            {isBrokenSource(source.url) ? (
+              <span className="font-medium text-foreground">{source.title} <span className="text-xs text-muted font-normal">(ลิงก์เดิมไม่สามารถเข้าถึงได้แล้ว)</span></span>
+            ) : isNoteSource(source.url) ? (
+              <span className="font-medium text-foreground">{source.title}</span>
+            ) : (
+              <a href={source.url} target="_blank" rel="noopener noreferrer" className="text-brand underline underline-offset-2">{source.title}</a>
+            )}
             <p className="mt-1 text-xs text-muted">{source.kind} · ตรวจเมื่อ {source.checkedOn}{source.publishedOn ? ` · วันที่ระบุในแหล่งข้อมูล ${source.publishedOn}` : " · ไม่ระบุวันที่เผยแพร่"}</p>
-          </li>)}</ul> : <p className="mt-4 text-sm text-muted">Not available</p>}
+          </li>)}</ul> : <p className="mt-4 text-sm text-muted">Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)</p>}
           <p className="mt-5 border-t border-line pt-4 text-sm leading-6 text-muted">คะแนนจากรายงาน MU นอนไหนดี ปีการศึกษา 2568 หน้า {dorm.sourcePage} · ความปลอดภัย {dorm.safetyRating.toFixed(1)} / 5 · การเดินทาง: {dorm.transportationOptions.join(" · ")}</p>
         </section>
       </div>

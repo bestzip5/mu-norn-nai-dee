@@ -434,5 +434,61 @@
     "width": 387,
     "height": 516,
     "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารและระบุให้ใช้กับหอพัก The Room เมื่อ 2026-10-30; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
+  },
+  {
+    "dormitoryId": "the-enter",
+    "file": "/images/dormitories/the-enter-user.jpg",
+    "sourcePage": "/images/dormitories/the-enter-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "media_1793695469335_59fd5fd2.jpg",
+    "retrievedOn": "2026-11-03",
+    "checkedOn": "2026-11-03",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 624,
+    "height": 413,
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารพร้อมป้ายชื่อ THE ENTER เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
+  },
+  {
+    "dormitoryId": "uniloft",
+    "file": "/images/dormitories/uniloft-user.jpg",
+    "sourcePage": "/images/dormitories/uniloft-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "media_1793697699398_3db14733.jpg",
+    "retrievedOn": "2026-11-03",
+    "checkedOn": "2026-11-03",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 548,
+    "height": 364,
+    "note": "ผู้ใช้ส่งภาพอาคารและสระว่ายน้ำ Uniloft ศาลายา เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
+  },
+  {
+    "dormitoryId": "bundit-home",
+    "file": "/images/dormitories/bundit-home-user.jpg",
+    "sourcePage": "/images/dormitories/bundit-home-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "media_1793698478391_e12db277.jpg",
+    "retrievedOn": "2026-11-03",
+    "checkedOn": "2026-11-03",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 512,
+    "height": 341,
+    "note": "ผู้ใช้ส่งภาพอาคารและสระว่ายน้ำ Bundit Home เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
+  },
+  {
+    "dormitoryId": "bundit-place",
+    "file": "/images/dormitories/bundit-place-user.jpg",
+    "sourcePage": "/images/dormitories/bundit-place-user.jpg",
+    "originalImageUrl": null,
+    "originalFilename": "media_1793700837863_15758de4.jpg",
+    "retrievedOn": "2026-11-03",
+    "checkedOn": "2026-11-03",
+    "verificationStatus": "Needs verification",
+    "pendingReview": false,
+    "width": 516,
+    "height": 387,
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารและพื้นที่ส่วนกลางพร้อมป้าย BUNDIT PLACE เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   }
 ]

@@ -46,8 +46,7 @@ export default function Home() {
       </section>
       <section aria-labelledby="areas-heading" className="border-t border-line bg-white">
         <div className="page-container py-10">
-          <h2 id="areas-heading" className="text-xl font-bold">เลือกหอพักตามบริเวณ</h2>
-          <p className="mt-2 text-sm text-muted">ครบ {dormitories.length} หอพักตามรายงาน เริ่มจากบริเวณในมหาวิทยาลัย</p>
+          <h2 id="areas-heading" className="text-xl font-bold">เลือกหอพักตามบริเวณที่ตั้ง</h2>
           <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {dormitoryAreas.map((area) => (
               <li key={area.value}>
@@ -62,11 +61,9 @@ export default function Home() {
       </section>
       <section id="survey-source" aria-labelledby="source-heading" className="border-t border-line bg-white">
         <div className="page-container py-8">
-          <h2 id="source-heading" className="text-sm font-semibold">ข้อมูลจากโครงงาน MU นอนไหนดี</h2>
+          <h2 id="source-heading" className="text-sm font-semibold">ข้อมูลจากโครงงาน รายวิชา มมศท 100 การศึกษาทั่วไปเพื่อการพัฒนามนุษย มหาวิทยาลัยมหิดล กลุ่ม C14-330</h2>
           <p className="mt-2 max-w-3xl text-sm leading-7 text-muted">
-            แบบสอบถามนักศึกษามหาวิทยาลัยมหิดล ชั้นปีที่ 1 ปีการศึกษา 2568 จำนวน 103 คน
-            ข้อมูลหอพักที่แสดงคัดจากตารางหน้า 7–9 ของรายงาน คะแนนเป็นค่าเฉลี่ยเต็ม 5 คะแนน
-            จำนวน 103 คนเป็นผู้ตอบแบบสอบถามทั้งหมด โดยรายงานไม่ได้ระบุจำนวนผู้ตอบแยกแต่ละหอพัก
+            แบบสอบถามนักศึกษามหาวิทยาลัยมหิดล ชั้นปีที่ 1 ปีการศึกษา 2568 จำนวน 103 คน คะแนนเป็นค่าเฉลี่ยเต็ม 5 คะแนน จำนวน 103 คน เป็นผู้ตอบแบบสอบถามทั้งหมด
           </p>
           <p className="mt-2 text-xs leading-6 text-muted">รูปอาจเป็นภาพในอดีตหรือห้องตัวอย่าง หอพักที่ยังไม่มีรูปที่ยืนยันได้ใช้ภาพประกอบ ข้อมูลค่าไฟและคะแนนอ้างอิงรายงานปีการศึกษา 2568</p>
         </div>

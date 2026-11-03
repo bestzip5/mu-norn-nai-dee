@@ -16,6 +16,7 @@ export type DormitoryResearch = {
   identityNote: string;
   sources: { url: string; title: string; kind: string; checkedOn: string; publishedOn?: string }[];
   roomOffers: { roomType: Evidence[]; rent: Evidence[]; deposit: Evidence[]; moveInCost: Evidence[] }[];
+  utilityNotes?: Evidence[];
   contacts: { phone: Evidence[]; facebook: Evidence[]; line: Evidence[]; website: Evidence[]; googleMaps: Evidence[] };
 };
 

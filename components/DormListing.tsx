@@ -65,19 +65,17 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
       <section className="bg-white">
         <div className="page-container py-6 sm:py-10">
           <h1 className="text-2xl font-bold sm:text-3xl">ค้นหาหอพักใกล้มหิดล</h1>
-          <p className="mt-2 text-sm leading-6 text-muted">ข้อมูล {dormitories.length} หอพักจากรายงาน แบ่งตาม 5 บริเวณ เริ่มจากหอพักในมหาวิทยาลัย</p>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">
             <label htmlFor="dorm-search" className="sr-only">ค้นหาชื่อหอพัก</label>
             <input id="dorm-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="ค้นหาชื่อหอพัก" className="w-full rounded-lg border border-line bg-surface px-4 py-3 text-sm sm:max-w-3xl" />
             <label htmlFor="dorm-sort" className="sr-only">เรียงลำดับ</label>
-            <select id="dorm-sort" aria-describedby="rent-sort-note" value={sort} onChange={(event) => setSort(event.target.value)} className="w-full rounded-lg border border-line bg-white px-4 py-3 text-sm sm:w-auto">
+            <select id="dorm-sort" value={sort} onChange={(event) => setSort(event.target.value)} className="w-full rounded-lg border border-line bg-white px-4 py-3 text-sm sm:w-auto">
               <option value="rent-asc">ค่าเช่ารายเดือนต่ำสุดไปสูงสุด</option>
               <option value="rent-desc">ค่าเช่ารายเดือนสูงสุดไปต่ำสุด</option>
               <option value="electricity">ค่าไฟต่ำสุดไปสูงสุด</option>
               <option value="rating">ความพึงพอใจสูงสุด</option>
             </select>
           </div>
-          <p id="rent-sort-note" className="mt-2 text-xs leading-6 text-muted">การเรียงราคาใช้ราคาเริ่มต้นรายเดือนที่มีข้อมูล หอพักที่ไม่มีราคารายเดือนอยู่ท้ายรายการ ไม่แปลงราคาต่อเทอมเป็นรายเดือน ดูราคาและแหล่งข้อมูลในหน้ารายละเอียด</p>
         </div>
         <div className="page-container pb-4 sm:pb-6" aria-label="เลือกบริเวณหอพัก">
           <div className="flex overflow-x-auto gap-2 pb-2 no-scrollbar sm:flex-wrap sm:pb-0">
@@ -162,7 +160,6 @@ export default function DormListing({ initialQuery, initialArea }: DormListingPr
               <button type="button" onClick={resetFilters} className="primary-button mt-4">ล้างตัวกรอง</button>
             </div>
           )}
-          <p className="mt-6 text-xs leading-6 text-muted">ข้อมูล {dormitories.length} หอพักจากตารางรายงานหน้า 7–9 · รูปอาจเป็นภาพในอดีตหรือห้องตัวอย่าง หอพักที่ยังไม่มีรูปที่ยืนยันได้ใช้ภาพประกอบ</p>
         </section>
       </div>
     </main>

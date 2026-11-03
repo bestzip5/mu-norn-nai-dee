@@ -101,6 +101,9 @@ export default function DormComparison({ initialFirstId, initialSecondId, initia
               {[first, second].filter((dorm) => dorm.sourceNote).map((dorm) => (
                 <p key={dorm.id} className="mt-3 text-sm leading-6 text-muted">หมายเหตุ {dorm.name}: {dorm.sourceNote}</p>
               ))}
+              {[first, second].filter((dorm) => dorm.id === "triple-a").map((dorm) => (
+                <p key={`${dorm.id}-water`} className="mt-3 text-sm leading-6 text-muted">หมายเหตุ {dorm.name}: ค่าน้ำ 15 ในตารางเปรียบเทียบมาจากรายงานเดิม; ประกาศอีกแหล่งระบุ 25 บาท/หน่วย ดูแหล่งข้อมูลในหน้ารายละเอียด</p>
+              ))}
               <div className="mt-4 flex flex-wrap gap-4 text-sm">{[first, second].map((dorm) => <Link key={dorm.id} href={`/dorms/${dorm.id}`} className="text-brand underline underline-offset-2">ดูราคาเช่าและติดต่อ {dorm.name}</Link>)}</div>
             </>
           ) : (

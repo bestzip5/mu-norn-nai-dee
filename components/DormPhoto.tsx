@@ -54,7 +54,6 @@ export default function DormPhoto({ dormitoryId, large = false, eager = large }:
           onError={() => setFailedSrc(photo.src)}
         />
       </button>
-      {photo.pendingReview && <figcaption className="pointer-events-none absolute right-3 top-3 rounded-full bg-white/95 px-3 py-1 text-xs text-muted shadow-sm">รอตรวจสอบรูปภาพ</figcaption>}
       {isOpen && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4" role="dialog" aria-modal="true" aria-label={`รูปขนาดเต็ม: ${photo.alt}`} onClick={() => setIsOpen(false)}>
           <div className="relative h-[90dvh] w-[96vw] max-w-7xl" onClick={(event) => event.stopPropagation()}>

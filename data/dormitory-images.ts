@@ -59,13 +59,14 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
   },
   "the-enter": {
-    "src": "/images/dormitories/the-enter.jpg",
-    "alt": "ห้องพักของ The Enter Salaya จากหน้าประกาศหอพัก",
-    "sourceName": "RentHub · The Enter Salaya",
-    "sourceUrl": "https://www.renthub.in.th/en/the-enter-salaya",
-    "checkedOn": "2026-10-05",
+    "src": "/images/dormitories/the-enter-user.jpg",
+    "alt": "ภาพด้านหน้าอาคารหอพัก The Enter พร้อมป้ายชื่อหอพักที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/the-enter-user.jpg",
+    "checkedOn": "2026-11-03",
     "status": "Needs verification",
-    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารพร้อมป้ายชื่อ THE ENTER เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   },
   "kpn": {
     "src": "/images/dormitories/kpn.jpg",
@@ -104,13 +105,14 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
   },
   "uniloft": {
-    "src": "/images/dormitories/uniloft.jpg",
-    "alt": "พื้นที่ต้อนรับของ Uniloft ศาลายา จากบทความแนะนำหอพัก",
-    "sourceName": "MAHATPAK · Uniloft ศาลายา",
-    "sourceUrl": "https://mahatpakdotnet.wordpress.com/2016/03/23/uniloft-ศาลายา-หอพัก-ม-มหิดล-ศาล/",
-    "checkedOn": "2026-10-05",
+    "src": "/images/dormitories/uniloft-user.jpg",
+    "alt": "ภาพอาคารและสระว่ายน้ำหอพัก Uniloft ศาลายา ที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/uniloft-user.jpg",
+    "checkedOn": "2026-11-03",
     "status": "Needs verification",
-    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพอาคารและสระว่ายน้ำ Uniloft ศาลายา เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   },
   "sukontha-mansion": {
     "src": "/images/dormitories/sukontha-mansion.jpg",
@@ -122,13 +124,14 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
   },
   "bundit-place": {
-    "src": "/images/dormitories/bundit-place.jpg",
-    "alt": "อาคารและสระว่ายน้ำของ Bundit Place จากหน้าแนะนำที่พัก",
-    "sourceName": "HotelDirect · บัณฑิตเพลส",
-    "sourceUrl": "https://www.hoteldirect.in.th/โรงแรม/นครปฐม/บัณฑิตเพลส.html",
-    "checkedOn": "2026-10-05",
+    "src": "/images/dormitories/bundit-place-user.jpg",
+    "alt": "ภาพด้านหน้าอาคารและพื้นที่ส่วนกลางหอพัก Bundit Place พร้อมป้ายชื่อที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/bundit-place-user.jpg",
+    "checkedOn": "2026-11-03",
     "status": "Needs verification",
-    "note": "ยังไม่พบภาพใหม่ที่ยืนยันวันเผยแพร่และตัวอาคารได้ จึงคงภาพเดิม; ไม่รับรองว่าเป็นสภาพปัจจุบัน"
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพด้านหน้าอาคารและพื้นที่ส่วนกลางพร้อมป้าย BUNDIT PLACE เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   },
   "salaya-one": {
     "src": "/images/dormitories/salaya-one.jpg",
@@ -294,14 +297,14 @@ export const dormitoryImages: Partial<Record<string, DormitoryImage>> = {
     "note": "ชื่อในแหล่งคือ The Best Apartment และภาพคล้ายที่ใช้ใน The Best Plus; ยังยืนยันไม่ได้ว่าเป็น The Best resident ในรายงาน ต้องตรวจเป็นพิเศษ"
   },
   "bundit-home": {
-    "src": "/images/dormitories/bundit-home-pending.jpg",
-    "alt": "ภาพสระว่ายน้ำจากแกลเลอรี Bundit Home",
-    "sourceName": "www.bundithome.com",
-    "sourceUrl": "http://www.bundithome.com/แกลเลอรี่/",
-    "checkedOn": "2026-10-06",
+    "src": "/images/dormitories/bundit-home-user.jpg",
+    "alt": "ภาพอาคารและสระว่ายน้ำหอพัก Bundit Home ที่ผู้ใช้ส่งมา",
+    "sourceName": "ภาพที่ผู้ใช้ส่งมา",
+    "sourceUrl": "/images/dormitories/bundit-home-user.jpg",
+    "checkedOn": "2026-11-03",
     "status": "Needs verification",
-    "pendingReview": true,
-    "note": "ภาพพื้นที่ส่วนกลางจากเว็บไซต์ Bundit Home ไม่ใช่ภาพหน้าอาคาร; อาจเป็นพื้นที่ใช้ร่วมกับหออื่นในกลุ่ม รอตรวจสอบ"
+    "pendingReview": false,
+    "note": "ผู้ใช้ส่งภาพอาคารและสระว่ายน้ำ Bundit Home เมื่อ 2026-11-03; ยังไม่มี URL ต้นฉบับหรือวันที่ถ่ายที่ยืนยันได้"
   },
   "namthong-sikkhalai": {
     "src": "/images/dormitories/namthong-sikkhalai-user.jpg",

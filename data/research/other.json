@@ -8,6 +8,12 @@
         "kind": "Property listing",
         "checkedOn": "2026-10-05",
         "publishedOn": "2026-05-15"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลค่าเช่าจากผู้ใช้ (3 พ.ย. 2569)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -38,6 +44,33 @@
           }
         ],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ข้อมูลประมาณการจากผู้ใช้",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "4,000–5,000 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "deposit": [],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -83,6 +116,12 @@
         "kind": "Property listing",
         "checkedOn": "2026-10-05",
         "publishedOn": "2026-07-30"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลค่าเช่าจากผู้ใช้ (3 พ.ย. 2569)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -114,9 +153,15 @@
         ],
         "moveInCost": [
           {
-            "value": "ค่าเช่าล่วงหน้า 1 เดือน; ยอดชำระแรกเข้าทั้งหมด Not available",
+            "value": "ค่าเช่าล่วงหน้า 1 เดือน; ยอดชำระแรกเข้าทั้งหมด Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)",
             "sourceUrl": "https://www.renthub.in.th/en/4sundorm",
             "checkedOn": "2026-10-05",
+            "status": "Needs verification"
+          },
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
             "status": "Needs verification"
           }
         ]
@@ -162,6 +207,12 @@
         "kind": "Property listing",
         "checkedOn": "2026-10-05",
         "publishedOn": "2025-01-04"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลค่าเช่าจากผู้ใช้ (3 พ.ย. 2569)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -206,6 +257,41 @@
         ],
         "deposit": [],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "ข้อมูลเช่ารายห้อง (ตามขนาดห้องและวิว)",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "9,500–11,500 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ประมาณ 9,500–11,500 บาทต่อเดือน (ขึ้นอยู่กับขนาดห้องและวิว)"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "ค่าเช่า 2 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -276,6 +362,12 @@
         "title": "Zelle Salaya · ประกาศเช่า 2 ห้องนอน",
         "kind": "Property listing",
         "checkedOn": "2026-10-05"
+      },
+      {
+        "url": "/data-notes/rental-update-2026-11-03.txt",
+        "title": "บันทึกข้อมูลค่าเช่าจากผู้ใช้ (3 พ.ย. 2569)",
+        "kind": "User-provided information",
+        "checkedOn": "2026-11-03"
       }
     ],
     "roomOffers": [
@@ -306,6 +398,76 @@
           }
         ],
         "moveInCost": []
+      },
+      {
+        "roomType": [
+          {
+            "value": "1 ห้องนอน 30–34 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "7,500–8,500 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ช่วงราคาเช่าโดยทั่วไป 7,500–13,000 บาทต่อเดือน (ขึ้นอยู่กับขนาดห้อง ชั้น และการตกแต่ง)"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "ค่าเช่า 2 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ]
+      },
+      {
+        "roomType": [
+          {
+            "value": "2 ห้องนอน 45–46 ตร.ม.",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "rent": [
+          {
+            "value": "12,000–13,000 บาท / เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification",
+            "note": "ประมาณ 12,000–13,000 บาท/เดือน"
+          }
+        ],
+        "deposit": [
+          {
+            "value": "ค่าเช่า 2 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ],
+        "moveInCost": [
+          {
+            "value": "เงินประกัน + ค่าเช่าล่วงหน้า 1 เดือน",
+            "sourceUrl": "/data-notes/rental-update-2026-11-03.txt",
+            "checkedOn": "2026-11-03",
+            "status": "Needs verification"
+          }
+        ]
       }
     ],
     "contacts": {
@@ -315,7 +477,7 @@
           "sourceUrl": "https://www.prinsiri.com/project/zelle-salaya",
           "checkedOn": "2026-10-05",
           "status": "Verified",
-          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)",
           "href": "tel:1753"
         }
       ],
@@ -326,7 +488,7 @@
           "sourceUrl": "https://www.prinsiri.com/project/zelle-salaya",
           "checkedOn": "2026-10-05",
           "status": "Verified",
-          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)",
           "href": "https://line.me/R/oaMessage/@prinsiripcl/"
         }
       ],
@@ -336,7 +498,7 @@
           "sourceUrl": "https://www.prinsiri.com/project/zelle-salaya",
           "checkedOn": "2026-10-05",
           "status": "Verified",
-          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available",
+          "note": "ช่องทางผู้พัฒนา/ฝ่ายขายที่เผยแพร่ทางการ; ฝ่ายเช่ารายห้อง Not available (ไม่มีข้อมูลยืนยันจากแหล่งทางการ)",
           "href": "https://www.prinsiri.com/project/zelle-salaya"
         }
       ],

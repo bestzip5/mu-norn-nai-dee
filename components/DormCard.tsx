@@ -2,6 +2,7 @@ import { dormitoryAreas, type Dormitory } from "@/data/dormitories";
 import DormPhoto from "@/components/DormPhoto";
 import StartingRent from "@/components/StartingRent";
 import FavoriteButton from "@/components/FavoriteButton";
+import { dormitoryResearch } from "@/data/dormitory-research";
 import Link from "next/link";
 
 type DormCardProps = {
@@ -21,6 +22,7 @@ export default function DormCard({ dormitory, eager = false }: DormCardProps) {
         <p className="mt-1 text-sm font-medium text-brand-dark">ค่าไฟ {dormitory.electricityPrice} บาท / หน่วย</p>
         <p className="mt-2 text-sm text-muted">{dormitoryAreas.find((area) => area.value === dormitory.area)?.label}</p>
         <p className="mt-2 text-sm text-muted">ค่าน้ำตามตาราง: {dormitory.waterPrice ?? "ไม่มีข้อมูลในรายงาน"}</p>
+        {dormitoryResearch[dormitory.id].utilityNotes?.length ? <p className="mt-1 text-sm text-muted">ข้อมูลค่าน้ำจากแหล่งอื่น: {dormitoryResearch[dormitory.id].utilityNotes?.[0].value} · <Link href={`/dorms/${dormitory.id}`} className="text-brand underline">ดูแหล่งข้อมูล</Link></p> : null}
         <p className="mt-3 text-sm text-muted"><span aria-hidden="true" className="text-brand-dark">★ </span>ความพึงพอใจ {dormitory.overallRating.toFixed(1)} / 5</p>
         <p className="mt-1 text-sm text-muted">ความปลอดภัย {dormitory.safetyRating.toFixed(1)} / 5</p>
         <p className="mt-3 text-sm leading-6 text-muted">การเดินทาง: {dormitory.transportationOptions.join(" · ")}</p>
